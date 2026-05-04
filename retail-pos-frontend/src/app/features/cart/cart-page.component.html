@@ -1,0 +1,382 @@
+<div class="page-shell">
+
+  <!-- ─── Page Header ─── -->
+  <section class="section-card hero-panel">
+    <div>
+      <p class="label-chip">Shopping Cart</p>
+      <h1 class="section-title">Add products, checkout, and get your invoice in seconds.</h1>
+      <p class="section-subtitle">
+        Select products, choose a payment method, and receive a full tax invoice instantly.
+      </p>
+    </div>
+    <div class="button-row" style="flex-wrap:wrap">
+      @if (currentStep() === 1) {
+        <button class="btn btn-secondary" type="button" (click)="loadData()" [disabled]="busy()">
+          {{ busy() ? '...' : '↺ Refresh' }}
+        </button>
+      }
+    </div>
+  </section>
+
+  <!-- ─── Held Cart Section ─── -->
+  @if (heldCartId()) {
+    <section class="section-card held-cart-section animate-fade-up" style="border-color: var(--warning); background: var(--warning-soft); margin-bottom: 1.25rem;">
+      <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 1rem;">
+        <div>
+          <h2 class="section-title" style="color: var(--warning)">Held Cart</h2>
+          <p class="section-subtitle" style="color: var(--ink-1)">You have a cart on hold (Cart #{{ heldCartId() }}).</p>
+        </div>
+        <button class="btn btn-primary btn-icon" type="button" (click)="resumeCart()" style="background: var(--warning); color: #000; box-shadow: none;">
+          ▶ Resume Cart
+        </button>
+      </div>
+    </section>
+  }
+
+  <!-- ─── Stepper ─── -->
+  @if (currentStep() < 4 || invoice()) {
+    <section class="section-card" style="padding:1.25rem">
+      <div class="stepper">
+        @for (step of steps; track step.num) {
+          <div class="stepper__step"
+            [class.active]="currentStep() === step.num"
+            [class.done]="currentStep() > step.num">
+            <div class="stepper__dot">
+              @if (currentStep() > step.num) { ✓ } @else { {{ step.num }} }
+            </div>
+            <span class="stepper__label">{{ step.label }}</span>
+          </div>
+        }
+      </div>
+    </section>
+  }
+
+  <!-- ═══════ STEP 1: CART REVIEW ═══════ -->
+  @if (currentStep() === 1) {
+    <section class="section-card barcode-panel animate-fade-up">
+      <div>
+        <p class="label-chip">Live Scan</p>
+        <h2 class="section-title">Barcode-first checkout</h2>
+        <p class="section-subtitle">Scan at the counter to add items in the same flow used by real retail POS setups.</p>
+      </div>
+      <div class="barcode-panel__form" style="grid-template-columns: minmax(0, 1fr) auto auto;">
+        <input
+          type="text"
+          [value]="barcodeSearch()"
+          (input)="barcodeSearch.set($any($event.target).value)"
+          placeholder="Scan barcode here"
+        />
+        <button class="btn btn-primary" type="button" (click)="addByBarcode()">Scan & Add</button>
+        <button class="btn btn-secondary btn-icon" type="button" (click)="toggleScanner()">
+          {{ isScannerActive() ? 'Stop Camera' : '📷 Use Camera' }}
+        </button>
+      </div>
+
+      @if (isScannerActive()) {
+        <div class="scanner-container">
+          @if (availableCameras().length > 1) {
+            <div class="camera-selector">
+              <label for="camera-select" style="font-size: 0.8rem; font-weight: bold; color: var(--ink-2); margin-right: 0.5rem;">Switch Camera:</label>
+              <select id="camera-select" [value]="selectedCameraId()" (change)="switchCamera($any($event.target).value)" style="padding: 0.3rem 0.5rem; border-radius: var(--radius-sm); border: var(--border-medium); background: var(--surface-3); color: var(--ink-1);">
+                @for (cam of availableCameras(); track cam.deviceId) {
+                  <option [value]="cam.deviceId">{{ cam.label || 'Camera ' + $index }}</option>
+                }
+              </select>
+            </div>
+          }
+          <div class="video-wrapper">
+            <video id="barcode-video" class="barcode-video"></video>
+            <div class="laser-scanner"></div>
+          </div>
+          <p class="helper-text" style="text-align: center; margin-top: 0.75rem;">
+            Hold barcode up to camera to automatically add item to cart.
+          </p>
+        </div>
+      }
+    </section>
+
+    <!-- Add item & Quick Keys -->
+    <div class="add-section-grid">
+      <!-- Manual Add -->
+      <section class="section-card animate-fade-up">
+        <div class="section-card__header">
+          <div>
+            <h2 class="section-title">Manual Add</h2>
+            <p class="section-subtitle">Select from catalog.</p>
+          </div>
+        </div>
+        <form class="form-grid" [formGroup]="addItemForm" (ngSubmit)="addItem()">
+          <div class="field">
+            <label for="product-select">Product</label>
+            <select id="product-select" formControlName="productId">
+              <option [value]="0">Choose a product…</option>
+              @for (product of products(); track product.id) {
+                <option [value]="product.id">
+                  {{ product.name }} — {{ product.price | currency:'INR' }}
+                </option>
+              }
+            </select>
+          </div>
+          <div class="field">
+            <label for="qty-add">Qty</label>
+            <input id="qty-add" type="number" formControlName="quantity" min="1" />
+          </div>
+          <div style="align-self:end">
+            <button class="btn btn-primary btn-icon" type="submit" style="width:100%">
+              + Add
+            </button>
+          </div>
+        </form>
+      </section>
+
+      <!-- Quick Action Hot Keys -->
+      <section class="section-card animate-fade-up" style="animation-delay:0.05s">
+        <div class="section-card__header">
+          <div>
+            <h2 class="section-title">Quick Add</h2>
+            <p class="section-subtitle">Tap to instantly add.</p>
+          </div>
+        </div>
+        <div class="quick-keys-grid">
+          @for (product of quickProducts(); track product.id) {
+            <button type="button" class="quick-key-btn" (click)="quickAdd(product.id)">
+              <span class="quick-key-icon">{{ getCategoryIcon(product.categoryName) }}</span>
+              <span class="quick-key-name">{{ product.name }}</span>
+            </button>
+          }
+        </div>
+      </section>
+    </div>
+
+    <!-- Cart items -->
+    <section class="section-card animate-fade-up" style="animation-delay:0.08s">
+      <div class="section-card__header">
+        <div>
+          <h2 class="section-title">Current Cart</h2>
+          <p class="section-subtitle">
+            @if (cartCount() > 0) {
+              {{ cartCount() }} item(s) — Total {{ cartTotal() | currency:'INR' }}
+            } @else {
+              No items yet. Add a product above.
+            }
+          </p>
+        </div>
+        @if (cart()) {
+          <div class="button-row">
+            <button class="btn btn-secondary" type="button" (click)="holdCart()">⏸ Hold</button>
+            <button class="btn btn-danger" type="button" (click)="clearCart()">🗑 Clear</button>
+          </div>
+        }
+      </div>
+
+      @if (enrichedCartItems().length > 0) {
+        <div class="list-stack">
+          @for (item of enrichedCartItems(); track item.productId) {
+            <div class="cart-item">
+              <div class="cart-item__icon">{{ getCategoryIcon(item.categoryName) }}</div>
+              <div class="cart-item__info">
+                <p class="cart-item__name">{{ item.productName }}</p>
+                <p class="cart-item__price">{{ item.price | currency:'INR' }} each</p>
+              </div>
+              <div class="qty-controls">
+                <button class="qty-btn" type="button"
+                  (click)="updateItem(item.productId, toStr(item.quantity - 1))"
+                  [disabled]="item.quantity <= 1">−</button>
+                <span style="font-weight:700;min-width:1.5rem;text-align:center">{{ item.quantity }}</span>
+                <button class="qty-btn" type="button"
+                  (click)="updateItem(item.productId, toStr(item.quantity + 1))">＋</button>
+              </div>
+              <div class="cart-item__subtotal">
+                <strong>{{ (item.price * item.quantity) | currency:'INR' }}</strong>
+              </div>
+              <button class="btn btn-ghost" type="button"
+                style="padding:0.5rem;border-radius:var(--radius-sm)"
+                (click)="removeItem(item.productId)" title="Remove">✕</button>
+            </div>
+          }
+        </div>
+
+        <div class="cart-footer">
+          <div>
+            <p class="muted" style="margin:0 0 0.2rem;font-size:0.85rem">Cart Total</p>
+            <p class="helper-text" style="margin:0 0 0.35rem">Subtotal {{ cartSubtotal() | currency:'INR' }} · Tax {{ cartTax() | currency:'INR' }}</p>
+            <span class="cart-total">{{ cartTotal() | currency:'INR' }}</span>
+          </div>
+          <button class="btn btn-primary btn-icon" type="button" (click)="proceedToCheckout()"
+            style="padding:1rem 2rem;font-size:1rem">
+            Proceed to Checkout →
+          </button>
+        </div>
+      } @else {
+        <div class="empty-state">No items in cart. Browse products and add them above.</div>
+      }
+    </section>
+  }
+
+  <!-- ═══════ STEP 2: CHECKOUT ═══════ -->
+  @if (currentStep() === 2) {
+    <section class="section-card animate-fade-up">
+      <h2 class="section-title">Checkout</h2>
+      <p class="section-subtitle">Choose how you'd like to pay and optionally apply a coupon.</p>
+
+      <!-- Order summary mini -->
+      <div class="order-summary-mini" style="margin:1.5rem 0;padding:1.1rem;border-radius:var(--radius-md);background:rgba(0,0,0,0.2);border:var(--border-soft)">
+        <p class="helper-text" style="margin:0 0 0.75rem">Order Summary</p>
+        <div class="list-stack" style="gap:0.4rem">
+          @for (item of enrichedCartItems(); track item.productId) {
+            <div style="display:flex;justify-content:space-between;font-size:0.9rem">
+              <span>{{ item.productName }} × {{ item.quantity }}</span>
+              <strong>{{ (item.price * item.quantity) | currency:'INR' }}</strong>
+            </div>
+          }
+        </div>
+        <div style="border-top:var(--border-soft);margin-top:0.75rem;padding-top:0.75rem;display:flex;justify-content:space-between">
+          <div>
+            <strong>Total</strong>
+            <p class="helper-text" style="margin:0.2rem 0 0">Subtotal {{ cartSubtotal() | currency:'INR' }} + Tax {{ cartTax() | currency:'INR' }}</p>
+            @if (discountPercentage() > 0) {
+              <p class="helper-text" style="margin:0.2rem 0 0; color:var(--success)">
+                Discount applied: -{{ discountPercentage() }}%
+              </p>
+            }
+          </div>
+          <div style="text-align: right">
+            @if (discountPercentage() > 0) {
+              <strong style="color:var(--ink-2);font-size:1rem;text-decoration:line-through;margin-right:0.5rem">{{ cartTotal() | currency:'INR' }}</strong>
+            }
+            <strong style="color:var(--brand-1);font-size:1.15rem">{{ discountedTotal() | currency:'INR' }}</strong>
+          </div>
+        </div>
+      </div>
+
+      <!-- Payment method selection -->
+      <div>
+        <p style="margin:0 0 0.75rem;font-weight:700;font-size:0.9rem;color:var(--ink-2)">
+          SELECT PAYMENT METHOD
+        </p>
+        <div class="payment-methods">
+          @for (pm of paymentMethods; track pm.method) {
+            <div class="payment-card"
+              [class.selected]="selectedPaymentMethod() === pm.method"
+              (click)="selectPaymentMethod(pm.method)">
+              <span class="payment-card__icon">{{ pm.icon }}</span>
+              <span class="payment-card__label">{{ pm.label }}</span>
+            </div>
+          }
+        </div>
+
+        @if (selectedPaymentMethod() === 'Cash') {
+          <div class="animate-fade-up" style="margin-top:1rem; padding:1rem; border-radius:var(--radius-sm); border:var(--border-medium); background:rgba(0,0,0,0.2);">
+            <div class="field" style="margin-bottom:0;">
+              <label for="amount-received">Amount Received (₹)</label>
+              <input id="amount-received" type="number" placeholder="Enter amount given by customer"
+                [value]="amountReceived() ?? ''"
+                (input)="amountReceived.set($any($event.target).value ? +$any($event.target).value : null)" />
+              
+              @if (amountReceived() !== null) {
+                <div style="margin-top:0.75rem; padding-top:0.75rem; border-top:1px dashed var(--ink-2); display:flex; justify-content:space-between; align-items:center;">
+                  <span style="font-size:0.9rem; color:var(--ink-2);">Change to Return:</span>
+                  <strong [style.color]="amountReceived()! < discountedTotal() ? 'var(--danger)' : 'var(--success)'" style="font-size:1.1rem;">
+                    {{ changeToReturn() | currency:'INR' }}
+                  </strong>
+                </div>
+              }
+            </div>
+          </div>
+        }
+
+        @if (selectedPaymentMethod() === 'UPI') {
+          <div class="animate-fade-up" style="margin-top:1rem; padding:1rem; border-radius:var(--radius-sm); border:var(--border-medium); background:rgba(0,0,0,0.2);">
+            <div class="field" style="margin-bottom:0;">
+              <label for="upi-id">UPI ID / VPA</label>
+              <input id="upi-id" type="text" placeholder="e.g. username@bank"
+                [value]="upiId()"
+                (input)="upiId.set($any($event.target).value)" />
+            </div>
+          </div>
+        }
+
+        @if (selectedPaymentMethod() === 'Card') {
+          <div class="animate-fade-up" style="margin-top:1rem; padding:1rem; border-radius:var(--radius-sm); border:var(--border-medium); background:rgba(0,0,0,0.2);">
+            <div class="field" style="margin-bottom:0;">
+              <label for="card-number">Card Number</label>
+              <input id="card-number" type="text" placeholder="XXXX XXXX XXXX XXXX"
+                [value]="cardNumber()"
+                (input)="cardNumber.set($any($event.target).value)" />
+            </div>
+          </div>
+        }
+      </div>
+
+      <!-- Coupon -->
+      <div style="margin-top:1.5rem">
+        <div class="field">
+          <label for="coupon-input">Coupon Code (optional)</label>
+          <div style="display:flex;gap:0.5rem;align-items:center;">
+            <input id="coupon-input" type="text" placeholder="e.g. SAVE10"
+              [value]="couponCode()"
+              (input)="couponCode.set($any($event.target).value); couponApplied.set(false); discountPercentage.set(0)"
+              style="flex:1" />
+            <button class="btn btn-secondary" type="button" (click)="applyCoupon()" [disabled]="!couponCode() || couponApplied() || busy()">
+              {{ couponApplied() ? 'Applied ✓' : 'Apply' }}
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="button-row" style="margin-top:1.75rem;justify-content:space-between;flex-wrap:wrap">
+        <button class="btn btn-secondary" type="button" (click)="currentStep.set(1)">← Back to Cart</button>
+        <button class="btn btn-primary btn-icon" type="button" (click)="proceedToPaymentWithCouponCheck()"
+          style="padding:1rem 2.5rem;font-size:1rem" [disabled]="busy()">
+          Pay {{ discountedTotal() | currency:'INR' }} →
+        </button>
+      </div>
+    </section>
+  }
+
+  <!-- ═══════ STEP 3: PAYMENT PROCESSING ═══════ -->
+  @if (currentStep() === 3) {
+    <section class="section-card animate-fade-up">
+      <div class="payment-processing">
+        @if (paymentProcessing()) {
+          <div class="spinner"></div>
+          <div>
+            <h2 class="section-title" style="text-align:center">Processing Payment…</h2>
+            <p class="section-subtitle" style="text-align:center">
+              Please wait while we securely process your {{ selectedPaymentMethod() }} payment.
+            </p>
+          </div>
+          <div style="display:flex;gap:0.5rem;opacity:0.5;align-items:center">
+            <span class="label-chip">{{ cartTotal() | currency:'INR' }}</span>
+            <span>via</span>
+            <span class="label-chip">{{ selectedPaymentMethod() }}</span>
+          </div>
+        } @else if (paymentDone()) {
+          <div class="success-check">✓</div>
+          <div>
+            <h2 class="section-title" style="text-align:center;color:var(--success)">Payment Successful!</h2>
+            <p class="section-subtitle" style="text-align:center">Fetching your invoice…</p>
+          </div>
+        }
+      </div>
+    </section>
+  }
+
+  <!-- ═══════ STEP 4: INVOICE ═══════ -->
+  @if (currentStep() === 4 && invoice()) {
+    <section class="section-card animate-fade-up">
+      <div style="display:flex;align-items:center;gap:0.75rem;margin-bottom:1.5rem;flex-wrap:wrap;justify-content:space-between">
+        <div>
+          <p class="label-chip" style="margin-bottom:0.5rem">✓ Order Complete</p>
+          <h2 class="section-title">Your Invoice</h2>
+        </div>
+        <div class="button-row">
+          <button class="btn btn-secondary" type="button" (click)="goToOrders()">📋 View All Orders</button>
+          <button class="btn btn-primary" type="button" (click)="startNewCart()">+ New Cart</button>
+        </div>
+      </div>
+      <app-invoice-view [invoice]="invoice()!" [products]="products()" />
+    </section>
+  }
+
+</div>

@@ -1,0 +1,422 @@
+/Users/krishnasharma/Desktop/RetailPOSF/ProductService/bin/Debug/net9.0/appsettings.Development.json
+/Users/krishnasharma/Desktop/RetailPOSF/ProductService/bin/Debug/net9.0/appsettings.json
+/Users/krishnasharma/Desktop/RetailPOSF/ProductService/bin/Debug/net9.0/ProductService.staticwebassets.endpoints.json
+/Users/krishnasharma/Desktop/RetailPOSF/ProductService/bin/Debug/net9.0/ProductService
+/Users/krishnasharma/Desktop/RetailPOSF/ProductService/bin/Debug/net9.0/ProductService.deps.json
+/Users/krishnasharma/Desktop/RetailPOSF/ProductService/bin/Debug/net9.0/ProductService.runtimeconfig.json
+/Users/krishnasharma/Desktop/RetailPOSF/ProductService/bin/Debug/net9.0/ProductService.dll
+/Users/krishnasharma/Desktop/RetailPOSF/ProductService/bin/Debug/net9.0/ProductService.pdb
+/Users/krishnasharma/Desktop/RetailPOSF/ProductService/bin/Debug/net9.0/Azure.Core.dll
+/Users/krishnasharma/Desktop/RetailPOSF/ProductService/bin/Debug/net9.0/Azure.Identity.dll
+/Users/krishnasharma/Desktop/RetailPOSF/ProductService/bin/Debug/net9.0/Humanizer.dll
+/Users/krishnasharma/Desktop/RetailPOSF/ProductService/bin/Debug/net9.0/Microsoft.AspNetCore.OpenApi.dll
+/Users/krishnasharma/Desktop/RetailPOSF/ProductService/bin/Debug/net9.0/Microsoft.Bcl.AsyncInterfaces.dll
+/Users/krishnasharma/Desktop/RetailPOSF/ProductService/bin/Debug/net9.0/Microsoft.CodeAnalysis.dll
+/Users/krishnasharma/Desktop/RetailPOSF/ProductService/bin/Debug/net9.0/Microsoft.CodeAnalysis.CSharp.dll
+/Users/krishnasharma/Desktop/RetailPOSF/ProductService/bin/Debug/net9.0/Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+/Users/krishnasharma/Desktop/RetailPOSF/ProductService/bin/Debug/net9.0/Microsoft.CodeAnalysis.Workspaces.dll
+/Users/krishnasharma/Desktop/RetailPOSF/ProductService/bin/Debug/net9.0/Microsoft.Data.SqlClient.dll
+/Users/krishnasharma/Desktop/RetailPOSF/ProductService/bin/Debug/net9.0/Microsoft.EntityFrameworkCore.dll
+/Users/krishnasharma/Desktop/RetailPOSF/ProductService/bin/Debug/net9.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+/Users/krishnasharma/Desktop/RetailPOSF/ProductService/bin/Debug/net9.0/Microsoft.EntityFrameworkCore.Design.dll
+/Users/krishnasharma/Desktop/RetailPOSF/ProductService/bin/Debug/net9.0/Microsoft.EntityFrameworkCore.Relational.dll
+/Users/krishnasharma/Desktop/RetailPOSF/ProductService/bin/Debug/net9.0/Microsoft.EntityFrameworkCore.SqlServer.dll
+/Users/krishnasharma/Desktop/RetailPOSF/ProductService/bin/Debug/net9.0/Microsoft.Extensions.DependencyModel.dll
+/Users/krishnasharma/Desktop/RetailPOSF/ProductService/bin/Debug/net9.0/Microsoft.Identity.Client.dll
+/Users/krishnasharma/Desktop/RetailPOSF/ProductService/bin/Debug/net9.0/Microsoft.Identity.Client.Extensions.Msal.dll
+/Users/krishnasharma/Desktop/RetailPOSF/ProductService/bin/Debug/net9.0/Microsoft.IdentityModel.Abstractions.dll
+/Users/krishnasharma/Desktop/RetailPOSF/ProductService/bin/Debug/net9.0/Microsoft.IdentityModel.JsonWebTokens.dll
+/Users/krishnasharma/Desktop/RetailPOSF/ProductService/bin/Debug/net9.0/Microsoft.IdentityModel.Logging.dll
+/Users/krishnasharma/Desktop/RetailPOSF/ProductService/bin/Debug/net9.0/Microsoft.IdentityModel.Protocols.dll
+/Users/krishnasharma/Desktop/RetailPOSF/ProductService/bin/Debug/net9.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+/Users/krishnasharma/Desktop/RetailPOSF/ProductService/bin/Debug/net9.0/Microsoft.IdentityModel.Tokens.dll
+/Users/krishnasharma/Desktop/RetailPOSF/ProductService/bin/Debug/net9.0/Microsoft.OpenApi.dll
+/Users/krishnasharma/Desktop/RetailPOSF/ProductService/bin/Debug/net9.0/Microsoft.SqlServer.Server.dll
+/Users/krishnasharma/Desktop/RetailPOSF/ProductService/bin/Debug/net9.0/Microsoft.Win32.SystemEvents.dll
+/Users/krishnasharma/Desktop/RetailPOSF/ProductService/bin/Debug/net9.0/Mono.TextTemplating.dll
+/Users/krishnasharma/Desktop/RetailPOSF/ProductService/bin/Debug/net9.0/Swashbuckle.AspNetCore.Swagger.dll
+/Users/krishnasharma/Desktop/RetailPOSF/ProductService/bin/Debug/net9.0/Swashbuckle.AspNetCore.SwaggerGen.dll
+/Users/krishnasharma/Desktop/RetailPOSF/ProductService/bin/Debug/net9.0/Swashbuckle.AspNetCore.SwaggerUI.dll
+/Users/krishnasharma/Desktop/RetailPOSF/ProductService/bin/Debug/net9.0/System.CodeDom.dll
+/Users/krishnasharma/Desktop/RetailPOSF/ProductService/bin/Debug/net9.0/System.Composition.AttributedModel.dll
+/Users/krishnasharma/Desktop/RetailPOSF/ProductService/bin/Debug/net9.0/System.Composition.Convention.dll
+/Users/krishnasharma/Desktop/RetailPOSF/ProductService/bin/Debug/net9.0/System.Composition.Hosting.dll
+/Users/krishnasharma/Desktop/RetailPOSF/ProductService/bin/Debug/net9.0/System.Composition.Runtime.dll
+/Users/krishnasharma/Desktop/RetailPOSF/ProductService/bin/Debug/net9.0/System.Composition.TypedParts.dll
+/Users/krishnasharma/Desktop/RetailPOSF/ProductService/bin/Debug/net9.0/System.Configuration.ConfigurationManager.dll
+/Users/krishnasharma/Desktop/RetailPOSF/ProductService/bin/Debug/net9.0/System.Drawing.Common.dll
+/Users/krishnasharma/Desktop/RetailPOSF/ProductService/bin/Debug/net9.0/System.IdentityModel.Tokens.Jwt.dll
+/Users/krishnasharma/Desktop/RetailPOSF/ProductService/bin/Debug/net9.0/System.Memory.Data.dll
+/Users/krishnasharma/Desktop/RetailPOSF/ProductService/bin/Debug/net9.0/System.Runtime.Caching.dll
+/Users/krishnasharma/Desktop/RetailPOSF/ProductService/bin/Debug/net9.0/System.Security.Cryptography.ProtectedData.dll
+/Users/krishnasharma/Desktop/RetailPOSF/ProductService/bin/Debug/net9.0/System.Security.Permissions.dll
+/Users/krishnasharma/Desktop/RetailPOSF/ProductService/bin/Debug/net9.0/System.Windows.Extensions.dll
+/Users/krishnasharma/Desktop/RetailPOSF/ProductService/bin/Debug/net9.0/cs/Microsoft.CodeAnalysis.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF/ProductService/bin/Debug/net9.0/de/Microsoft.CodeAnalysis.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF/ProductService/bin/Debug/net9.0/es/Microsoft.CodeAnalysis.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF/ProductService/bin/Debug/net9.0/fr/Microsoft.CodeAnalysis.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF/ProductService/bin/Debug/net9.0/it/Microsoft.CodeAnalysis.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF/ProductService/bin/Debug/net9.0/ja/Microsoft.CodeAnalysis.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF/ProductService/bin/Debug/net9.0/ko/Microsoft.CodeAnalysis.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF/ProductService/bin/Debug/net9.0/pl/Microsoft.CodeAnalysis.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF/ProductService/bin/Debug/net9.0/pt-BR/Microsoft.CodeAnalysis.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF/ProductService/bin/Debug/net9.0/ru/Microsoft.CodeAnalysis.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF/ProductService/bin/Debug/net9.0/tr/Microsoft.CodeAnalysis.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF/ProductService/bin/Debug/net9.0/zh-Hans/Microsoft.CodeAnalysis.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF/ProductService/bin/Debug/net9.0/zh-Hant/Microsoft.CodeAnalysis.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF/ProductService/bin/Debug/net9.0/cs/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF/ProductService/bin/Debug/net9.0/de/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF/ProductService/bin/Debug/net9.0/es/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF/ProductService/bin/Debug/net9.0/fr/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF/ProductService/bin/Debug/net9.0/it/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF/ProductService/bin/Debug/net9.0/ja/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF/ProductService/bin/Debug/net9.0/ko/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF/ProductService/bin/Debug/net9.0/pl/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF/ProductService/bin/Debug/net9.0/pt-BR/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF/ProductService/bin/Debug/net9.0/ru/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF/ProductService/bin/Debug/net9.0/tr/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF/ProductService/bin/Debug/net9.0/zh-Hans/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF/ProductService/bin/Debug/net9.0/zh-Hant/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF/ProductService/bin/Debug/net9.0/cs/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF/ProductService/bin/Debug/net9.0/de/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF/ProductService/bin/Debug/net9.0/es/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF/ProductService/bin/Debug/net9.0/fr/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF/ProductService/bin/Debug/net9.0/it/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF/ProductService/bin/Debug/net9.0/ja/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF/ProductService/bin/Debug/net9.0/ko/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF/ProductService/bin/Debug/net9.0/pl/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF/ProductService/bin/Debug/net9.0/pt-BR/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF/ProductService/bin/Debug/net9.0/ru/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF/ProductService/bin/Debug/net9.0/tr/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF/ProductService/bin/Debug/net9.0/zh-Hans/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF/ProductService/bin/Debug/net9.0/zh-Hant/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF/ProductService/bin/Debug/net9.0/cs/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF/ProductService/bin/Debug/net9.0/de/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF/ProductService/bin/Debug/net9.0/es/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF/ProductService/bin/Debug/net9.0/fr/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF/ProductService/bin/Debug/net9.0/it/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF/ProductService/bin/Debug/net9.0/ja/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF/ProductService/bin/Debug/net9.0/ko/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF/ProductService/bin/Debug/net9.0/pl/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF/ProductService/bin/Debug/net9.0/pt-BR/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF/ProductService/bin/Debug/net9.0/ru/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF/ProductService/bin/Debug/net9.0/tr/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF/ProductService/bin/Debug/net9.0/zh-Hans/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF/ProductService/bin/Debug/net9.0/zh-Hant/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF/ProductService/bin/Debug/net9.0/runtimes/unix/lib/net6.0/Microsoft.Data.SqlClient.dll
+/Users/krishnasharma/Desktop/RetailPOSF/ProductService/bin/Debug/net9.0/runtimes/win/lib/net6.0/Microsoft.Data.SqlClient.dll
+/Users/krishnasharma/Desktop/RetailPOSF/ProductService/bin/Debug/net9.0/runtimes/win-arm/native/Microsoft.Data.SqlClient.SNI.dll
+/Users/krishnasharma/Desktop/RetailPOSF/ProductService/bin/Debug/net9.0/runtimes/win-arm64/native/Microsoft.Data.SqlClient.SNI.dll
+/Users/krishnasharma/Desktop/RetailPOSF/ProductService/bin/Debug/net9.0/runtimes/win-x64/native/Microsoft.Data.SqlClient.SNI.dll
+/Users/krishnasharma/Desktop/RetailPOSF/ProductService/bin/Debug/net9.0/runtimes/win-x86/native/Microsoft.Data.SqlClient.SNI.dll
+/Users/krishnasharma/Desktop/RetailPOSF/ProductService/bin/Debug/net9.0/runtimes/win/lib/net6.0/Microsoft.Win32.SystemEvents.dll
+/Users/krishnasharma/Desktop/RetailPOSF/ProductService/bin/Debug/net9.0/runtimes/unix/lib/net6.0/System.Drawing.Common.dll
+/Users/krishnasharma/Desktop/RetailPOSF/ProductService/bin/Debug/net9.0/runtimes/win/lib/net6.0/System.Drawing.Common.dll
+/Users/krishnasharma/Desktop/RetailPOSF/ProductService/bin/Debug/net9.0/runtimes/win/lib/net6.0/System.Runtime.Caching.dll
+/Users/krishnasharma/Desktop/RetailPOSF/ProductService/bin/Debug/net9.0/runtimes/win/lib/net6.0/System.Security.Cryptography.ProtectedData.dll
+/Users/krishnasharma/Desktop/RetailPOSF/ProductService/bin/Debug/net9.0/runtimes/win/lib/net6.0/System.Windows.Extensions.dll
+/Users/krishnasharma/Desktop/RetailPOSF/ProductService/obj/Debug/net9.0/ProductService.csproj.AssemblyReference.cache
+/Users/krishnasharma/Desktop/RetailPOSF/ProductService/obj/Debug/net9.0/rpswa.dswa.cache.json
+/Users/krishnasharma/Desktop/RetailPOSF/ProductService/obj/Debug/net9.0/ProductService.GeneratedMSBuildEditorConfig.editorconfig
+/Users/krishnasharma/Desktop/RetailPOSF/ProductService/obj/Debug/net9.0/ProductService.AssemblyInfoInputs.cache
+/Users/krishnasharma/Desktop/RetailPOSF/ProductService/obj/Debug/net9.0/ProductService.AssemblyInfo.cs
+/Users/krishnasharma/Desktop/RetailPOSF/ProductService/obj/Debug/net9.0/ProductService.csproj.CoreCompileInputs.cache
+/Users/krishnasharma/Desktop/RetailPOSF/ProductService/obj/Debug/net9.0/ProductService.MvcApplicationPartsAssemblyInfo.cs
+/Users/krishnasharma/Desktop/RetailPOSF/ProductService/obj/Debug/net9.0/ProductService.MvcApplicationPartsAssemblyInfo.cache
+/Users/krishnasharma/Desktop/RetailPOSF/ProductService/obj/Debug/net9.0/rjimswa.dswa.cache.json
+/Users/krishnasharma/Desktop/RetailPOSF/ProductService/obj/Debug/net9.0/rjsmrazor.dswa.cache.json
+/Users/krishnasharma/Desktop/RetailPOSF/ProductService/obj/Debug/net9.0/rjsmcshtml.dswa.cache.json
+/Users/krishnasharma/Desktop/RetailPOSF/ProductService/obj/Debug/net9.0/scopedcss/bundle/ProductService.styles.css
+/Users/krishnasharma/Desktop/RetailPOSF/ProductService/obj/Debug/net9.0/staticwebassets.build.json
+/Users/krishnasharma/Desktop/RetailPOSF/ProductService/obj/Debug/net9.0/staticwebassets.build.json.cache
+/Users/krishnasharma/Desktop/RetailPOSF/ProductService/obj/Debug/net9.0/staticwebassets.development.json
+/Users/krishnasharma/Desktop/RetailPOSF/ProductService/obj/Debug/net9.0/staticwebassets.build.endpoints.json
+/Users/krishnasharma/Desktop/RetailPOSF/ProductService/obj/Debug/net9.0/ProductS.A0FC5512.Up2Date
+/Users/krishnasharma/Desktop/RetailPOSF/ProductService/obj/Debug/net9.0/ProductService.dll
+/Users/krishnasharma/Desktop/RetailPOSF/ProductService/obj/Debug/net9.0/refint/ProductService.dll
+/Users/krishnasharma/Desktop/RetailPOSF/ProductService/obj/Debug/net9.0/ProductService.pdb
+/Users/krishnasharma/Desktop/RetailPOSF/ProductService/obj/Debug/net9.0/ProductService.genruntimeconfig.cache
+/Users/krishnasharma/Desktop/RetailPOSF/ProductService/obj/Debug/net9.0/ref/ProductService.dll
+/Users/krishnasharma/Desktop/RetailPOSF/ProductService/bin/Debug/net9.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/ProductService/bin/Debug/net9.0/appsettings.Development.json
+/Users/krishnasharma/Desktop/RetailPOSF copy/ProductService/bin/Debug/net9.0/appsettings.json
+/Users/krishnasharma/Desktop/RetailPOSF copy/ProductService/bin/Debug/net9.0/ProductService.staticwebassets.endpoints.json
+/Users/krishnasharma/Desktop/RetailPOSF copy/ProductService/bin/Debug/net9.0/ProductService
+/Users/krishnasharma/Desktop/RetailPOSF copy/ProductService/bin/Debug/net9.0/ProductService.deps.json
+/Users/krishnasharma/Desktop/RetailPOSF copy/ProductService/bin/Debug/net9.0/ProductService.runtimeconfig.json
+/Users/krishnasharma/Desktop/RetailPOSF copy/ProductService/bin/Debug/net9.0/ProductService.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/ProductService/bin/Debug/net9.0/ProductService.pdb
+/Users/krishnasharma/Desktop/RetailPOSF copy/ProductService/bin/Debug/net9.0/Azure.Core.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/ProductService/bin/Debug/net9.0/Azure.Identity.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/ProductService/bin/Debug/net9.0/Humanizer.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/ProductService/bin/Debug/net9.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/ProductService/bin/Debug/net9.0/Microsoft.AspNetCore.OpenApi.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/ProductService/bin/Debug/net9.0/Microsoft.Bcl.AsyncInterfaces.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/ProductService/bin/Debug/net9.0/Microsoft.CodeAnalysis.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/ProductService/bin/Debug/net9.0/Microsoft.CodeAnalysis.CSharp.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/ProductService/bin/Debug/net9.0/Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/ProductService/bin/Debug/net9.0/Microsoft.CodeAnalysis.Workspaces.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/ProductService/bin/Debug/net9.0/Microsoft.Data.SqlClient.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/ProductService/bin/Debug/net9.0/Microsoft.EntityFrameworkCore.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/ProductService/bin/Debug/net9.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/ProductService/bin/Debug/net9.0/Microsoft.EntityFrameworkCore.Design.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/ProductService/bin/Debug/net9.0/Microsoft.EntityFrameworkCore.Relational.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/ProductService/bin/Debug/net9.0/Microsoft.EntityFrameworkCore.SqlServer.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/ProductService/bin/Debug/net9.0/Microsoft.Extensions.DependencyModel.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/ProductService/bin/Debug/net9.0/Microsoft.Identity.Client.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/ProductService/bin/Debug/net9.0/Microsoft.Identity.Client.Extensions.Msal.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/ProductService/bin/Debug/net9.0/Microsoft.IdentityModel.Abstractions.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/ProductService/bin/Debug/net9.0/Microsoft.IdentityModel.JsonWebTokens.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/ProductService/bin/Debug/net9.0/Microsoft.IdentityModel.Logging.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/ProductService/bin/Debug/net9.0/Microsoft.IdentityModel.Protocols.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/ProductService/bin/Debug/net9.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/ProductService/bin/Debug/net9.0/Microsoft.IdentityModel.Tokens.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/ProductService/bin/Debug/net9.0/Microsoft.OpenApi.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/ProductService/bin/Debug/net9.0/Microsoft.SqlServer.Server.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/ProductService/bin/Debug/net9.0/Microsoft.Win32.SystemEvents.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/ProductService/bin/Debug/net9.0/Mono.TextTemplating.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/ProductService/bin/Debug/net9.0/Swashbuckle.AspNetCore.Swagger.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/ProductService/bin/Debug/net9.0/Swashbuckle.AspNetCore.SwaggerGen.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/ProductService/bin/Debug/net9.0/Swashbuckle.AspNetCore.SwaggerUI.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/ProductService/bin/Debug/net9.0/System.CodeDom.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/ProductService/bin/Debug/net9.0/System.Composition.AttributedModel.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/ProductService/bin/Debug/net9.0/System.Composition.Convention.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/ProductService/bin/Debug/net9.0/System.Composition.Hosting.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/ProductService/bin/Debug/net9.0/System.Composition.Runtime.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/ProductService/bin/Debug/net9.0/System.Composition.TypedParts.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/ProductService/bin/Debug/net9.0/System.Configuration.ConfigurationManager.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/ProductService/bin/Debug/net9.0/System.Drawing.Common.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/ProductService/bin/Debug/net9.0/System.IdentityModel.Tokens.Jwt.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/ProductService/bin/Debug/net9.0/System.Memory.Data.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/ProductService/bin/Debug/net9.0/System.Runtime.Caching.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/ProductService/bin/Debug/net9.0/System.Security.Cryptography.ProtectedData.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/ProductService/bin/Debug/net9.0/System.Security.Permissions.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/ProductService/bin/Debug/net9.0/System.Windows.Extensions.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/ProductService/bin/Debug/net9.0/cs/Microsoft.CodeAnalysis.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/ProductService/bin/Debug/net9.0/de/Microsoft.CodeAnalysis.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/ProductService/bin/Debug/net9.0/es/Microsoft.CodeAnalysis.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/ProductService/bin/Debug/net9.0/fr/Microsoft.CodeAnalysis.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/ProductService/bin/Debug/net9.0/it/Microsoft.CodeAnalysis.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/ProductService/bin/Debug/net9.0/ja/Microsoft.CodeAnalysis.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/ProductService/bin/Debug/net9.0/ko/Microsoft.CodeAnalysis.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/ProductService/bin/Debug/net9.0/pl/Microsoft.CodeAnalysis.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/ProductService/bin/Debug/net9.0/pt-BR/Microsoft.CodeAnalysis.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/ProductService/bin/Debug/net9.0/ru/Microsoft.CodeAnalysis.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/ProductService/bin/Debug/net9.0/tr/Microsoft.CodeAnalysis.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/ProductService/bin/Debug/net9.0/zh-Hans/Microsoft.CodeAnalysis.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/ProductService/bin/Debug/net9.0/zh-Hant/Microsoft.CodeAnalysis.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/ProductService/bin/Debug/net9.0/cs/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/ProductService/bin/Debug/net9.0/de/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/ProductService/bin/Debug/net9.0/es/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/ProductService/bin/Debug/net9.0/fr/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/ProductService/bin/Debug/net9.0/it/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/ProductService/bin/Debug/net9.0/ja/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/ProductService/bin/Debug/net9.0/ko/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/ProductService/bin/Debug/net9.0/pl/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/ProductService/bin/Debug/net9.0/pt-BR/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/ProductService/bin/Debug/net9.0/ru/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/ProductService/bin/Debug/net9.0/tr/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/ProductService/bin/Debug/net9.0/zh-Hans/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/ProductService/bin/Debug/net9.0/zh-Hant/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/ProductService/bin/Debug/net9.0/cs/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/ProductService/bin/Debug/net9.0/de/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/ProductService/bin/Debug/net9.0/es/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/ProductService/bin/Debug/net9.0/fr/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/ProductService/bin/Debug/net9.0/it/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/ProductService/bin/Debug/net9.0/ja/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/ProductService/bin/Debug/net9.0/ko/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/ProductService/bin/Debug/net9.0/pl/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/ProductService/bin/Debug/net9.0/pt-BR/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/ProductService/bin/Debug/net9.0/ru/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/ProductService/bin/Debug/net9.0/tr/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/ProductService/bin/Debug/net9.0/zh-Hans/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/ProductService/bin/Debug/net9.0/zh-Hant/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/ProductService/bin/Debug/net9.0/cs/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/ProductService/bin/Debug/net9.0/de/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/ProductService/bin/Debug/net9.0/es/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/ProductService/bin/Debug/net9.0/fr/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/ProductService/bin/Debug/net9.0/it/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/ProductService/bin/Debug/net9.0/ja/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/ProductService/bin/Debug/net9.0/ko/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/ProductService/bin/Debug/net9.0/pl/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/ProductService/bin/Debug/net9.0/pt-BR/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/ProductService/bin/Debug/net9.0/ru/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/ProductService/bin/Debug/net9.0/tr/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/ProductService/bin/Debug/net9.0/zh-Hans/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/ProductService/bin/Debug/net9.0/zh-Hant/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/ProductService/bin/Debug/net9.0/runtimes/unix/lib/net6.0/Microsoft.Data.SqlClient.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/ProductService/bin/Debug/net9.0/runtimes/win/lib/net6.0/Microsoft.Data.SqlClient.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/ProductService/bin/Debug/net9.0/runtimes/win-arm/native/Microsoft.Data.SqlClient.SNI.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/ProductService/bin/Debug/net9.0/runtimes/win-arm64/native/Microsoft.Data.SqlClient.SNI.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/ProductService/bin/Debug/net9.0/runtimes/win-x64/native/Microsoft.Data.SqlClient.SNI.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/ProductService/bin/Debug/net9.0/runtimes/win-x86/native/Microsoft.Data.SqlClient.SNI.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/ProductService/bin/Debug/net9.0/runtimes/win/lib/net6.0/Microsoft.Win32.SystemEvents.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/ProductService/bin/Debug/net9.0/runtimes/unix/lib/net6.0/System.Drawing.Common.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/ProductService/bin/Debug/net9.0/runtimes/win/lib/net6.0/System.Drawing.Common.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/ProductService/bin/Debug/net9.0/runtimes/win/lib/net6.0/System.Runtime.Caching.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/ProductService/bin/Debug/net9.0/runtimes/win/lib/net6.0/System.Security.Cryptography.ProtectedData.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/ProductService/bin/Debug/net9.0/runtimes/win/lib/net6.0/System.Windows.Extensions.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/ProductService/obj/Debug/net9.0/ProductService.csproj.AssemblyReference.cache
+/Users/krishnasharma/Desktop/RetailPOSF copy/ProductService/obj/Debug/net9.0/rpswa.dswa.cache.json
+/Users/krishnasharma/Desktop/RetailPOSF copy/ProductService/obj/Debug/net9.0/ProductService.GeneratedMSBuildEditorConfig.editorconfig
+/Users/krishnasharma/Desktop/RetailPOSF copy/ProductService/obj/Debug/net9.0/ProductService.AssemblyInfoInputs.cache
+/Users/krishnasharma/Desktop/RetailPOSF copy/ProductService/obj/Debug/net9.0/ProductService.AssemblyInfo.cs
+/Users/krishnasharma/Desktop/RetailPOSF copy/ProductService/obj/Debug/net9.0/ProductService.csproj.CoreCompileInputs.cache
+/Users/krishnasharma/Desktop/RetailPOSF copy/ProductService/obj/Debug/net9.0/ProductService.MvcApplicationPartsAssemblyInfo.cs
+/Users/krishnasharma/Desktop/RetailPOSF copy/ProductService/obj/Debug/net9.0/ProductService.MvcApplicationPartsAssemblyInfo.cache
+/Users/krishnasharma/Desktop/RetailPOSF copy/ProductService/obj/Debug/net9.0/rjimswa.dswa.cache.json
+/Users/krishnasharma/Desktop/RetailPOSF copy/ProductService/obj/Debug/net9.0/rjsmrazor.dswa.cache.json
+/Users/krishnasharma/Desktop/RetailPOSF copy/ProductService/obj/Debug/net9.0/rjsmcshtml.dswa.cache.json
+/Users/krishnasharma/Desktop/RetailPOSF copy/ProductService/obj/Debug/net9.0/scopedcss/bundle/ProductService.styles.css
+/Users/krishnasharma/Desktop/RetailPOSF copy/ProductService/obj/Debug/net9.0/staticwebassets.build.json
+/Users/krishnasharma/Desktop/RetailPOSF copy/ProductService/obj/Debug/net9.0/staticwebassets.build.json.cache
+/Users/krishnasharma/Desktop/RetailPOSF copy/ProductService/obj/Debug/net9.0/staticwebassets.development.json
+/Users/krishnasharma/Desktop/RetailPOSF copy/ProductService/obj/Debug/net9.0/staticwebassets.build.endpoints.json
+/Users/krishnasharma/Desktop/RetailPOSF copy/ProductService/obj/Debug/net9.0/ProductS.A0FC5512.Up2Date
+/Users/krishnasharma/Desktop/RetailPOSF copy/ProductService/obj/Debug/net9.0/ProductService.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/ProductService/obj/Debug/net9.0/refint/ProductService.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/ProductService/obj/Debug/net9.0/ProductService.pdb
+/Users/krishnasharma/Desktop/RetailPOSF copy/ProductService/obj/Debug/net9.0/ProductService.genruntimeconfig.cache
+/Users/krishnasharma/Desktop/RetailPOSF copy/ProductService/obj/Debug/net9.0/ref/ProductService.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/ProductService/bin/Debug/net9.0/RabbitMQ.Client.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/ProductService/bin/Debug/net9.0/appsettings.Development.json
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/ProductService/bin/Debug/net9.0/ProductService.staticwebassets.endpoints.json
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/ProductService/bin/Debug/net9.0/appsettings.json
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/ProductService/bin/Debug/net9.0/ProductService
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/ProductService/bin/Debug/net9.0/ProductService.deps.json
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/ProductService/bin/Debug/net9.0/ProductService.runtimeconfig.json
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/ProductService/bin/Debug/net9.0/ProductService.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/ProductService/bin/Debug/net9.0/ProductService.pdb
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/ProductService/bin/Debug/net9.0/Azure.Core.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/ProductService/bin/Debug/net9.0/Azure.Identity.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/ProductService/bin/Debug/net9.0/Humanizer.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/ProductService/bin/Debug/net9.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/ProductService/bin/Debug/net9.0/Microsoft.AspNetCore.OpenApi.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/ProductService/bin/Debug/net9.0/Microsoft.Bcl.AsyncInterfaces.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/ProductService/bin/Debug/net9.0/Microsoft.CodeAnalysis.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/ProductService/bin/Debug/net9.0/Microsoft.CodeAnalysis.CSharp.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/ProductService/bin/Debug/net9.0/Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/ProductService/bin/Debug/net9.0/Microsoft.CodeAnalysis.Workspaces.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/ProductService/bin/Debug/net9.0/Microsoft.Data.SqlClient.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/ProductService/bin/Debug/net9.0/Microsoft.EntityFrameworkCore.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/ProductService/bin/Debug/net9.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/ProductService/bin/Debug/net9.0/Microsoft.EntityFrameworkCore.Design.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/ProductService/bin/Debug/net9.0/Microsoft.EntityFrameworkCore.Relational.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/ProductService/bin/Debug/net9.0/Microsoft.EntityFrameworkCore.SqlServer.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/ProductService/bin/Debug/net9.0/Microsoft.Extensions.DependencyModel.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/ProductService/bin/Debug/net9.0/Microsoft.Identity.Client.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/ProductService/bin/Debug/net9.0/Microsoft.Identity.Client.Extensions.Msal.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/ProductService/bin/Debug/net9.0/Microsoft.IdentityModel.Abstractions.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/ProductService/bin/Debug/net9.0/Microsoft.IdentityModel.JsonWebTokens.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/ProductService/bin/Debug/net9.0/Microsoft.IdentityModel.Logging.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/ProductService/bin/Debug/net9.0/Microsoft.IdentityModel.Protocols.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/ProductService/bin/Debug/net9.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/ProductService/bin/Debug/net9.0/Microsoft.IdentityModel.Tokens.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/ProductService/bin/Debug/net9.0/Microsoft.OpenApi.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/ProductService/bin/Debug/net9.0/Microsoft.SqlServer.Server.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/ProductService/bin/Debug/net9.0/Microsoft.Win32.SystemEvents.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/ProductService/bin/Debug/net9.0/Mono.TextTemplating.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/ProductService/bin/Debug/net9.0/RabbitMQ.Client.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/ProductService/bin/Debug/net9.0/Swashbuckle.AspNetCore.Swagger.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/ProductService/bin/Debug/net9.0/Swashbuckle.AspNetCore.SwaggerGen.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/ProductService/bin/Debug/net9.0/Swashbuckle.AspNetCore.SwaggerUI.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/ProductService/bin/Debug/net9.0/System.CodeDom.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/ProductService/bin/Debug/net9.0/System.Composition.AttributedModel.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/ProductService/bin/Debug/net9.0/System.Composition.Convention.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/ProductService/bin/Debug/net9.0/System.Composition.Hosting.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/ProductService/bin/Debug/net9.0/System.Composition.Runtime.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/ProductService/bin/Debug/net9.0/System.Composition.TypedParts.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/ProductService/bin/Debug/net9.0/System.Configuration.ConfigurationManager.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/ProductService/bin/Debug/net9.0/System.Drawing.Common.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/ProductService/bin/Debug/net9.0/System.IdentityModel.Tokens.Jwt.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/ProductService/bin/Debug/net9.0/System.Memory.Data.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/ProductService/bin/Debug/net9.0/System.Runtime.Caching.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/ProductService/bin/Debug/net9.0/System.Security.Cryptography.ProtectedData.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/ProductService/bin/Debug/net9.0/System.Security.Permissions.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/ProductService/bin/Debug/net9.0/System.Windows.Extensions.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/ProductService/bin/Debug/net9.0/cs/Microsoft.CodeAnalysis.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/ProductService/bin/Debug/net9.0/de/Microsoft.CodeAnalysis.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/ProductService/bin/Debug/net9.0/es/Microsoft.CodeAnalysis.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/ProductService/bin/Debug/net9.0/fr/Microsoft.CodeAnalysis.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/ProductService/bin/Debug/net9.0/it/Microsoft.CodeAnalysis.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/ProductService/bin/Debug/net9.0/ja/Microsoft.CodeAnalysis.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/ProductService/bin/Debug/net9.0/ko/Microsoft.CodeAnalysis.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/ProductService/bin/Debug/net9.0/pl/Microsoft.CodeAnalysis.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/ProductService/bin/Debug/net9.0/pt-BR/Microsoft.CodeAnalysis.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/ProductService/bin/Debug/net9.0/ru/Microsoft.CodeAnalysis.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/ProductService/bin/Debug/net9.0/tr/Microsoft.CodeAnalysis.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/ProductService/bin/Debug/net9.0/zh-Hans/Microsoft.CodeAnalysis.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/ProductService/bin/Debug/net9.0/zh-Hant/Microsoft.CodeAnalysis.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/ProductService/bin/Debug/net9.0/cs/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/ProductService/bin/Debug/net9.0/de/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/ProductService/bin/Debug/net9.0/es/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/ProductService/bin/Debug/net9.0/fr/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/ProductService/bin/Debug/net9.0/it/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/ProductService/bin/Debug/net9.0/ja/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/ProductService/bin/Debug/net9.0/ko/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/ProductService/bin/Debug/net9.0/pl/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/ProductService/bin/Debug/net9.0/pt-BR/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/ProductService/bin/Debug/net9.0/ru/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/ProductService/bin/Debug/net9.0/tr/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/ProductService/bin/Debug/net9.0/zh-Hans/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/ProductService/bin/Debug/net9.0/zh-Hant/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/ProductService/bin/Debug/net9.0/cs/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/ProductService/bin/Debug/net9.0/de/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/ProductService/bin/Debug/net9.0/es/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/ProductService/bin/Debug/net9.0/fr/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/ProductService/bin/Debug/net9.0/it/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/ProductService/bin/Debug/net9.0/ja/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/ProductService/bin/Debug/net9.0/ko/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/ProductService/bin/Debug/net9.0/pl/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/ProductService/bin/Debug/net9.0/pt-BR/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/ProductService/bin/Debug/net9.0/ru/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/ProductService/bin/Debug/net9.0/tr/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/ProductService/bin/Debug/net9.0/zh-Hans/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/ProductService/bin/Debug/net9.0/zh-Hant/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/ProductService/bin/Debug/net9.0/cs/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/ProductService/bin/Debug/net9.0/de/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/ProductService/bin/Debug/net9.0/es/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/ProductService/bin/Debug/net9.0/fr/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/ProductService/bin/Debug/net9.0/it/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/ProductService/bin/Debug/net9.0/ja/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/ProductService/bin/Debug/net9.0/ko/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/ProductService/bin/Debug/net9.0/pl/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/ProductService/bin/Debug/net9.0/pt-BR/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/ProductService/bin/Debug/net9.0/ru/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/ProductService/bin/Debug/net9.0/tr/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/ProductService/bin/Debug/net9.0/zh-Hans/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/ProductService/bin/Debug/net9.0/zh-Hant/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/ProductService/bin/Debug/net9.0/runtimes/unix/lib/net6.0/Microsoft.Data.SqlClient.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/ProductService/bin/Debug/net9.0/runtimes/win/lib/net6.0/Microsoft.Data.SqlClient.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/ProductService/bin/Debug/net9.0/runtimes/win-arm/native/Microsoft.Data.SqlClient.SNI.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/ProductService/bin/Debug/net9.0/runtimes/win-arm64/native/Microsoft.Data.SqlClient.SNI.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/ProductService/bin/Debug/net9.0/runtimes/win-x64/native/Microsoft.Data.SqlClient.SNI.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/ProductService/bin/Debug/net9.0/runtimes/win-x86/native/Microsoft.Data.SqlClient.SNI.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/ProductService/bin/Debug/net9.0/runtimes/win/lib/net6.0/Microsoft.Win32.SystemEvents.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/ProductService/bin/Debug/net9.0/runtimes/unix/lib/net6.0/System.Drawing.Common.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/ProductService/bin/Debug/net9.0/runtimes/win/lib/net6.0/System.Drawing.Common.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/ProductService/bin/Debug/net9.0/runtimes/win/lib/net6.0/System.Runtime.Caching.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/ProductService/bin/Debug/net9.0/runtimes/win/lib/net6.0/System.Security.Cryptography.ProtectedData.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/ProductService/bin/Debug/net9.0/runtimes/win/lib/net6.0/System.Windows.Extensions.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/ProductService/obj/Debug/net9.0/ProductService.csproj.AssemblyReference.cache
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/ProductService/obj/Debug/net9.0/rpswa.dswa.cache.json
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/ProductService/obj/Debug/net9.0/ProductService.GeneratedMSBuildEditorConfig.editorconfig
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/ProductService/obj/Debug/net9.0/ProductService.AssemblyInfoInputs.cache
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/ProductService/obj/Debug/net9.0/ProductService.AssemblyInfo.cs
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/ProductService/obj/Debug/net9.0/ProductService.csproj.CoreCompileInputs.cache
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/ProductService/obj/Debug/net9.0/ProductService.MvcApplicationPartsAssemblyInfo.cs
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/ProductService/obj/Debug/net9.0/ProductService.MvcApplicationPartsAssemblyInfo.cache
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/ProductService/obj/Debug/net9.0/rjimswa.dswa.cache.json
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/ProductService/obj/Debug/net9.0/rjsmrazor.dswa.cache.json
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/ProductService/obj/Debug/net9.0/rjsmcshtml.dswa.cache.json
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/ProductService/obj/Debug/net9.0/scopedcss/bundle/ProductService.styles.css
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/ProductService/obj/Debug/net9.0/staticwebassets.build.json
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/ProductService/obj/Debug/net9.0/staticwebassets.build.json.cache
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/ProductService/obj/Debug/net9.0/staticwebassets.development.json
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/ProductService/obj/Debug/net9.0/staticwebassets.build.endpoints.json
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/ProductService/obj/Debug/net9.0/ProductS.A0FC5512.Up2Date
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/ProductService/obj/Debug/net9.0/ProductService.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/ProductService/obj/Debug/net9.0/refint/ProductService.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/ProductService/obj/Debug/net9.0/ProductService.pdb
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/ProductService/obj/Debug/net9.0/ProductService.genruntimeconfig.cache
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/ProductService/obj/Debug/net9.0/ref/ProductService.dll

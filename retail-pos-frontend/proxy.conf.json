@@ -1,0 +1,66 @@
+{
+  "/api/auth": {
+    "target": "http://localhost:5098",
+    "secure": false,
+    "changeOrigin": true,
+    "pathRewrite": {
+      "^/api/auth": "/auth"
+    }
+  },
+  "/api/products": {
+    "target": "http://localhost:5217",
+    "secure": false,
+    "changeOrigin": true,
+    "pathRewrite": {
+      "^/api/products": "/products"
+    }
+  },
+  "/api/categories": {
+    "target": "http://localhost:5217",
+    "secure": false,
+    "changeOrigin": true,
+    "pathRewrite": {
+      "^/api/categories": "/categories"
+    }
+  },
+  "/api/tax": {
+    "target": "http://localhost:5217",
+    "secure": false,
+    "changeOrigin": true,
+    "pathRewrite": {
+      "^/api/tax": "/tax"
+    }
+  },
+  "/api/billing": {
+    "target": "http://localhost:5075",
+    "secure": false,
+    "changeOrigin": true,
+    "pathRewrite": {
+      "^/api/billing": "/billing"
+    }
+  },
+  "/api/bills": {
+    "target": "http://localhost:5075",
+    "secure": false,
+    "changeOrigin": true,
+    "pathRewrite": {
+      "^/api/bills": "/bills"
+    }
+  },
+  "/api/admin": {
+    "target": "http://localhost:5062",
+    "secure": false,
+    "changeOrigin": true,
+    "pathRewrite": {
+      "^/api/admin": "/admin"
+    }
+  },
+  "/api/notifications": {
+    "target": "http://localhost:5046",
+    "secure": false,
+    "changeOrigin": true,
+    "pathRewrite": {
+      "^/api/notifications": "/notifications"
+    }
+  }
+}

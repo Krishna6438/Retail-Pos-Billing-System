@@ -1,0 +1,86 @@
+/Users/krishnasharma/Desktop/RetailPOSF copy/AdminService/bin/Debug/net9.0/appsettings.Development.json
+/Users/krishnasharma/Desktop/RetailPOSF copy/AdminService/bin/Debug/net9.0/appsettings.json
+/Users/krishnasharma/Desktop/RetailPOSF copy/AdminService/bin/Debug/net9.0/AdminService.staticwebassets.endpoints.json
+/Users/krishnasharma/Desktop/RetailPOSF copy/AdminService/bin/Debug/net9.0/AdminService
+/Users/krishnasharma/Desktop/RetailPOSF copy/AdminService/bin/Debug/net9.0/AdminService.deps.json
+/Users/krishnasharma/Desktop/RetailPOSF copy/AdminService/bin/Debug/net9.0/AdminService.runtimeconfig.json
+/Users/krishnasharma/Desktop/RetailPOSF copy/AdminService/bin/Debug/net9.0/AdminService.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/AdminService/bin/Debug/net9.0/AdminService.pdb
+/Users/krishnasharma/Desktop/RetailPOSF copy/AdminService/bin/Debug/net9.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/AdminService/bin/Debug/net9.0/Microsoft.AspNetCore.OpenApi.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/AdminService/bin/Debug/net9.0/Microsoft.IdentityModel.Abstractions.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/AdminService/bin/Debug/net9.0/Microsoft.IdentityModel.JsonWebTokens.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/AdminService/bin/Debug/net9.0/Microsoft.IdentityModel.Logging.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/AdminService/bin/Debug/net9.0/Microsoft.IdentityModel.Protocols.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/AdminService/bin/Debug/net9.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/AdminService/bin/Debug/net9.0/Microsoft.IdentityModel.Tokens.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/AdminService/bin/Debug/net9.0/Microsoft.OpenApi.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/AdminService/bin/Debug/net9.0/Swashbuckle.AspNetCore.Swagger.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/AdminService/bin/Debug/net9.0/Swashbuckle.AspNetCore.SwaggerGen.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/AdminService/bin/Debug/net9.0/Swashbuckle.AspNetCore.SwaggerUI.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/AdminService/bin/Debug/net9.0/System.IdentityModel.Tokens.Jwt.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/AdminService/obj/Debug/net9.0/AdminService.csproj.AssemblyReference.cache
+/Users/krishnasharma/Desktop/RetailPOSF copy/AdminService/obj/Debug/net9.0/rpswa.dswa.cache.json
+/Users/krishnasharma/Desktop/RetailPOSF copy/AdminService/obj/Debug/net9.0/AdminService.GeneratedMSBuildEditorConfig.editorconfig
+/Users/krishnasharma/Desktop/RetailPOSF copy/AdminService/obj/Debug/net9.0/AdminService.AssemblyInfoInputs.cache
+/Users/krishnasharma/Desktop/RetailPOSF copy/AdminService/obj/Debug/net9.0/AdminService.AssemblyInfo.cs
+/Users/krishnasharma/Desktop/RetailPOSF copy/AdminService/obj/Debug/net9.0/AdminService.csproj.CoreCompileInputs.cache
+/Users/krishnasharma/Desktop/RetailPOSF copy/AdminService/obj/Debug/net9.0/AdminService.MvcApplicationPartsAssemblyInfo.cs
+/Users/krishnasharma/Desktop/RetailPOSF copy/AdminService/obj/Debug/net9.0/AdminService.MvcApplicationPartsAssemblyInfo.cache
+/Users/krishnasharma/Desktop/RetailPOSF copy/AdminService/obj/Debug/net9.0/rjimswa.dswa.cache.json
+/Users/krishnasharma/Desktop/RetailPOSF copy/AdminService/obj/Debug/net9.0/rjsmrazor.dswa.cache.json
+/Users/krishnasharma/Desktop/RetailPOSF copy/AdminService/obj/Debug/net9.0/rjsmcshtml.dswa.cache.json
+/Users/krishnasharma/Desktop/RetailPOSF copy/AdminService/obj/Debug/net9.0/scopedcss/bundle/AdminService.styles.css
+/Users/krishnasharma/Desktop/RetailPOSF copy/AdminService/obj/Debug/net9.0/staticwebassets.build.json
+/Users/krishnasharma/Desktop/RetailPOSF copy/AdminService/obj/Debug/net9.0/staticwebassets.build.json.cache
+/Users/krishnasharma/Desktop/RetailPOSF copy/AdminService/obj/Debug/net9.0/staticwebassets.development.json
+/Users/krishnasharma/Desktop/RetailPOSF copy/AdminService/obj/Debug/net9.0/staticwebassets.build.endpoints.json
+/Users/krishnasharma/Desktop/RetailPOSF copy/AdminService/obj/Debug/net9.0/AdminSer.1AF7464D.Up2Date
+/Users/krishnasharma/Desktop/RetailPOSF copy/AdminService/obj/Debug/net9.0/AdminService.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/AdminService/obj/Debug/net9.0/refint/AdminService.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/AdminService/obj/Debug/net9.0/AdminService.pdb
+/Users/krishnasharma/Desktop/RetailPOSF copy/AdminService/obj/Debug/net9.0/AdminService.genruntimeconfig.cache
+/Users/krishnasharma/Desktop/RetailPOSF copy/AdminService/obj/Debug/net9.0/ref/AdminService.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/AdminService/bin/Debug/net9.0/appsettings.Development.json
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/AdminService/bin/Debug/net9.0/AdminService.staticwebassets.endpoints.json
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/AdminService/bin/Debug/net9.0/appsettings.json
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/AdminService/bin/Debug/net9.0/AdminService
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/AdminService/bin/Debug/net9.0/AdminService.deps.json
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/AdminService/bin/Debug/net9.0/AdminService.runtimeconfig.json
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/AdminService/bin/Debug/net9.0/AdminService.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/AdminService/bin/Debug/net9.0/AdminService.pdb
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/AdminService/bin/Debug/net9.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/AdminService/bin/Debug/net9.0/Microsoft.AspNetCore.OpenApi.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/AdminService/bin/Debug/net9.0/Microsoft.IdentityModel.Abstractions.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/AdminService/bin/Debug/net9.0/Microsoft.IdentityModel.JsonWebTokens.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/AdminService/bin/Debug/net9.0/Microsoft.IdentityModel.Logging.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/AdminService/bin/Debug/net9.0/Microsoft.IdentityModel.Protocols.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/AdminService/bin/Debug/net9.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/AdminService/bin/Debug/net9.0/Microsoft.IdentityModel.Tokens.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/AdminService/bin/Debug/net9.0/Microsoft.OpenApi.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/AdminService/bin/Debug/net9.0/Swashbuckle.AspNetCore.Swagger.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/AdminService/bin/Debug/net9.0/Swashbuckle.AspNetCore.SwaggerGen.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/AdminService/bin/Debug/net9.0/Swashbuckle.AspNetCore.SwaggerUI.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/AdminService/bin/Debug/net9.0/System.IdentityModel.Tokens.Jwt.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/AdminService/obj/Debug/net9.0/AdminService.csproj.AssemblyReference.cache
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/AdminService/obj/Debug/net9.0/rpswa.dswa.cache.json
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/AdminService/obj/Debug/net9.0/AdminService.GeneratedMSBuildEditorConfig.editorconfig
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/AdminService/obj/Debug/net9.0/AdminService.AssemblyInfoInputs.cache
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/AdminService/obj/Debug/net9.0/AdminService.AssemblyInfo.cs
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/AdminService/obj/Debug/net9.0/AdminService.csproj.CoreCompileInputs.cache
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/AdminService/obj/Debug/net9.0/AdminService.MvcApplicationPartsAssemblyInfo.cs
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/AdminService/obj/Debug/net9.0/AdminService.MvcApplicationPartsAssemblyInfo.cache
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/AdminService/obj/Debug/net9.0/rjimswa.dswa.cache.json
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/AdminService/obj/Debug/net9.0/rjsmrazor.dswa.cache.json
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/AdminService/obj/Debug/net9.0/rjsmcshtml.dswa.cache.json
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/AdminService/obj/Debug/net9.0/scopedcss/bundle/AdminService.styles.css
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/AdminService/obj/Debug/net9.0/staticwebassets.build.json
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/AdminService/obj/Debug/net9.0/staticwebassets.build.json.cache
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/AdminService/obj/Debug/net9.0/staticwebassets.development.json
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/AdminService/obj/Debug/net9.0/staticwebassets.build.endpoints.json
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/AdminService/obj/Debug/net9.0/AdminSer.1AF7464D.Up2Date
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/AdminService/obj/Debug/net9.0/AdminService.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/AdminService/obj/Debug/net9.0/refint/AdminService.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/AdminService/obj/Debug/net9.0/AdminService.pdb
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/AdminService/obj/Debug/net9.0/AdminService.genruntimeconfig.cache
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/AdminService/obj/Debug/net9.0/ref/AdminService.dll

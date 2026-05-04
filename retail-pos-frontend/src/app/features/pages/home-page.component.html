@@ -1,0 +1,145 @@
+<div class="page-shell">
+
+  <!-- Hero -->
+  <section class="section-card home-hero animate-fade-up">
+    <div class="home-hero__content">
+      <p class="label-chip">RetailPOS Workspace</p>
+      <h1 class="section-title" style="font-size:clamp(1.6rem,1.2rem+2vw,2.8rem);margin-top:0.5rem">
+        Welcome back, {{ authStore.email().split('@')[0] || 'Cashier' }}! 👋
+      </h1>
+      <p class="section-subtitle" style="max-width:480px;font-size:1rem">
+        Your live retail POS is ready. Move stock, process carts, and track orders from one unified workspace.
+      </p>
+      <div class="button-row" style="margin-top:1.5rem">
+        @if (authStore.isAdmin()) {
+          <a class="btn btn-primary btn-icon" routerLink="/admin" style="font-size:0.96rem;padding:0.9rem 1.75rem">
+            📊 Open Admin Dashboard
+          </a>
+          <a class="btn btn-secondary btn-icon" routerLink="/products">🏷️ Manage Catalog</a>
+        } @else {
+          <a class="btn btn-primary btn-icon" routerLink="/cart" style="font-size:0.96rem;padding:0.9rem 1.75rem">
+            🛒 Start Selling
+          </a>
+          <a class="btn btn-secondary btn-icon" routerLink="/products">🏷️ Browse Products</a>
+          <a class="btn btn-secondary btn-icon" routerLink="/orders">📋 View Orders</a>
+        }
+      </div>
+    </div>
+    <div class="home-hero__badge">
+      <div class="role-badge">
+        <span class="role-badge__icon">
+          {{ authStore.isAdmin() ? '⚖️' : '🎯' }}
+        </span>
+        <div>
+          <p style="margin:0;font-size:0.8rem;color:var(--ink-3);font-weight:700;text-transform:uppercase;letter-spacing:0.1em">
+            {{ authStore.isAdmin() ? 'Admin Controller' : 'Cashier Mode' }}
+          </p>
+          <strong style="font-size:1.1rem">{{ authStore.email() }}</strong>
+          <p style="margin:0.15rem 0 0;font-size:0.84rem;color:var(--ink-2)">User #{{ authStore.userId() }}</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Quick Stats -->
+  <section class="grid-cards">
+    <a class="stat-card stat-card--link" routerLink="/products">
+      <p>🏷️ Products</p>
+      <strong>{{ authStore.isAdmin() ? 'Inventory' : 'Browse' }}</strong>
+      <span class="helper-text" style="display:block;margin-top:0.25rem">{{ authStore.isAdmin() ? 'Manage stock & prices →' : 'View full catalog →' }}</span>
+    </a>
+    
+    @if (authStore.isAdmin()) {
+      <a class="stat-card stat-card--link" routerLink="/admin">
+        <p>⚙️ Admin</p>
+        <strong>Dashboard</strong>
+        <span class="helper-text" style="display:block;margin-top:0.25rem">Revenue & analytics →</span>
+      </a>
+      <a class="stat-card stat-card--link" routerLink="/notifications">
+        <p>🔔 Alerts</p>
+        <strong>System</strong>
+        <span class="helper-text" style="display:block;margin-top:0.25rem">Monitor low stock & updates →</span>
+      </a>
+    } @else {
+      <a class="stat-card stat-card--link" routerLink="/cart">
+        <p>🛒 Cart</p>
+        <strong>Active</strong>
+        <span class="helper-text" style="display:block;margin-top:0.25rem">Add items, checkout →</span>
+      </a>
+      <a class="stat-card stat-card--link" routerLink="/orders">
+        <p>📋 Orders</p>
+        <strong>History</strong>
+        <span class="helper-text" style="display:block;margin-top:0.25rem">View invoices →</span>
+      </a>
+    }
+  </section>
+
+  <!-- Recent Notifications -->
+  <section class="section-card animate-fade-up" style="animation-delay:0.1s">
+    <div class="section-card__header">
+      <div>
+        <h2 class="section-title">🔔 Recent {{ authStore.isAdmin() ? 'System Alerts' : 'Notifications' }}</h2>
+        <p class="section-subtitle">A quick check before you dive into the workflow.</p>
+      </div>
+      <a class="btn btn-secondary" routerLink="/notifications" style="white-space:nowrap">View all →</a>
+    </div>
+
+    @if (recentNotifications().length) {
+      <div class="list-stack">
+        @for (item of recentNotifications(); track item.id) {
+          <div class="notice">
+            <div class="notice__dot" [class.unread]="!item.isRead"></div>
+            <div class="notice__body">
+              <div class="notice__type">{{ item.type || 'Update' }}</div>
+              <strong class="notice__message">{{ item.message }}</strong>
+            </div>
+            <span class="helper-text notice__time">{{ item.createdAt | date:'h:mm a' }}</span>
+          </div>
+        }
+      </div>
+    } @else {
+      <div class="empty-state">No notifications yet. The queue is quiet for now. ✅</div>
+    }
+  </section>
+
+  @if (!authStore.isAdmin()) {
+    <!-- Flow Guide (Only for Cashiers) -->
+    <section class="section-card animate-fade-up" style="animation-delay:0.15s">
+      <h2 class="section-title" style="margin-bottom:1.25rem">How the POS Flow Works</h2>
+      <div class="flow-steps">
+        <div class="flow-step">
+          <div class="flow-step__num">1</div>
+          <div>
+            <strong>Browse Products</strong>
+            <p class="helper-text" style="margin:0.1rem 0 0">Search the catalog, check stock levels</p>
+          </div>
+        </div>
+        <div class="flow-step__arrow">→</div>
+        <div class="flow-step">
+          <div class="flow-step__num">2</div>
+          <div>
+            <strong>Build Cart</strong>
+            <p class="helper-text" style="margin:0.1rem 0 0">Add items, adjust quantities</p>
+          </div>
+        </div>
+        <div class="flow-step__arrow">→</div>
+        <div class="flow-step">
+          <div class="flow-step__num">3</div>
+          <div>
+            <strong>Checkout</strong>
+            <p class="helper-text" style="margin:0.1rem 0 0">Choose payment, apply coupons</p>
+          </div>
+        </div>
+        <div class="flow-step__arrow">→</div>
+        <div class="flow-step">
+          <div class="flow-step__num">4</div>
+          <div>
+            <strong>Invoice</strong>
+            <p class="helper-text" style="margin:0.1rem 0 0">Print or download the full receipt</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  }
+
+</div>

@@ -1,0 +1,246 @@
+/Users/krishnasharma/Desktop/RetailPOSF/APIGateway/bin/Debug/net9.0/appsettings.Development.json
+/Users/krishnasharma/Desktop/RetailPOSF/APIGateway/bin/Debug/net9.0/appsettings.json
+/Users/krishnasharma/Desktop/RetailPOSF/APIGateway/bin/Debug/net9.0/Ocelot.json
+/Users/krishnasharma/Desktop/RetailPOSF/APIGateway/bin/Debug/net9.0/APIGateway.staticwebassets.endpoints.json
+/Users/krishnasharma/Desktop/RetailPOSF/APIGateway/bin/Debug/net9.0/APIGateway
+/Users/krishnasharma/Desktop/RetailPOSF/APIGateway/bin/Debug/net9.0/APIGateway.deps.json
+/Users/krishnasharma/Desktop/RetailPOSF/APIGateway/bin/Debug/net9.0/APIGateway.runtimeconfig.json
+/Users/krishnasharma/Desktop/RetailPOSF/APIGateway/bin/Debug/net9.0/APIGateway.dll
+/Users/krishnasharma/Desktop/RetailPOSF/APIGateway/bin/Debug/net9.0/APIGateway.pdb
+/Users/krishnasharma/Desktop/RetailPOSF/APIGateway/bin/Debug/net9.0/FluentValidation.dll
+/Users/krishnasharma/Desktop/RetailPOSF/APIGateway/bin/Debug/net9.0/IPAddressRange.dll
+/Users/krishnasharma/Desktop/RetailPOSF/APIGateway/bin/Debug/net9.0/Microsoft.AspNetCore.JsonPatch.dll
+/Users/krishnasharma/Desktop/RetailPOSF/APIGateway/bin/Debug/net9.0/Microsoft.AspNetCore.MiddlewareAnalysis.dll
+/Users/krishnasharma/Desktop/RetailPOSF/APIGateway/bin/Debug/net9.0/Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+/Users/krishnasharma/Desktop/RetailPOSF/APIGateway/bin/Debug/net9.0/Microsoft.AspNetCore.OpenApi.dll
+/Users/krishnasharma/Desktop/RetailPOSF/APIGateway/bin/Debug/net9.0/Microsoft.Extensions.DiagnosticAdapter.dll
+/Users/krishnasharma/Desktop/RetailPOSF/APIGateway/bin/Debug/net9.0/Microsoft.OpenApi.dll
+/Users/krishnasharma/Desktop/RetailPOSF/APIGateway/bin/Debug/net9.0/Newtonsoft.Json.dll
+/Users/krishnasharma/Desktop/RetailPOSF/APIGateway/bin/Debug/net9.0/Newtonsoft.Json.Bson.dll
+/Users/krishnasharma/Desktop/RetailPOSF/APIGateway/bin/Debug/net9.0/Ocelot.dll
+/Users/krishnasharma/Desktop/RetailPOSF/APIGateway/obj/Debug/net9.0/APIGateway.csproj.AssemblyReference.cache
+/Users/krishnasharma/Desktop/RetailPOSF/APIGateway/obj/Debug/net9.0/rpswa.dswa.cache.json
+/Users/krishnasharma/Desktop/RetailPOSF/APIGateway/obj/Debug/net9.0/APIGateway.GeneratedMSBuildEditorConfig.editorconfig
+/Users/krishnasharma/Desktop/RetailPOSF/APIGateway/obj/Debug/net9.0/APIGateway.AssemblyInfoInputs.cache
+/Users/krishnasharma/Desktop/RetailPOSF/APIGateway/obj/Debug/net9.0/APIGateway.AssemblyInfo.cs
+/Users/krishnasharma/Desktop/RetailPOSF/APIGateway/obj/Debug/net9.0/APIGateway.csproj.CoreCompileInputs.cache
+/Users/krishnasharma/Desktop/RetailPOSF/APIGateway/obj/Debug/net9.0/APIGateway.MvcApplicationPartsAssemblyInfo.cs
+/Users/krishnasharma/Desktop/RetailPOSF/APIGateway/obj/Debug/net9.0/APIGateway.MvcApplicationPartsAssemblyInfo.cache
+/Users/krishnasharma/Desktop/RetailPOSF/APIGateway/obj/Debug/net9.0/rjimswa.dswa.cache.json
+/Users/krishnasharma/Desktop/RetailPOSF/APIGateway/obj/Debug/net9.0/rjsmrazor.dswa.cache.json
+/Users/krishnasharma/Desktop/RetailPOSF/APIGateway/obj/Debug/net9.0/rjsmcshtml.dswa.cache.json
+/Users/krishnasharma/Desktop/RetailPOSF/APIGateway/obj/Debug/net9.0/scopedcss/bundle/APIGateway.styles.css
+/Users/krishnasharma/Desktop/RetailPOSF/APIGateway/obj/Debug/net9.0/staticwebassets.build.json
+/Users/krishnasharma/Desktop/RetailPOSF/APIGateway/obj/Debug/net9.0/staticwebassets.build.json.cache
+/Users/krishnasharma/Desktop/RetailPOSF/APIGateway/obj/Debug/net9.0/staticwebassets.development.json
+/Users/krishnasharma/Desktop/RetailPOSF/APIGateway/obj/Debug/net9.0/staticwebassets.build.endpoints.json
+/Users/krishnasharma/Desktop/RetailPOSF/APIGateway/obj/Debug/net9.0/APIGateway.csproj.Up2Date
+/Users/krishnasharma/Desktop/RetailPOSF/APIGateway/obj/Debug/net9.0/APIGateway.dll
+/Users/krishnasharma/Desktop/RetailPOSF/APIGateway/obj/Debug/net9.0/refint/APIGateway.dll
+/Users/krishnasharma/Desktop/RetailPOSF/APIGateway/obj/Debug/net9.0/APIGateway.pdb
+/Users/krishnasharma/Desktop/RetailPOSF/APIGateway/obj/Debug/net9.0/APIGateway.genruntimeconfig.cache
+/Users/krishnasharma/Desktop/RetailPOSF/APIGateway/obj/Debug/net9.0/ref/APIGateway.dll
+/Users/krishnasharma/Desktop/RetailPOSF/APIGateway/bin/Debug/net9.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll
+/Users/krishnasharma/Desktop/RetailPOSF/APIGateway/bin/Debug/net9.0/Microsoft.IdentityModel.Abstractions.dll
+/Users/krishnasharma/Desktop/RetailPOSF/APIGateway/bin/Debug/net9.0/Microsoft.IdentityModel.JsonWebTokens.dll
+/Users/krishnasharma/Desktop/RetailPOSF/APIGateway/bin/Debug/net9.0/Microsoft.IdentityModel.Logging.dll
+/Users/krishnasharma/Desktop/RetailPOSF/APIGateway/bin/Debug/net9.0/Microsoft.IdentityModel.Protocols.dll
+/Users/krishnasharma/Desktop/RetailPOSF/APIGateway/bin/Debug/net9.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+/Users/krishnasharma/Desktop/RetailPOSF/APIGateway/bin/Debug/net9.0/Microsoft.IdentityModel.Tokens.dll
+/Users/krishnasharma/Desktop/RetailPOSF/APIGateway/bin/Debug/net9.0/System.IdentityModel.Tokens.Jwt.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/APIGateway/bin/Debug/net9.0/appsettings.Development.json
+/Users/krishnasharma/Desktop/RetailPOSF copy/APIGateway/bin/Debug/net9.0/appsettings.json
+/Users/krishnasharma/Desktop/RetailPOSF copy/APIGateway/bin/Debug/net9.0/Ocelot.json
+/Users/krishnasharma/Desktop/RetailPOSF copy/APIGateway/bin/Debug/net9.0/ocelot.SwaggerEndPoints.json
+/Users/krishnasharma/Desktop/RetailPOSF copy/APIGateway/bin/Debug/net9.0/APIGateway.staticwebassets.endpoints.json
+/Users/krishnasharma/Desktop/RetailPOSF copy/APIGateway/bin/Debug/net9.0/APIGateway
+/Users/krishnasharma/Desktop/RetailPOSF copy/APIGateway/bin/Debug/net9.0/APIGateway.deps.json
+/Users/krishnasharma/Desktop/RetailPOSF copy/APIGateway/bin/Debug/net9.0/APIGateway.runtimeconfig.json
+/Users/krishnasharma/Desktop/RetailPOSF copy/APIGateway/bin/Debug/net9.0/APIGateway.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/APIGateway/bin/Debug/net9.0/APIGateway.pdb
+/Users/krishnasharma/Desktop/RetailPOSF copy/APIGateway/bin/Debug/net9.0/Azure.Core.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/APIGateway/bin/Debug/net9.0/Azure.Identity.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/APIGateway/bin/Debug/net9.0/FluentValidation.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/APIGateway/bin/Debug/net9.0/IPAddressRange.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/APIGateway/bin/Debug/net9.0/Kros.Utils.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/APIGateway/bin/Debug/net9.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/APIGateway/bin/Debug/net9.0/Microsoft.AspNetCore.JsonPatch.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/APIGateway/bin/Debug/net9.0/Microsoft.AspNetCore.MiddlewareAnalysis.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/APIGateway/bin/Debug/net9.0/Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/APIGateway/bin/Debug/net9.0/Microsoft.AspNetCore.OpenApi.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/APIGateway/bin/Debug/net9.0/Microsoft.Bcl.AsyncInterfaces.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/APIGateway/bin/Debug/net9.0/Microsoft.Data.SqlClient.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/APIGateway/bin/Debug/net9.0/Microsoft.Extensions.Configuration.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/APIGateway/bin/Debug/net9.0/Microsoft.Extensions.Configuration.Abstractions.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/APIGateway/bin/Debug/net9.0/Microsoft.Extensions.Configuration.Binder.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/APIGateway/bin/Debug/net9.0/Microsoft.Extensions.DependencyInjection.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/APIGateway/bin/Debug/net9.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/APIGateway/bin/Debug/net9.0/Microsoft.Extensions.DiagnosticAdapter.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/APIGateway/bin/Debug/net9.0/Microsoft.Extensions.Diagnostics.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/APIGateway/bin/Debug/net9.0/Microsoft.Extensions.Diagnostics.Abstractions.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/APIGateway/bin/Debug/net9.0/Microsoft.Extensions.Http.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/APIGateway/bin/Debug/net9.0/Microsoft.Extensions.Logging.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/APIGateway/bin/Debug/net9.0/Microsoft.Extensions.Logging.Abstractions.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/APIGateway/bin/Debug/net9.0/Microsoft.Extensions.Options.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/APIGateway/bin/Debug/net9.0/Microsoft.Extensions.Options.ConfigurationExtensions.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/APIGateway/bin/Debug/net9.0/Microsoft.Extensions.Primitives.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/APIGateway/bin/Debug/net9.0/Microsoft.Identity.Client.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/APIGateway/bin/Debug/net9.0/Microsoft.Identity.Client.Extensions.Msal.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/APIGateway/bin/Debug/net9.0/Microsoft.IdentityModel.Abstractions.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/APIGateway/bin/Debug/net9.0/Microsoft.IdentityModel.JsonWebTokens.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/APIGateway/bin/Debug/net9.0/Microsoft.IdentityModel.Logging.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/APIGateway/bin/Debug/net9.0/Microsoft.IdentityModel.Protocols.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/APIGateway/bin/Debug/net9.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/APIGateway/bin/Debug/net9.0/Microsoft.IdentityModel.Tokens.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/APIGateway/bin/Debug/net9.0/Microsoft.OpenApi.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/APIGateway/bin/Debug/net9.0/Microsoft.SqlServer.Server.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/APIGateway/bin/Debug/net9.0/MMLib.SwaggerForOcelot.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/APIGateway/bin/Debug/net9.0/Newtonsoft.Json.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/APIGateway/bin/Debug/net9.0/Newtonsoft.Json.Bson.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/APIGateway/bin/Debug/net9.0/Ocelot.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/APIGateway/bin/Debug/net9.0/Swashbuckle.AspNetCore.Swagger.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/APIGateway/bin/Debug/net9.0/Swashbuckle.AspNetCore.SwaggerGen.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/APIGateway/bin/Debug/net9.0/Swashbuckle.AspNetCore.SwaggerUI.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/APIGateway/bin/Debug/net9.0/System.ClientModel.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/APIGateway/bin/Debug/net9.0/System.Configuration.ConfigurationManager.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/APIGateway/bin/Debug/net9.0/System.IdentityModel.Tokens.Jwt.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/APIGateway/bin/Debug/net9.0/System.Memory.Data.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/APIGateway/bin/Debug/net9.0/System.Runtime.Caching.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/APIGateway/bin/Debug/net9.0/System.Security.Cryptography.ProtectedData.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/APIGateway/bin/Debug/net9.0/de/Microsoft.Data.SqlClient.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/APIGateway/bin/Debug/net9.0/es/Microsoft.Data.SqlClient.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/APIGateway/bin/Debug/net9.0/fr/Microsoft.Data.SqlClient.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/APIGateway/bin/Debug/net9.0/it/Microsoft.Data.SqlClient.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/APIGateway/bin/Debug/net9.0/ja/Microsoft.Data.SqlClient.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/APIGateway/bin/Debug/net9.0/ko/Microsoft.Data.SqlClient.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/APIGateway/bin/Debug/net9.0/pt-BR/Microsoft.Data.SqlClient.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/APIGateway/bin/Debug/net9.0/ru/Microsoft.Data.SqlClient.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/APIGateway/bin/Debug/net9.0/zh-Hans/Microsoft.Data.SqlClient.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/APIGateway/bin/Debug/net9.0/zh-Hant/Microsoft.Data.SqlClient.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/APIGateway/bin/Debug/net9.0/runtimes/unix/lib/net8.0/Microsoft.Data.SqlClient.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/APIGateway/bin/Debug/net9.0/runtimes/win/lib/net8.0/Microsoft.Data.SqlClient.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/APIGateway/bin/Debug/net9.0/runtimes/win-arm/native/Microsoft.Data.SqlClient.SNI.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/APIGateway/bin/Debug/net9.0/runtimes/win-arm64/native/Microsoft.Data.SqlClient.SNI.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/APIGateway/bin/Debug/net9.0/runtimes/win-x64/native/Microsoft.Data.SqlClient.SNI.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/APIGateway/bin/Debug/net9.0/runtimes/win-x86/native/Microsoft.Data.SqlClient.SNI.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/APIGateway/bin/Debug/net9.0/runtimes/win/lib/net8.0/System.Runtime.Caching.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/APIGateway/obj/Debug/net9.0/APIGateway.csproj.AssemblyReference.cache
+/Users/krishnasharma/Desktop/RetailPOSF copy/APIGateway/obj/Debug/net9.0/rpswa.dswa.cache.json
+/Users/krishnasharma/Desktop/RetailPOSF copy/APIGateway/obj/Debug/net9.0/APIGateway.GeneratedMSBuildEditorConfig.editorconfig
+/Users/krishnasharma/Desktop/RetailPOSF copy/APIGateway/obj/Debug/net9.0/APIGateway.AssemblyInfoInputs.cache
+/Users/krishnasharma/Desktop/RetailPOSF copy/APIGateway/obj/Debug/net9.0/APIGateway.AssemblyInfo.cs
+/Users/krishnasharma/Desktop/RetailPOSF copy/APIGateway/obj/Debug/net9.0/APIGateway.csproj.CoreCompileInputs.cache
+/Users/krishnasharma/Desktop/RetailPOSF copy/APIGateway/obj/Debug/net9.0/APIGateway.MvcApplicationPartsAssemblyInfo.cs
+/Users/krishnasharma/Desktop/RetailPOSF copy/APIGateway/obj/Debug/net9.0/APIGateway.MvcApplicationPartsAssemblyInfo.cache
+/Users/krishnasharma/Desktop/RetailPOSF copy/APIGateway/obj/Debug/net9.0/rjimswa.dswa.cache.json
+/Users/krishnasharma/Desktop/RetailPOSF copy/APIGateway/obj/Debug/net9.0/rjsmrazor.dswa.cache.json
+/Users/krishnasharma/Desktop/RetailPOSF copy/APIGateway/obj/Debug/net9.0/rjsmcshtml.dswa.cache.json
+/Users/krishnasharma/Desktop/RetailPOSF copy/APIGateway/obj/Debug/net9.0/scopedcss/bundle/APIGateway.styles.css
+/Users/krishnasharma/Desktop/RetailPOSF copy/APIGateway/obj/Debug/net9.0/staticwebassets.build.json
+/Users/krishnasharma/Desktop/RetailPOSF copy/APIGateway/obj/Debug/net9.0/staticwebassets.build.json.cache
+/Users/krishnasharma/Desktop/RetailPOSF copy/APIGateway/obj/Debug/net9.0/staticwebassets.development.json
+/Users/krishnasharma/Desktop/RetailPOSF copy/APIGateway/obj/Debug/net9.0/staticwebassets.build.endpoints.json
+/Users/krishnasharma/Desktop/RetailPOSF copy/APIGateway/obj/Debug/net9.0/APIGateway.csproj.Up2Date
+/Users/krishnasharma/Desktop/RetailPOSF copy/APIGateway/obj/Debug/net9.0/APIGateway.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/APIGateway/obj/Debug/net9.0/refint/APIGateway.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/APIGateway/obj/Debug/net9.0/APIGateway.pdb
+/Users/krishnasharma/Desktop/RetailPOSF copy/APIGateway/obj/Debug/net9.0/APIGateway.genruntimeconfig.cache
+/Users/krishnasharma/Desktop/RetailPOSF copy/APIGateway/obj/Debug/net9.0/ref/APIGateway.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/APIGateway/bin/Debug/net9.0/appsettings.Development.json
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/APIGateway/bin/Debug/net9.0/appsettings.json
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/APIGateway/bin/Debug/net9.0/ocelot.SwaggerEndPoints.json
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/APIGateway/bin/Debug/net9.0/APIGateway.staticwebassets.endpoints.json
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/APIGateway/bin/Debug/net9.0/Ocelot.json
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/APIGateway/bin/Debug/net9.0/APIGateway
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/APIGateway/bin/Debug/net9.0/APIGateway.deps.json
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/APIGateway/bin/Debug/net9.0/APIGateway.runtimeconfig.json
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/APIGateway/bin/Debug/net9.0/APIGateway.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/APIGateway/bin/Debug/net9.0/APIGateway.pdb
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/APIGateway/bin/Debug/net9.0/Azure.Core.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/APIGateway/bin/Debug/net9.0/Azure.Identity.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/APIGateway/bin/Debug/net9.0/FluentValidation.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/APIGateway/bin/Debug/net9.0/IPAddressRange.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/APIGateway/bin/Debug/net9.0/Kros.Utils.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/APIGateway/bin/Debug/net9.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/APIGateway/bin/Debug/net9.0/Microsoft.AspNetCore.JsonPatch.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/APIGateway/bin/Debug/net9.0/Microsoft.AspNetCore.MiddlewareAnalysis.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/APIGateway/bin/Debug/net9.0/Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/APIGateway/bin/Debug/net9.0/Microsoft.AspNetCore.OpenApi.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/APIGateway/bin/Debug/net9.0/Microsoft.Bcl.AsyncInterfaces.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/APIGateway/bin/Debug/net9.0/Microsoft.Data.SqlClient.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/APIGateway/bin/Debug/net9.0/Microsoft.Extensions.Configuration.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/APIGateway/bin/Debug/net9.0/Microsoft.Extensions.Configuration.Abstractions.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/APIGateway/bin/Debug/net9.0/Microsoft.Extensions.Configuration.Binder.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/APIGateway/bin/Debug/net9.0/Microsoft.Extensions.DependencyInjection.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/APIGateway/bin/Debug/net9.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/APIGateway/bin/Debug/net9.0/Microsoft.Extensions.DiagnosticAdapter.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/APIGateway/bin/Debug/net9.0/Microsoft.Extensions.Diagnostics.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/APIGateway/bin/Debug/net9.0/Microsoft.Extensions.Diagnostics.Abstractions.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/APIGateway/bin/Debug/net9.0/Microsoft.Extensions.Http.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/APIGateway/bin/Debug/net9.0/Microsoft.Extensions.Logging.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/APIGateway/bin/Debug/net9.0/Microsoft.Extensions.Logging.Abstractions.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/APIGateway/bin/Debug/net9.0/Microsoft.Extensions.Options.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/APIGateway/bin/Debug/net9.0/Microsoft.Extensions.Options.ConfigurationExtensions.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/APIGateway/bin/Debug/net9.0/Microsoft.Extensions.Primitives.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/APIGateway/bin/Debug/net9.0/Microsoft.Identity.Client.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/APIGateway/bin/Debug/net9.0/Microsoft.Identity.Client.Extensions.Msal.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/APIGateway/bin/Debug/net9.0/Microsoft.IdentityModel.Abstractions.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/APIGateway/bin/Debug/net9.0/Microsoft.IdentityModel.JsonWebTokens.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/APIGateway/bin/Debug/net9.0/Microsoft.IdentityModel.Logging.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/APIGateway/bin/Debug/net9.0/Microsoft.IdentityModel.Protocols.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/APIGateway/bin/Debug/net9.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/APIGateway/bin/Debug/net9.0/Microsoft.IdentityModel.Tokens.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/APIGateway/bin/Debug/net9.0/Microsoft.OpenApi.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/APIGateway/bin/Debug/net9.0/Microsoft.SqlServer.Server.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/APIGateway/bin/Debug/net9.0/MMLib.SwaggerForOcelot.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/APIGateway/bin/Debug/net9.0/Newtonsoft.Json.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/APIGateway/bin/Debug/net9.0/Newtonsoft.Json.Bson.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/APIGateway/bin/Debug/net9.0/Ocelot.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/APIGateway/bin/Debug/net9.0/Swashbuckle.AspNetCore.Swagger.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/APIGateway/bin/Debug/net9.0/Swashbuckle.AspNetCore.SwaggerGen.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/APIGateway/bin/Debug/net9.0/Swashbuckle.AspNetCore.SwaggerUI.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/APIGateway/bin/Debug/net9.0/System.ClientModel.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/APIGateway/bin/Debug/net9.0/System.Configuration.ConfigurationManager.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/APIGateway/bin/Debug/net9.0/System.IdentityModel.Tokens.Jwt.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/APIGateway/bin/Debug/net9.0/System.Memory.Data.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/APIGateway/bin/Debug/net9.0/System.Runtime.Caching.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/APIGateway/bin/Debug/net9.0/System.Security.Cryptography.ProtectedData.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/APIGateway/bin/Debug/net9.0/de/Microsoft.Data.SqlClient.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/APIGateway/bin/Debug/net9.0/es/Microsoft.Data.SqlClient.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/APIGateway/bin/Debug/net9.0/fr/Microsoft.Data.SqlClient.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/APIGateway/bin/Debug/net9.0/it/Microsoft.Data.SqlClient.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/APIGateway/bin/Debug/net9.0/ja/Microsoft.Data.SqlClient.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/APIGateway/bin/Debug/net9.0/ko/Microsoft.Data.SqlClient.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/APIGateway/bin/Debug/net9.0/pt-BR/Microsoft.Data.SqlClient.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/APIGateway/bin/Debug/net9.0/ru/Microsoft.Data.SqlClient.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/APIGateway/bin/Debug/net9.0/zh-Hans/Microsoft.Data.SqlClient.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/APIGateway/bin/Debug/net9.0/zh-Hant/Microsoft.Data.SqlClient.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/APIGateway/bin/Debug/net9.0/runtimes/unix/lib/net8.0/Microsoft.Data.SqlClient.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/APIGateway/bin/Debug/net9.0/runtimes/win/lib/net8.0/Microsoft.Data.SqlClient.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/APIGateway/bin/Debug/net9.0/runtimes/win-arm/native/Microsoft.Data.SqlClient.SNI.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/APIGateway/bin/Debug/net9.0/runtimes/win-arm64/native/Microsoft.Data.SqlClient.SNI.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/APIGateway/bin/Debug/net9.0/runtimes/win-x64/native/Microsoft.Data.SqlClient.SNI.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/APIGateway/bin/Debug/net9.0/runtimes/win-x86/native/Microsoft.Data.SqlClient.SNI.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/APIGateway/bin/Debug/net9.0/runtimes/win/lib/net8.0/System.Runtime.Caching.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/APIGateway/obj/Debug/net9.0/APIGateway.csproj.AssemblyReference.cache
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/APIGateway/obj/Debug/net9.0/rpswa.dswa.cache.json
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/APIGateway/obj/Debug/net9.0/APIGateway.GeneratedMSBuildEditorConfig.editorconfig
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/APIGateway/obj/Debug/net9.0/APIGateway.AssemblyInfoInputs.cache
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/APIGateway/obj/Debug/net9.0/APIGateway.AssemblyInfo.cs
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/APIGateway/obj/Debug/net9.0/APIGateway.csproj.CoreCompileInputs.cache
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/APIGateway/obj/Debug/net9.0/APIGateway.MvcApplicationPartsAssemblyInfo.cs
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/APIGateway/obj/Debug/net9.0/APIGateway.MvcApplicationPartsAssemblyInfo.cache
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/APIGateway/obj/Debug/net9.0/rjimswa.dswa.cache.json
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/APIGateway/obj/Debug/net9.0/rjsmrazor.dswa.cache.json
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/APIGateway/obj/Debug/net9.0/rjsmcshtml.dswa.cache.json
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/APIGateway/obj/Debug/net9.0/scopedcss/bundle/APIGateway.styles.css
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/APIGateway/obj/Debug/net9.0/staticwebassets.build.json
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/APIGateway/obj/Debug/net9.0/staticwebassets.build.json.cache
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/APIGateway/obj/Debug/net9.0/staticwebassets.development.json
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/APIGateway/obj/Debug/net9.0/staticwebassets.build.endpoints.json
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/APIGateway/obj/Debug/net9.0/APIGateway.csproj.Up2Date
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/APIGateway/obj/Debug/net9.0/APIGateway.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/APIGateway/obj/Debug/net9.0/refint/APIGateway.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/APIGateway/obj/Debug/net9.0/APIGateway.pdb
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/APIGateway/obj/Debug/net9.0/APIGateway.genruntimeconfig.cache
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/APIGateway/obj/Debug/net9.0/ref/APIGateway.dll

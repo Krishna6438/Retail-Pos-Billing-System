@@ -1,0 +1,270 @@
+<div class="page-shell">
+
+  <!-- Header -->
+  <section class="section-card hero-panel">
+    <div>
+      <p class="label-chip">🏷️ Products & Inventory</p>
+      <h1 class="section-title">Browse, stock, and manage your entire catalog here.</h1>
+      <p class="section-subtitle">
+        Search live products, add any item to cart with one click, and admins can manage categories and tax setup inline.
+      </p>
+    </div>
+    <div class="button-row">
+      <button class="btn btn-secondary" type="button" (click)="loadCatalog()" [disabled]="busy()">
+        {{ busy() ? '...' : '↺ Refresh' }}
+      </button>
+    </div>
+  </section>
+
+  <!-- Search + Tabs -->
+  <section class="section-card" style="padding:1rem 1.25rem">
+    <div style="display:flex;gap:0.75rem;align-items:center;flex-wrap:wrap">
+      <div style="flex:1;min-width:200px;position:relative">
+        <span style="position:absolute;left:0.85rem;top:50%;transform:translateY(-50%);font-size:1rem;pointer-events:none">🔍</span>
+        <input
+          type="search"
+          [value]="search()"
+          (input)="search.set($any($event.target).value)"
+          placeholder="Search by name, category, or barcode…"
+          style="width:100%;padding:0.72rem 0.95rem 0.72rem 2.6rem" />
+      </div>
+      @if (authStore.isAdmin()) {
+        <div style="display:flex;gap:0.35rem">
+          <button class="btn" style="border-radius:var(--radius-md)"
+            [class.btn-primary]="activeTab()==='catalog'" [class.btn-ghost]="activeTab()!=='catalog'"
+            (click)="activeTab.set('catalog')" type="button">Catalog</button>
+          <button class="btn" style="border-radius:var(--radius-md)"
+            [class.btn-primary]="activeTab()==='manage'" [class.btn-ghost]="activeTab()!=='manage'"
+            (click)="activeTab.set('manage')" type="button">Manage</button>
+        </div>
+      }
+    </div>
+  </section>
+
+  <!-- Catalog Tab -->
+  @if (activeTab() === 'catalog') {
+    <section class="section-card barcode-panel">
+      <div>
+        <p class="label-chip">Counter Scan</p>
+        <h2 class="section-title">Scan barcode and add instantly</h2>
+        <p class="section-subtitle">Use a USB scanner or type an EAN/UPC code to push products straight into the cart.</p>
+      </div>
+      <div class="barcode-panel__form">
+        <input
+          type="text"
+          [value]="barcodeSearch()"
+          (input)="barcodeSearch.set($any($event.target).value)"
+          placeholder="Scan barcode here"
+        />
+        <button class="btn btn-primary" type="button" (click)="addByBarcode()">Add by Barcode</button>
+      </div>
+    </section>
+
+    <!-- Stats strip -->
+    <section class="grid-cards" style="grid-template-columns:repeat(auto-fit,minmax(140px,1fr))">
+      <article class="stat-card">
+        <p>Total Products</p>
+        <strong>{{ products().length }}</strong>
+      </article>
+      <article class="stat-card">
+        <p>Showing</p>
+        <strong>{{ filteredProducts().length }}</strong>
+      </article>
+      <article class="stat-card">
+        <p>⚠️ Low Stock</p>
+        <strong [style.color]="lowStock().length ? 'var(--warning)' : 'var(--success)'">
+          {{ lowStock().length }}
+        </strong>
+      </article>
+    </section>
+
+    <!-- Product grid -->
+    @if (filteredProducts().length) {
+      <div class="product-grid">
+        @for (product of filteredProducts(); track product.id) {
+          <article class="product-card">
+            <div class="product-card__icon">{{ getCategoryIcon(product.categoryName) }}</div>
+            <div class="product-card__body">
+              <div class="product-card__top">
+                <strong class="product-card__name">{{ product.name }}</strong>
+                <span class="status-pill"
+                  [class.success]="product.quantity >= 10"
+                  [class.warning]="product.quantity > 0 && product.quantity < 10"
+                  [class.danger]="product.quantity === 0">
+                  {{ product.quantity === 0 ? 'Out of stock' : product.quantity + ' left' }}
+                </span>
+              </div>
+              <p class="helper-text" style="margin:0.2rem 0 0.75rem">
+                {{ product.categoryName }} · Barcode: {{ product.barcode }}
+              </p>
+              <div class="product-card__pricing">
+                <span class="product-card__price">{{ product.price | currency:'INR' }}</span>
+                <span class="label-chip" style="font-size:0.74rem;padding:0.2rem 0.6rem">
+                  Tax {{ product.taxPercentage }}%
+                </span>
+              </div>
+              <div class="button-row" style="margin-top:0.85rem">
+                <button class="btn btn-primary" type="button"
+                  (click)="addToCart(product.id, 1)"
+                  [disabled]="product.quantity === 0"
+                  style="flex:1;justify-content:center">
+                  🛒 Add to Cart
+                </button>
+                @if (authStore.isAdmin()) {
+                  <button class="btn btn-danger" type="button"
+                    (click)="deleteProduct(product.id)"
+                    style="padding:0.78rem 1rem">✕</button>
+                }
+              </div>
+            </div>
+          </article>
+        }
+      </div>
+    } @else {
+      <div class="empty-state">No products match your search. Try a different term.</div>
+    }
+
+    <!-- Low stock -->
+    @if (lowStock().length) {
+      <section class="section-card">
+        <h2 class="section-title" style="margin-bottom:1rem">⚠️ Low Stock Watchlist</h2>
+        <div class="list-stack">
+          @for (item of lowStock(); track item.id) {
+            <div class="watch-item">
+              <div>
+                <strong>{{ item.name }}</strong>
+                <p class="helper-text" style="margin:0">{{ item.categoryName }}</p>
+              </div>
+              <div style="display:flex;align-items:center;gap:0.75rem">
+                <span class="status-pill" [class.warning]="item.quantity > 3" [class.danger]="item.quantity <= 3">
+                  {{ item.quantity }} left
+                </span>
+                <button class="btn btn-primary" type="button" style="font-size:0.82rem;padding:0.55rem 0.9rem"
+                  (click)="addToCart(item.id, 1)">Add</button>
+              </div>
+            </div>
+          }
+        </div>
+      </section>
+    }
+  }
+
+  <!-- Manage Tab (Admin only) -->
+  @if (activeTab() === 'manage' && authStore.isAdmin()) {
+    <div class="management-grid">
+      <!-- Create product -->
+      <section class="section-card">
+        <h2 class="section-title">Create Product</h2>
+        <p class="section-subtitle" style="margin-bottom:1.25rem">
+          Add a new product directly to the live catalog.
+        </p>
+        <form class="form-grid" [formGroup]="productForm" (ngSubmit)="submitProduct()">
+          <div class="field">
+            <label>Name</label>
+            <input type="text" formControlName="name" placeholder="Product name" />
+          </div>
+          <div class="field">
+            <label>Barcode</label>
+            <div class="inline-input-action">
+              <input type="text" formControlName="barcode" placeholder="EAN-13…" />
+              <button class="btn btn-secondary" type="button" (click)="generateBarcode()">Generate</button>
+            </div>
+          </div>
+          <div class="field">
+            <label>Price (₹)</label>
+            <input type="number" formControlName="price" />
+          </div>
+          <div class="field">
+            <label>Category</label>
+            <select formControlName="categoryName">
+              <option value="">Select category</option>
+              @for (cat of categories(); track cat.id) {
+                <option [value]="cat.name">{{ cat.name }}</option>
+              }
+            </select>
+          </div>
+          <div class="field">
+            <label>Tax Rate</label>
+            <select formControlName="taxPercentage">
+              <option [value]="0">No tax</option>
+              @for (tax of taxes(); track tax.id) {
+                <option [value]="tax.taxPercentage">{{ tax.name }} · {{ tax.taxPercentage }}%</option>
+              }
+            </select>
+          </div>
+          <div class="field">
+            <label>Initial Stock</label>
+            <input type="number" formControlName="initialQuantity" />
+          </div>
+          <div style="grid-column:1/-1">
+            <button class="btn btn-primary" type="submit">+ Create Product</button>
+          </div>
+        </form>
+      </section>
+
+      <!-- Category management -->
+      <section class="section-card">
+        <h2 class="section-title" style="margin-bottom:0.5rem">Categories</h2>
+        <p class="section-subtitle" style="margin-bottom:1rem">Create or update product categories.</p>
+        <form class="button-row" [formGroup]="categoryForm" (ngSubmit)="submitCategory()" style="margin-bottom:1rem">
+          <input type="text" formControlName="name" placeholder="Category name"
+            style="flex:1" />
+          <button class="btn btn-primary" type="submit">
+            {{ editingCategoryId() ? 'Update' : '+ Add' }}
+          </button>
+        </form>
+        <div class="list-stack">
+          @for (cat of categories(); track cat.id) {
+            <div class="watch-item">
+              <strong>{{ cat.name }}</strong>
+              <div class="button-row" style="gap:0.5rem">
+                <button class="btn btn-secondary" type="button" (click)="editCategory(cat)"
+                  style="font-size:0.82rem;padding:0.5rem 0.85rem">Edit</button>
+                <button class="btn btn-danger" type="button" (click)="deleteCategory(cat.id)"
+                  style="font-size:0.82rem;padding:0.5rem 0.85rem">Del</button>
+              </div>
+            </div>
+          }
+        </div>
+      </section>
+
+      <!-- Tax management -->
+      <section class="section-card">
+        <h2 class="section-title" style="margin-bottom:0.5rem">Tax Setup</h2>
+        <p class="section-subtitle" style="margin-bottom:1rem">Configure tax rates for accurate checkout calculations.</p>
+        <form class="form-grid" [formGroup]="taxForm" (ngSubmit)="submitTax()" style="margin-bottom:1rem">
+          <div class="field">
+            <label>Name</label>
+            <input type="text" formControlName="name" placeholder="GST 18%" />
+          </div>
+          <div class="field">
+            <label>Percentage (%)</label>
+            <input type="number" formControlName="taxPercentage" />
+          </div>
+          <div style="align-self:end">
+            <button class="btn btn-primary" type="submit" style="width:100%">
+              {{ editingTaxId() ? 'Update Tax' : '+ Add Tax' }}
+            </button>
+          </div>
+        </form>
+        <div class="list-stack">
+          @for (tax of taxes(); track tax.id) {
+            <div class="watch-item">
+              <div>
+                <strong>{{ tax.name }}</strong>
+                <p class="helper-text" style="margin:0">{{ tax.taxPercentage }}%</p>
+              </div>
+              <div class="button-row" style="gap:0.5rem">
+                <button class="btn btn-secondary" type="button" (click)="editTax(tax)"
+                  style="font-size:0.82rem;padding:0.5rem 0.85rem">Edit</button>
+                <button class="btn btn-danger" type="button" (click)="deleteTax(tax.id)"
+                  style="font-size:0.82rem;padding:0.5rem 0.85rem">Del</button>
+              </div>
+            </div>
+          }
+        </div>
+      </section>
+    </div>
+  }
+
+</div>

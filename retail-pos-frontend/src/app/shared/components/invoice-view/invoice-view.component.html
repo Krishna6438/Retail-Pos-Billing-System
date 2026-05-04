@@ -1,0 +1,119 @@
+<div class="invoice-receipt animate-fade-up">
+
+  <!-- Header -->
+  <div class="invoice-receipt__header">
+    <div>
+      <div class="invoice-receipt__logo">{{ invoice.storeName || 'RetailPOS Urban Market' }}</div>
+      <p style="margin:0.25rem 0 0;font-size:0.82rem;color:#555;">{{ invoice.storeAddress || 'MG Road, Bengaluru, Karnataka 560001' }}</p>
+    </div>
+    <div class="invoice-receipt__meta">
+      <p style="margin:0;font-size:0.82rem;color:#555;">Invoice</p>
+      <strong style="font-size:1.1rem;color:#000;">{{ invoice.invoiceNumber || ('#' + invoice.billId) }}</strong>
+      <p style="margin:0.2rem 0 0;font-size:0.82rem;color:#555;">{{ invoice.createdAt | date:'dd MMM yyyy, h:mm a':'+0530' }}</p>
+      <span style="margin-top:0.4rem;display:inline-block;padding:0.2rem 0.5rem;border:1px solid #000;border-radius:4px;font-size:0.75rem;font-weight:bold;text-transform:uppercase;">
+        {{ invoice.paymentStatus || 'Pending' }}
+      </span>
+    </div>
+  </div>
+
+  <!-- Bill To -->
+  <div class="invoice-bill-to">
+    <p style="margin:0 0 0.2rem;font-size:0.82rem;color:#555;">Bill To</p>
+    <strong>Customer #{{ invoice.userId }}</strong>
+    <p style="margin:0.15rem 0 0;font-size:0.88rem;">
+      Cashier: <strong>{{ invoice.cashierName || 'Counter Team' }}</strong>
+    </p>
+    @if (invoice.paymentMethod) {
+      <p style="margin:0.15rem 0 0;font-size:0.88rem;">
+        Payment: <strong>{{ invoice.paymentMethod }}</strong>
+      </p>
+    }
+    @if (invoice.couponCode) {
+      <p style="margin:0.1rem 0 0;font-size:0.84rem;">
+        Coupon applied: <strong>{{ invoice.couponCode }}</strong>
+      </p>
+    }
+  </div>
+
+  <!-- Line Items -->
+  <div class="invoice-items" style="margin-top:1.5rem">
+    <table class="data-table">
+      <thead>
+        <tr>
+          <th>Item</th>
+          <th style="text-align:center">Qty</th>
+          <th style="text-align:right">Unit Price</th>
+          <th style="text-align:right">Tax</th>
+          <th style="text-align:right">Total</th>
+        </tr>
+      </thead>
+      <tbody>
+        @for (item of invoice.items || []; track item.productId) {
+          <tr>
+            <td>
+              <strong>{{ item.productName || getProductName(item.productId) }}</strong>
+              <p style="margin:0;font-size:0.75rem;color:#555;">{{ item.barcode || ('#' + item.productId) }}</p>
+            </td>
+            <td style="text-align:center">{{ item.quantity }}</td>
+            <td style="text-align:right">{{ item.price | currency:getCurrencyCode() }}</td>
+            <td style="text-align:right">{{ item.taxAmount | currency:getCurrencyCode() }}</td>
+            <td style="text-align:right"><strong>{{ (item.lineTotal || ((item.price * item.quantity) + item.taxAmount)) | currency:getCurrencyCode() }}</strong></td>
+          </tr>
+        }
+        @if (!invoice.items?.length) {
+          <tr>
+            <td colspan="5" style="text-align:center;color:#777;padding:1.5rem">
+              No line items available
+            </td>
+          </tr>
+        }
+      </tbody>
+    </table>
+  </div>
+
+  <!-- Totals -->
+  <div class="invoice-receipt__totals">
+    <div class="totals-row">
+      <span>Subtotal</span>
+      <span>{{ getSubtotal() | currency:getCurrencyCode() }}</span>
+    </div>
+    <div class="totals-row">
+      <span>Tax</span>
+      <span>{{ getTotalTax() | currency:getCurrencyCode() }}</span>
+    </div>
+    @if (getDiscount() > 0) {
+      <div class="totals-row">
+        <span>Discount</span>
+        <span>−{{ getDiscount() | currency:getCurrencyCode() }}</span>
+      </div>
+    }
+    <div class="totals-row grand-total">
+      <span>Grand Total</span>
+      <span>{{ invoice.totalAmount | currency:getCurrencyCode() }}</span>
+    </div>
+  </div>
+
+  <!-- Footer / Actions -->
+  <div class="invoice-receipt__footer no-print">
+    <div class="invoice-receipt__thank-you">
+      <p style="margin:0;font-size:0.9rem;color:#333;">
+        Thank you for your purchase! For any queries, contact support.
+      </p>
+    </div>
+    <div class="button-row" style="margin-top:1.25rem">
+      <button class="btn btn-secondary btn-icon" type="button" (click)="printInvoice()">
+        🖨️ Print Invoice
+      </button>
+      <button class="btn btn-primary btn-icon" type="button" (click)="downloadPdf()">
+        ⬇️ Download PDF
+      </button>
+    </div>
+  </div>
+
+  <!-- Print-only footer -->
+  <div class="print-only" style="margin-top:2rem;text-align:center;font-size:0.82rem;color:#555;">
+    <hr style="border:none;border-top:1px dashed #000;margin-bottom:1rem">
+    RetailPOS · Bill #{{ invoice.billId }} · Generated {{ invoice.createdAt | date:'dd MMM yyyy' }}
+  </div>
+
+</div>

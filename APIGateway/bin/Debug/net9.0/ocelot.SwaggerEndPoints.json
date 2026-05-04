@@ -1,0 +1,54 @@
+{
+  "SwaggerEndPoints": [
+    {
+      "Key": "product",
+      "Config": [
+        {
+          "Name": "Product Service",
+          "Version": "v1",
+          "Url": "http://localhost:5217/swagger/v1/swagger.json"
+        }
+      ]
+    },
+    {
+      "Key": "billing",
+      "Config": [
+        {
+          "Name": "Billing Service",
+          "Version": "v1",
+          "Url": "http://localhost:5075/swagger/v1/swagger.json"
+        }
+      ]
+    },
+    {
+      "Key": "auth",
+      "Config": [
+        {
+          "Name": "Auth Service",
+          "Version": "v1",
+          "Url": "http://localhost:5098/swagger/v1/swagger.json"
+        }
+      ]
+    },
+    {
+      "Key": "admin",
+      "Config": [
+        {
+          "Name": "Admin Service",
+          "Version": "v1",
+          "Url": "http://localhost:5062/swagger/v1/swagger.json"
+        }
+      ]
+    },
+    {
+      "Key": "notification",   
+      "Config": [
+        {
+          "Name": "Notification Service",
+          "Version": "v1",
+          "Url": "http://localhost:5046/swagger/v1/swagger.json"
+        }
+      ]
+    }
+  ]
+}

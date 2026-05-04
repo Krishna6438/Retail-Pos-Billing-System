@@ -1,0 +1,506 @@
+/Users/krishnasharma/Desktop/RetailPOSF/BillingService/bin/Debug/net9.0/appsettings.Development.json
+/Users/krishnasharma/Desktop/RetailPOSF/BillingService/bin/Debug/net9.0/appsettings.json
+/Users/krishnasharma/Desktop/RetailPOSF/BillingService/bin/Debug/net9.0/BillingService.staticwebassets.endpoints.json
+/Users/krishnasharma/Desktop/RetailPOSF/BillingService/bin/Debug/net9.0/BillingService
+/Users/krishnasharma/Desktop/RetailPOSF/BillingService/bin/Debug/net9.0/BillingService.deps.json
+/Users/krishnasharma/Desktop/RetailPOSF/BillingService/bin/Debug/net9.0/BillingService.runtimeconfig.json
+/Users/krishnasharma/Desktop/RetailPOSF/BillingService/bin/Debug/net9.0/BillingService.dll
+/Users/krishnasharma/Desktop/RetailPOSF/BillingService/bin/Debug/net9.0/BillingService.pdb
+/Users/krishnasharma/Desktop/RetailPOSF/BillingService/bin/Debug/net9.0/Azure.Core.dll
+/Users/krishnasharma/Desktop/RetailPOSF/BillingService/bin/Debug/net9.0/Azure.Identity.dll
+/Users/krishnasharma/Desktop/RetailPOSF/BillingService/bin/Debug/net9.0/Humanizer.dll
+/Users/krishnasharma/Desktop/RetailPOSF/BillingService/bin/Debug/net9.0/Microsoft.AspNetCore.OpenApi.dll
+/Users/krishnasharma/Desktop/RetailPOSF/BillingService/bin/Debug/net9.0/Microsoft.Bcl.AsyncInterfaces.dll
+/Users/krishnasharma/Desktop/RetailPOSF/BillingService/bin/Debug/net9.0/Microsoft.CodeAnalysis.dll
+/Users/krishnasharma/Desktop/RetailPOSF/BillingService/bin/Debug/net9.0/Microsoft.CodeAnalysis.CSharp.dll
+/Users/krishnasharma/Desktop/RetailPOSF/BillingService/bin/Debug/net9.0/Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+/Users/krishnasharma/Desktop/RetailPOSF/BillingService/bin/Debug/net9.0/Microsoft.CodeAnalysis.Workspaces.dll
+/Users/krishnasharma/Desktop/RetailPOSF/BillingService/bin/Debug/net9.0/Microsoft.Data.SqlClient.dll
+/Users/krishnasharma/Desktop/RetailPOSF/BillingService/bin/Debug/net9.0/Microsoft.EntityFrameworkCore.dll
+/Users/krishnasharma/Desktop/RetailPOSF/BillingService/bin/Debug/net9.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+/Users/krishnasharma/Desktop/RetailPOSF/BillingService/bin/Debug/net9.0/Microsoft.EntityFrameworkCore.Design.dll
+/Users/krishnasharma/Desktop/RetailPOSF/BillingService/bin/Debug/net9.0/Microsoft.EntityFrameworkCore.Relational.dll
+/Users/krishnasharma/Desktop/RetailPOSF/BillingService/bin/Debug/net9.0/Microsoft.EntityFrameworkCore.SqlServer.dll
+/Users/krishnasharma/Desktop/RetailPOSF/BillingService/bin/Debug/net9.0/Microsoft.Extensions.DependencyModel.dll
+/Users/krishnasharma/Desktop/RetailPOSF/BillingService/bin/Debug/net9.0/Microsoft.Identity.Client.dll
+/Users/krishnasharma/Desktop/RetailPOSF/BillingService/bin/Debug/net9.0/Microsoft.Identity.Client.Extensions.Msal.dll
+/Users/krishnasharma/Desktop/RetailPOSF/BillingService/bin/Debug/net9.0/Microsoft.IdentityModel.Abstractions.dll
+/Users/krishnasharma/Desktop/RetailPOSF/BillingService/bin/Debug/net9.0/Microsoft.IdentityModel.JsonWebTokens.dll
+/Users/krishnasharma/Desktop/RetailPOSF/BillingService/bin/Debug/net9.0/Microsoft.IdentityModel.Logging.dll
+/Users/krishnasharma/Desktop/RetailPOSF/BillingService/bin/Debug/net9.0/Microsoft.IdentityModel.Protocols.dll
+/Users/krishnasharma/Desktop/RetailPOSF/BillingService/bin/Debug/net9.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+/Users/krishnasharma/Desktop/RetailPOSF/BillingService/bin/Debug/net9.0/Microsoft.IdentityModel.Tokens.dll
+/Users/krishnasharma/Desktop/RetailPOSF/BillingService/bin/Debug/net9.0/Microsoft.OpenApi.dll
+/Users/krishnasharma/Desktop/RetailPOSF/BillingService/bin/Debug/net9.0/Microsoft.SqlServer.Server.dll
+/Users/krishnasharma/Desktop/RetailPOSF/BillingService/bin/Debug/net9.0/Microsoft.Win32.SystemEvents.dll
+/Users/krishnasharma/Desktop/RetailPOSF/BillingService/bin/Debug/net9.0/Mono.TextTemplating.dll
+/Users/krishnasharma/Desktop/RetailPOSF/BillingService/bin/Debug/net9.0/Swashbuckle.AspNetCore.Swagger.dll
+/Users/krishnasharma/Desktop/RetailPOSF/BillingService/bin/Debug/net9.0/Swashbuckle.AspNetCore.SwaggerGen.dll
+/Users/krishnasharma/Desktop/RetailPOSF/BillingService/bin/Debug/net9.0/Swashbuckle.AspNetCore.SwaggerUI.dll
+/Users/krishnasharma/Desktop/RetailPOSF/BillingService/bin/Debug/net9.0/System.CodeDom.dll
+/Users/krishnasharma/Desktop/RetailPOSF/BillingService/bin/Debug/net9.0/System.Composition.AttributedModel.dll
+/Users/krishnasharma/Desktop/RetailPOSF/BillingService/bin/Debug/net9.0/System.Composition.Convention.dll
+/Users/krishnasharma/Desktop/RetailPOSF/BillingService/bin/Debug/net9.0/System.Composition.Hosting.dll
+/Users/krishnasharma/Desktop/RetailPOSF/BillingService/bin/Debug/net9.0/System.Composition.Runtime.dll
+/Users/krishnasharma/Desktop/RetailPOSF/BillingService/bin/Debug/net9.0/System.Composition.TypedParts.dll
+/Users/krishnasharma/Desktop/RetailPOSF/BillingService/bin/Debug/net9.0/System.Configuration.ConfigurationManager.dll
+/Users/krishnasharma/Desktop/RetailPOSF/BillingService/bin/Debug/net9.0/System.Drawing.Common.dll
+/Users/krishnasharma/Desktop/RetailPOSF/BillingService/bin/Debug/net9.0/System.IdentityModel.Tokens.Jwt.dll
+/Users/krishnasharma/Desktop/RetailPOSF/BillingService/bin/Debug/net9.0/System.Memory.Data.dll
+/Users/krishnasharma/Desktop/RetailPOSF/BillingService/bin/Debug/net9.0/System.Runtime.Caching.dll
+/Users/krishnasharma/Desktop/RetailPOSF/BillingService/bin/Debug/net9.0/System.Security.Cryptography.ProtectedData.dll
+/Users/krishnasharma/Desktop/RetailPOSF/BillingService/bin/Debug/net9.0/System.Security.Permissions.dll
+/Users/krishnasharma/Desktop/RetailPOSF/BillingService/bin/Debug/net9.0/System.Windows.Extensions.dll
+/Users/krishnasharma/Desktop/RetailPOSF/BillingService/bin/Debug/net9.0/cs/Microsoft.CodeAnalysis.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF/BillingService/bin/Debug/net9.0/de/Microsoft.CodeAnalysis.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF/BillingService/bin/Debug/net9.0/es/Microsoft.CodeAnalysis.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF/BillingService/bin/Debug/net9.0/fr/Microsoft.CodeAnalysis.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF/BillingService/bin/Debug/net9.0/it/Microsoft.CodeAnalysis.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF/BillingService/bin/Debug/net9.0/ja/Microsoft.CodeAnalysis.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF/BillingService/bin/Debug/net9.0/ko/Microsoft.CodeAnalysis.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF/BillingService/bin/Debug/net9.0/pl/Microsoft.CodeAnalysis.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF/BillingService/bin/Debug/net9.0/pt-BR/Microsoft.CodeAnalysis.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF/BillingService/bin/Debug/net9.0/ru/Microsoft.CodeAnalysis.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF/BillingService/bin/Debug/net9.0/tr/Microsoft.CodeAnalysis.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF/BillingService/bin/Debug/net9.0/zh-Hans/Microsoft.CodeAnalysis.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF/BillingService/bin/Debug/net9.0/zh-Hant/Microsoft.CodeAnalysis.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF/BillingService/bin/Debug/net9.0/cs/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF/BillingService/bin/Debug/net9.0/de/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF/BillingService/bin/Debug/net9.0/es/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF/BillingService/bin/Debug/net9.0/fr/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF/BillingService/bin/Debug/net9.0/it/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF/BillingService/bin/Debug/net9.0/ja/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF/BillingService/bin/Debug/net9.0/ko/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF/BillingService/bin/Debug/net9.0/pl/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF/BillingService/bin/Debug/net9.0/pt-BR/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF/BillingService/bin/Debug/net9.0/ru/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF/BillingService/bin/Debug/net9.0/tr/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF/BillingService/bin/Debug/net9.0/zh-Hans/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF/BillingService/bin/Debug/net9.0/zh-Hant/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF/BillingService/bin/Debug/net9.0/cs/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF/BillingService/bin/Debug/net9.0/de/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF/BillingService/bin/Debug/net9.0/es/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF/BillingService/bin/Debug/net9.0/fr/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF/BillingService/bin/Debug/net9.0/it/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF/BillingService/bin/Debug/net9.0/ja/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF/BillingService/bin/Debug/net9.0/ko/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF/BillingService/bin/Debug/net9.0/pl/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF/BillingService/bin/Debug/net9.0/pt-BR/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF/BillingService/bin/Debug/net9.0/ru/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF/BillingService/bin/Debug/net9.0/tr/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF/BillingService/bin/Debug/net9.0/zh-Hans/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF/BillingService/bin/Debug/net9.0/zh-Hant/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF/BillingService/bin/Debug/net9.0/cs/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF/BillingService/bin/Debug/net9.0/de/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF/BillingService/bin/Debug/net9.0/es/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF/BillingService/bin/Debug/net9.0/fr/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF/BillingService/bin/Debug/net9.0/it/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF/BillingService/bin/Debug/net9.0/ja/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF/BillingService/bin/Debug/net9.0/ko/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF/BillingService/bin/Debug/net9.0/pl/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF/BillingService/bin/Debug/net9.0/pt-BR/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF/BillingService/bin/Debug/net9.0/ru/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF/BillingService/bin/Debug/net9.0/tr/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF/BillingService/bin/Debug/net9.0/zh-Hans/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF/BillingService/bin/Debug/net9.0/zh-Hant/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF/BillingService/bin/Debug/net9.0/runtimes/unix/lib/net6.0/Microsoft.Data.SqlClient.dll
+/Users/krishnasharma/Desktop/RetailPOSF/BillingService/bin/Debug/net9.0/runtimes/win/lib/net6.0/Microsoft.Data.SqlClient.dll
+/Users/krishnasharma/Desktop/RetailPOSF/BillingService/bin/Debug/net9.0/runtimes/win-arm/native/Microsoft.Data.SqlClient.SNI.dll
+/Users/krishnasharma/Desktop/RetailPOSF/BillingService/bin/Debug/net9.0/runtimes/win-arm64/native/Microsoft.Data.SqlClient.SNI.dll
+/Users/krishnasharma/Desktop/RetailPOSF/BillingService/bin/Debug/net9.0/runtimes/win-x64/native/Microsoft.Data.SqlClient.SNI.dll
+/Users/krishnasharma/Desktop/RetailPOSF/BillingService/bin/Debug/net9.0/runtimes/win-x86/native/Microsoft.Data.SqlClient.SNI.dll
+/Users/krishnasharma/Desktop/RetailPOSF/BillingService/bin/Debug/net9.0/runtimes/win/lib/net6.0/Microsoft.Win32.SystemEvents.dll
+/Users/krishnasharma/Desktop/RetailPOSF/BillingService/bin/Debug/net9.0/runtimes/unix/lib/net6.0/System.Drawing.Common.dll
+/Users/krishnasharma/Desktop/RetailPOSF/BillingService/bin/Debug/net9.0/runtimes/win/lib/net6.0/System.Drawing.Common.dll
+/Users/krishnasharma/Desktop/RetailPOSF/BillingService/bin/Debug/net9.0/runtimes/win/lib/net6.0/System.Runtime.Caching.dll
+/Users/krishnasharma/Desktop/RetailPOSF/BillingService/bin/Debug/net9.0/runtimes/win/lib/net6.0/System.Security.Cryptography.ProtectedData.dll
+/Users/krishnasharma/Desktop/RetailPOSF/BillingService/bin/Debug/net9.0/runtimes/win/lib/net6.0/System.Windows.Extensions.dll
+/Users/krishnasharma/Desktop/RetailPOSF/BillingService/obj/Debug/net9.0/BillingService.csproj.AssemblyReference.cache
+/Users/krishnasharma/Desktop/RetailPOSF/BillingService/obj/Debug/net9.0/rpswa.dswa.cache.json
+/Users/krishnasharma/Desktop/RetailPOSF/BillingService/obj/Debug/net9.0/BillingService.GeneratedMSBuildEditorConfig.editorconfig
+/Users/krishnasharma/Desktop/RetailPOSF/BillingService/obj/Debug/net9.0/BillingService.AssemblyInfoInputs.cache
+/Users/krishnasharma/Desktop/RetailPOSF/BillingService/obj/Debug/net9.0/BillingService.AssemblyInfo.cs
+/Users/krishnasharma/Desktop/RetailPOSF/BillingService/obj/Debug/net9.0/BillingService.csproj.CoreCompileInputs.cache
+/Users/krishnasharma/Desktop/RetailPOSF/BillingService/obj/Debug/net9.0/BillingService.MvcApplicationPartsAssemblyInfo.cs
+/Users/krishnasharma/Desktop/RetailPOSF/BillingService/obj/Debug/net9.0/BillingService.MvcApplicationPartsAssemblyInfo.cache
+/Users/krishnasharma/Desktop/RetailPOSF/BillingService/obj/Debug/net9.0/rjimswa.dswa.cache.json
+/Users/krishnasharma/Desktop/RetailPOSF/BillingService/obj/Debug/net9.0/rjsmrazor.dswa.cache.json
+/Users/krishnasharma/Desktop/RetailPOSF/BillingService/obj/Debug/net9.0/rjsmcshtml.dswa.cache.json
+/Users/krishnasharma/Desktop/RetailPOSF/BillingService/obj/Debug/net9.0/scopedcss/bundle/BillingService.styles.css
+/Users/krishnasharma/Desktop/RetailPOSF/BillingService/obj/Debug/net9.0/staticwebassets.build.json
+/Users/krishnasharma/Desktop/RetailPOSF/BillingService/obj/Debug/net9.0/staticwebassets.build.json.cache
+/Users/krishnasharma/Desktop/RetailPOSF/BillingService/obj/Debug/net9.0/staticwebassets.development.json
+/Users/krishnasharma/Desktop/RetailPOSF/BillingService/obj/Debug/net9.0/staticwebassets.build.endpoints.json
+/Users/krishnasharma/Desktop/RetailPOSF/BillingService/obj/Debug/net9.0/BillingS.F6DECD15.Up2Date
+/Users/krishnasharma/Desktop/RetailPOSF/BillingService/obj/Debug/net9.0/BillingService.dll
+/Users/krishnasharma/Desktop/RetailPOSF/BillingService/obj/Debug/net9.0/refint/BillingService.dll
+/Users/krishnasharma/Desktop/RetailPOSF/BillingService/obj/Debug/net9.0/BillingService.pdb
+/Users/krishnasharma/Desktop/RetailPOSF/BillingService/obj/Debug/net9.0/BillingService.genruntimeconfig.cache
+/Users/krishnasharma/Desktop/RetailPOSF/BillingService/obj/Debug/net9.0/ref/BillingService.dll
+/Users/krishnasharma/Desktop/RetailPOSF/BillingService/bin/Debug/net9.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/BillingService/bin/Debug/net9.0/appsettings.Development.json
+/Users/krishnasharma/Desktop/RetailPOSF copy/BillingService/bin/Debug/net9.0/appsettings.json
+/Users/krishnasharma/Desktop/RetailPOSF copy/BillingService/bin/Debug/net9.0/BillingService.staticwebassets.endpoints.json
+/Users/krishnasharma/Desktop/RetailPOSF copy/BillingService/bin/Debug/net9.0/BillingService
+/Users/krishnasharma/Desktop/RetailPOSF copy/BillingService/bin/Debug/net9.0/BillingService.deps.json
+/Users/krishnasharma/Desktop/RetailPOSF copy/BillingService/bin/Debug/net9.0/BillingService.runtimeconfig.json
+/Users/krishnasharma/Desktop/RetailPOSF copy/BillingService/bin/Debug/net9.0/BillingService.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/BillingService/bin/Debug/net9.0/BillingService.pdb
+/Users/krishnasharma/Desktop/RetailPOSF copy/BillingService/bin/Debug/net9.0/Azure.Core.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/BillingService/bin/Debug/net9.0/Azure.Identity.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/BillingService/bin/Debug/net9.0/Humanizer.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/BillingService/bin/Debug/net9.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/BillingService/bin/Debug/net9.0/Microsoft.AspNetCore.OpenApi.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/BillingService/bin/Debug/net9.0/Microsoft.Bcl.AsyncInterfaces.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/BillingService/bin/Debug/net9.0/Microsoft.CodeAnalysis.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/BillingService/bin/Debug/net9.0/Microsoft.CodeAnalysis.CSharp.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/BillingService/bin/Debug/net9.0/Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/BillingService/bin/Debug/net9.0/Microsoft.CodeAnalysis.Workspaces.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/BillingService/bin/Debug/net9.0/Microsoft.Data.SqlClient.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/BillingService/bin/Debug/net9.0/Microsoft.EntityFrameworkCore.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/BillingService/bin/Debug/net9.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/BillingService/bin/Debug/net9.0/Microsoft.EntityFrameworkCore.Design.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/BillingService/bin/Debug/net9.0/Microsoft.EntityFrameworkCore.Relational.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/BillingService/bin/Debug/net9.0/Microsoft.EntityFrameworkCore.SqlServer.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/BillingService/bin/Debug/net9.0/Microsoft.Extensions.DependencyModel.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/BillingService/bin/Debug/net9.0/Microsoft.Identity.Client.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/BillingService/bin/Debug/net9.0/Microsoft.Identity.Client.Extensions.Msal.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/BillingService/bin/Debug/net9.0/Microsoft.IdentityModel.Abstractions.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/BillingService/bin/Debug/net9.0/Microsoft.IdentityModel.JsonWebTokens.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/BillingService/bin/Debug/net9.0/Microsoft.IdentityModel.Logging.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/BillingService/bin/Debug/net9.0/Microsoft.IdentityModel.Protocols.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/BillingService/bin/Debug/net9.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/BillingService/bin/Debug/net9.0/Microsoft.IdentityModel.Tokens.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/BillingService/bin/Debug/net9.0/Microsoft.OpenApi.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/BillingService/bin/Debug/net9.0/Microsoft.SqlServer.Server.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/BillingService/bin/Debug/net9.0/Microsoft.Win32.SystemEvents.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/BillingService/bin/Debug/net9.0/Mono.TextTemplating.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/BillingService/bin/Debug/net9.0/Swashbuckle.AspNetCore.Swagger.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/BillingService/bin/Debug/net9.0/Swashbuckle.AspNetCore.SwaggerGen.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/BillingService/bin/Debug/net9.0/Swashbuckle.AspNetCore.SwaggerUI.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/BillingService/bin/Debug/net9.0/System.CodeDom.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/BillingService/bin/Debug/net9.0/System.Composition.AttributedModel.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/BillingService/bin/Debug/net9.0/System.Composition.Convention.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/BillingService/bin/Debug/net9.0/System.Composition.Hosting.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/BillingService/bin/Debug/net9.0/System.Composition.Runtime.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/BillingService/bin/Debug/net9.0/System.Composition.TypedParts.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/BillingService/bin/Debug/net9.0/System.Configuration.ConfigurationManager.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/BillingService/bin/Debug/net9.0/System.Drawing.Common.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/BillingService/bin/Debug/net9.0/System.IdentityModel.Tokens.Jwt.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/BillingService/bin/Debug/net9.0/System.Memory.Data.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/BillingService/bin/Debug/net9.0/System.Runtime.Caching.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/BillingService/bin/Debug/net9.0/System.Security.Cryptography.ProtectedData.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/BillingService/bin/Debug/net9.0/System.Security.Permissions.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/BillingService/bin/Debug/net9.0/System.Windows.Extensions.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/BillingService/bin/Debug/net9.0/cs/Microsoft.CodeAnalysis.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/BillingService/bin/Debug/net9.0/de/Microsoft.CodeAnalysis.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/BillingService/bin/Debug/net9.0/es/Microsoft.CodeAnalysis.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/BillingService/bin/Debug/net9.0/fr/Microsoft.CodeAnalysis.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/BillingService/bin/Debug/net9.0/it/Microsoft.CodeAnalysis.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/BillingService/bin/Debug/net9.0/ja/Microsoft.CodeAnalysis.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/BillingService/bin/Debug/net9.0/ko/Microsoft.CodeAnalysis.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/BillingService/bin/Debug/net9.0/pl/Microsoft.CodeAnalysis.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/BillingService/bin/Debug/net9.0/pt-BR/Microsoft.CodeAnalysis.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/BillingService/bin/Debug/net9.0/ru/Microsoft.CodeAnalysis.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/BillingService/bin/Debug/net9.0/tr/Microsoft.CodeAnalysis.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/BillingService/bin/Debug/net9.0/zh-Hans/Microsoft.CodeAnalysis.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/BillingService/bin/Debug/net9.0/zh-Hant/Microsoft.CodeAnalysis.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/BillingService/bin/Debug/net9.0/cs/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/BillingService/bin/Debug/net9.0/de/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/BillingService/bin/Debug/net9.0/es/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/BillingService/bin/Debug/net9.0/fr/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/BillingService/bin/Debug/net9.0/it/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/BillingService/bin/Debug/net9.0/ja/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/BillingService/bin/Debug/net9.0/ko/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/BillingService/bin/Debug/net9.0/pl/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/BillingService/bin/Debug/net9.0/pt-BR/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/BillingService/bin/Debug/net9.0/ru/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/BillingService/bin/Debug/net9.0/tr/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/BillingService/bin/Debug/net9.0/zh-Hans/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/BillingService/bin/Debug/net9.0/zh-Hant/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/BillingService/bin/Debug/net9.0/cs/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/BillingService/bin/Debug/net9.0/de/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/BillingService/bin/Debug/net9.0/es/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/BillingService/bin/Debug/net9.0/fr/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/BillingService/bin/Debug/net9.0/it/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/BillingService/bin/Debug/net9.0/ja/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/BillingService/bin/Debug/net9.0/ko/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/BillingService/bin/Debug/net9.0/pl/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/BillingService/bin/Debug/net9.0/pt-BR/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/BillingService/bin/Debug/net9.0/ru/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/BillingService/bin/Debug/net9.0/tr/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/BillingService/bin/Debug/net9.0/zh-Hans/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/BillingService/bin/Debug/net9.0/zh-Hant/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/BillingService/bin/Debug/net9.0/cs/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/BillingService/bin/Debug/net9.0/de/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/BillingService/bin/Debug/net9.0/es/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/BillingService/bin/Debug/net9.0/fr/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/BillingService/bin/Debug/net9.0/it/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/BillingService/bin/Debug/net9.0/ja/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/BillingService/bin/Debug/net9.0/ko/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/BillingService/bin/Debug/net9.0/pl/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/BillingService/bin/Debug/net9.0/pt-BR/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/BillingService/bin/Debug/net9.0/ru/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/BillingService/bin/Debug/net9.0/tr/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/BillingService/bin/Debug/net9.0/zh-Hans/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/BillingService/bin/Debug/net9.0/zh-Hant/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/BillingService/bin/Debug/net9.0/runtimes/unix/lib/net6.0/Microsoft.Data.SqlClient.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/BillingService/bin/Debug/net9.0/runtimes/win/lib/net6.0/Microsoft.Data.SqlClient.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/BillingService/bin/Debug/net9.0/runtimes/win-arm/native/Microsoft.Data.SqlClient.SNI.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/BillingService/bin/Debug/net9.0/runtimes/win-arm64/native/Microsoft.Data.SqlClient.SNI.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/BillingService/bin/Debug/net9.0/runtimes/win-x64/native/Microsoft.Data.SqlClient.SNI.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/BillingService/bin/Debug/net9.0/runtimes/win-x86/native/Microsoft.Data.SqlClient.SNI.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/BillingService/bin/Debug/net9.0/runtimes/win/lib/net6.0/Microsoft.Win32.SystemEvents.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/BillingService/bin/Debug/net9.0/runtimes/unix/lib/net6.0/System.Drawing.Common.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/BillingService/bin/Debug/net9.0/runtimes/win/lib/net6.0/System.Drawing.Common.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/BillingService/bin/Debug/net9.0/runtimes/win/lib/net6.0/System.Runtime.Caching.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/BillingService/bin/Debug/net9.0/runtimes/win/lib/net6.0/System.Security.Cryptography.ProtectedData.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/BillingService/bin/Debug/net9.0/runtimes/win/lib/net6.0/System.Windows.Extensions.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/BillingService/obj/Debug/net9.0/BillingService.csproj.AssemblyReference.cache
+/Users/krishnasharma/Desktop/RetailPOSF copy/BillingService/obj/Debug/net9.0/rpswa.dswa.cache.json
+/Users/krishnasharma/Desktop/RetailPOSF copy/BillingService/obj/Debug/net9.0/BillingService.GeneratedMSBuildEditorConfig.editorconfig
+/Users/krishnasharma/Desktop/RetailPOSF copy/BillingService/obj/Debug/net9.0/BillingService.AssemblyInfoInputs.cache
+/Users/krishnasharma/Desktop/RetailPOSF copy/BillingService/obj/Debug/net9.0/BillingService.AssemblyInfo.cs
+/Users/krishnasharma/Desktop/RetailPOSF copy/BillingService/obj/Debug/net9.0/BillingService.csproj.CoreCompileInputs.cache
+/Users/krishnasharma/Desktop/RetailPOSF copy/BillingService/obj/Debug/net9.0/BillingService.MvcApplicationPartsAssemblyInfo.cs
+/Users/krishnasharma/Desktop/RetailPOSF copy/BillingService/obj/Debug/net9.0/BillingService.MvcApplicationPartsAssemblyInfo.cache
+/Users/krishnasharma/Desktop/RetailPOSF copy/BillingService/obj/Debug/net9.0/rjimswa.dswa.cache.json
+/Users/krishnasharma/Desktop/RetailPOSF copy/BillingService/obj/Debug/net9.0/rjsmrazor.dswa.cache.json
+/Users/krishnasharma/Desktop/RetailPOSF copy/BillingService/obj/Debug/net9.0/rjsmcshtml.dswa.cache.json
+/Users/krishnasharma/Desktop/RetailPOSF copy/BillingService/obj/Debug/net9.0/scopedcss/bundle/BillingService.styles.css
+/Users/krishnasharma/Desktop/RetailPOSF copy/BillingService/obj/Debug/net9.0/staticwebassets.build.json
+/Users/krishnasharma/Desktop/RetailPOSF copy/BillingService/obj/Debug/net9.0/staticwebassets.build.json.cache
+/Users/krishnasharma/Desktop/RetailPOSF copy/BillingService/obj/Debug/net9.0/staticwebassets.development.json
+/Users/krishnasharma/Desktop/RetailPOSF copy/BillingService/obj/Debug/net9.0/staticwebassets.build.endpoints.json
+/Users/krishnasharma/Desktop/RetailPOSF copy/BillingService/obj/Debug/net9.0/BillingS.F6DECD15.Up2Date
+/Users/krishnasharma/Desktop/RetailPOSF copy/BillingService/obj/Debug/net9.0/BillingService.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/BillingService/obj/Debug/net9.0/refint/BillingService.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/BillingService/obj/Debug/net9.0/BillingService.pdb
+/Users/krishnasharma/Desktop/RetailPOSF copy/BillingService/obj/Debug/net9.0/BillingService.genruntimeconfig.cache
+/Users/krishnasharma/Desktop/RetailPOSF copy/BillingService/obj/Debug/net9.0/ref/BillingService.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/BillingService/bin/Debug/net9.0/LatoFont/Lato-Black.ttf
+/Users/krishnasharma/Desktop/RetailPOSF copy/BillingService/bin/Debug/net9.0/LatoFont/Lato-BlackItalic.ttf
+/Users/krishnasharma/Desktop/RetailPOSF copy/BillingService/bin/Debug/net9.0/LatoFont/Lato-Bold.ttf
+/Users/krishnasharma/Desktop/RetailPOSF copy/BillingService/bin/Debug/net9.0/LatoFont/Lato-BoldItalic.ttf
+/Users/krishnasharma/Desktop/RetailPOSF copy/BillingService/bin/Debug/net9.0/LatoFont/Lato-ExtraBold.ttf
+/Users/krishnasharma/Desktop/RetailPOSF copy/BillingService/bin/Debug/net9.0/LatoFont/Lato-ExtraBoldItalic.ttf
+/Users/krishnasharma/Desktop/RetailPOSF copy/BillingService/bin/Debug/net9.0/LatoFont/Lato-ExtraLight.ttf
+/Users/krishnasharma/Desktop/RetailPOSF copy/BillingService/bin/Debug/net9.0/LatoFont/Lato-ExtraLightItalic.ttf
+/Users/krishnasharma/Desktop/RetailPOSF copy/BillingService/bin/Debug/net9.0/LatoFont/Lato-Italic.ttf
+/Users/krishnasharma/Desktop/RetailPOSF copy/BillingService/bin/Debug/net9.0/LatoFont/Lato-Light.ttf
+/Users/krishnasharma/Desktop/RetailPOSF copy/BillingService/bin/Debug/net9.0/LatoFont/Lato-LightItalic.ttf
+/Users/krishnasharma/Desktop/RetailPOSF copy/BillingService/bin/Debug/net9.0/LatoFont/Lato-Medium.ttf
+/Users/krishnasharma/Desktop/RetailPOSF copy/BillingService/bin/Debug/net9.0/LatoFont/Lato-MediumItalic.ttf
+/Users/krishnasharma/Desktop/RetailPOSF copy/BillingService/bin/Debug/net9.0/LatoFont/Lato-Regular.ttf
+/Users/krishnasharma/Desktop/RetailPOSF copy/BillingService/bin/Debug/net9.0/LatoFont/Lato-SemiBold.ttf
+/Users/krishnasharma/Desktop/RetailPOSF copy/BillingService/bin/Debug/net9.0/LatoFont/Lato-SemiBoldItalic.ttf
+/Users/krishnasharma/Desktop/RetailPOSF copy/BillingService/bin/Debug/net9.0/LatoFont/Lato-Thin.ttf
+/Users/krishnasharma/Desktop/RetailPOSF copy/BillingService/bin/Debug/net9.0/LatoFont/Lato-ThinItalic.ttf
+/Users/krishnasharma/Desktop/RetailPOSF copy/BillingService/bin/Debug/net9.0/LatoFont/OFL.txt
+/Users/krishnasharma/Desktop/RetailPOSF copy/BillingService/bin/Debug/net9.0/QuestPDF.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/BillingService/bin/Debug/net9.0/runtimes/linux-arm64/native/libQuestPdfSkia.so
+/Users/krishnasharma/Desktop/RetailPOSF copy/BillingService/bin/Debug/net9.0/runtimes/linux-arm64/native/libqpdf.so
+/Users/krishnasharma/Desktop/RetailPOSF copy/BillingService/bin/Debug/net9.0/runtimes/linux-musl-x64/native/libQuestPdfSkia.so
+/Users/krishnasharma/Desktop/RetailPOSF copy/BillingService/bin/Debug/net9.0/runtimes/linux-musl-x64/native/libqpdf.so
+/Users/krishnasharma/Desktop/RetailPOSF copy/BillingService/bin/Debug/net9.0/runtimes/linux-x64/native/libQuestPdfSkia.so
+/Users/krishnasharma/Desktop/RetailPOSF copy/BillingService/bin/Debug/net9.0/runtimes/linux-x64/native/libqpdf.so
+/Users/krishnasharma/Desktop/RetailPOSF copy/BillingService/bin/Debug/net9.0/runtimes/osx-arm64/native/libQuestPdfSkia.dylib
+/Users/krishnasharma/Desktop/RetailPOSF copy/BillingService/bin/Debug/net9.0/runtimes/osx-arm64/native/libqpdf.dylib
+/Users/krishnasharma/Desktop/RetailPOSF copy/BillingService/bin/Debug/net9.0/runtimes/osx-x64/native/libQuestPdfSkia.dylib
+/Users/krishnasharma/Desktop/RetailPOSF copy/BillingService/bin/Debug/net9.0/runtimes/osx-x64/native/libqpdf.dylib
+/Users/krishnasharma/Desktop/RetailPOSF copy/BillingService/bin/Debug/net9.0/runtimes/win-x64/native/QuestPdfSkia.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/BillingService/bin/Debug/net9.0/runtimes/win-x64/native/libgcc_s_seh-1.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/BillingService/bin/Debug/net9.0/runtimes/win-x64/native/libstdc++-6.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/BillingService/bin/Debug/net9.0/runtimes/win-x64/native/libwinpthread-1.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/BillingService/bin/Debug/net9.0/runtimes/win-x64/native/qpdf.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/BillingService/bin/Debug/net9.0/runtimes/win-x64/native/zlib1.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/BillingService/bin/Debug/net9.0/runtimes/win-x86/native/QuestPdfSkia.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/BillingService/bin/Debug/net9.0/runtimes/win-x86/native/libgcc_s_dw2-1.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/BillingService/bin/Debug/net9.0/runtimes/win-x86/native/libstdc++-6.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/BillingService/bin/Debug/net9.0/runtimes/win-x86/native/libwinpthread-1.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/BillingService/bin/Debug/net9.0/runtimes/win-x86/native/qpdf.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/BillingService/bin/Debug/net9.0/runtimes/win-x86/native/zlib1.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy/BillingService/bin/Debug/net9.0/RabbitMQ.Client.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/BillingService/bin/Debug/net9.0/appsettings.Development.json
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/BillingService/bin/Debug/net9.0/BillingService.staticwebassets.endpoints.json
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/BillingService/bin/Debug/net9.0/LatoFont/Lato-Black.ttf
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/BillingService/bin/Debug/net9.0/LatoFont/Lato-BlackItalic.ttf
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/BillingService/bin/Debug/net9.0/LatoFont/Lato-Bold.ttf
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/BillingService/bin/Debug/net9.0/LatoFont/Lato-BoldItalic.ttf
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/BillingService/bin/Debug/net9.0/LatoFont/Lato-ExtraBold.ttf
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/BillingService/bin/Debug/net9.0/LatoFont/Lato-ExtraBoldItalic.ttf
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/BillingService/bin/Debug/net9.0/LatoFont/Lato-ExtraLight.ttf
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/BillingService/bin/Debug/net9.0/LatoFont/Lato-ExtraLightItalic.ttf
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/BillingService/bin/Debug/net9.0/LatoFont/Lato-Italic.ttf
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/BillingService/bin/Debug/net9.0/LatoFont/Lato-Light.ttf
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/BillingService/bin/Debug/net9.0/LatoFont/Lato-LightItalic.ttf
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/BillingService/bin/Debug/net9.0/LatoFont/Lato-Medium.ttf
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/BillingService/bin/Debug/net9.0/LatoFont/Lato-MediumItalic.ttf
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/BillingService/bin/Debug/net9.0/LatoFont/Lato-Regular.ttf
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/BillingService/bin/Debug/net9.0/LatoFont/Lato-SemiBold.ttf
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/BillingService/bin/Debug/net9.0/LatoFont/Lato-SemiBoldItalic.ttf
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/BillingService/bin/Debug/net9.0/LatoFont/Lato-Thin.ttf
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/BillingService/bin/Debug/net9.0/LatoFont/Lato-ThinItalic.ttf
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/BillingService/bin/Debug/net9.0/LatoFont/OFL.txt
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/BillingService/bin/Debug/net9.0/appsettings.json
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/BillingService/bin/Debug/net9.0/BillingService
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/BillingService/bin/Debug/net9.0/BillingService.deps.json
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/BillingService/bin/Debug/net9.0/BillingService.runtimeconfig.json
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/BillingService/bin/Debug/net9.0/BillingService.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/BillingService/bin/Debug/net9.0/BillingService.pdb
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/BillingService/bin/Debug/net9.0/Azure.Core.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/BillingService/bin/Debug/net9.0/Azure.Identity.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/BillingService/bin/Debug/net9.0/Humanizer.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/BillingService/bin/Debug/net9.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/BillingService/bin/Debug/net9.0/Microsoft.AspNetCore.OpenApi.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/BillingService/bin/Debug/net9.0/Microsoft.Bcl.AsyncInterfaces.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/BillingService/bin/Debug/net9.0/Microsoft.CodeAnalysis.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/BillingService/bin/Debug/net9.0/Microsoft.CodeAnalysis.CSharp.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/BillingService/bin/Debug/net9.0/Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/BillingService/bin/Debug/net9.0/Microsoft.CodeAnalysis.Workspaces.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/BillingService/bin/Debug/net9.0/Microsoft.Data.SqlClient.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/BillingService/bin/Debug/net9.0/Microsoft.EntityFrameworkCore.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/BillingService/bin/Debug/net9.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/BillingService/bin/Debug/net9.0/Microsoft.EntityFrameworkCore.Design.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/BillingService/bin/Debug/net9.0/Microsoft.EntityFrameworkCore.Relational.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/BillingService/bin/Debug/net9.0/Microsoft.EntityFrameworkCore.SqlServer.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/BillingService/bin/Debug/net9.0/Microsoft.Extensions.DependencyModel.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/BillingService/bin/Debug/net9.0/Microsoft.Identity.Client.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/BillingService/bin/Debug/net9.0/Microsoft.Identity.Client.Extensions.Msal.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/BillingService/bin/Debug/net9.0/Microsoft.IdentityModel.Abstractions.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/BillingService/bin/Debug/net9.0/Microsoft.IdentityModel.JsonWebTokens.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/BillingService/bin/Debug/net9.0/Microsoft.IdentityModel.Logging.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/BillingService/bin/Debug/net9.0/Microsoft.IdentityModel.Protocols.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/BillingService/bin/Debug/net9.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/BillingService/bin/Debug/net9.0/Microsoft.IdentityModel.Tokens.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/BillingService/bin/Debug/net9.0/Microsoft.OpenApi.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/BillingService/bin/Debug/net9.0/Microsoft.SqlServer.Server.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/BillingService/bin/Debug/net9.0/Microsoft.Win32.SystemEvents.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/BillingService/bin/Debug/net9.0/Mono.TextTemplating.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/BillingService/bin/Debug/net9.0/QuestPDF.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/BillingService/bin/Debug/net9.0/RabbitMQ.Client.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/BillingService/bin/Debug/net9.0/Swashbuckle.AspNetCore.Swagger.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/BillingService/bin/Debug/net9.0/Swashbuckle.AspNetCore.SwaggerGen.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/BillingService/bin/Debug/net9.0/Swashbuckle.AspNetCore.SwaggerUI.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/BillingService/bin/Debug/net9.0/System.CodeDom.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/BillingService/bin/Debug/net9.0/System.Composition.AttributedModel.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/BillingService/bin/Debug/net9.0/System.Composition.Convention.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/BillingService/bin/Debug/net9.0/System.Composition.Hosting.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/BillingService/bin/Debug/net9.0/System.Composition.Runtime.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/BillingService/bin/Debug/net9.0/System.Composition.TypedParts.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/BillingService/bin/Debug/net9.0/System.Configuration.ConfigurationManager.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/BillingService/bin/Debug/net9.0/System.Drawing.Common.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/BillingService/bin/Debug/net9.0/System.IdentityModel.Tokens.Jwt.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/BillingService/bin/Debug/net9.0/System.Memory.Data.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/BillingService/bin/Debug/net9.0/System.Runtime.Caching.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/BillingService/bin/Debug/net9.0/System.Security.Cryptography.ProtectedData.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/BillingService/bin/Debug/net9.0/System.Security.Permissions.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/BillingService/bin/Debug/net9.0/System.Windows.Extensions.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/BillingService/bin/Debug/net9.0/cs/Microsoft.CodeAnalysis.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/BillingService/bin/Debug/net9.0/de/Microsoft.CodeAnalysis.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/BillingService/bin/Debug/net9.0/es/Microsoft.CodeAnalysis.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/BillingService/bin/Debug/net9.0/fr/Microsoft.CodeAnalysis.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/BillingService/bin/Debug/net9.0/it/Microsoft.CodeAnalysis.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/BillingService/bin/Debug/net9.0/ja/Microsoft.CodeAnalysis.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/BillingService/bin/Debug/net9.0/ko/Microsoft.CodeAnalysis.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/BillingService/bin/Debug/net9.0/pl/Microsoft.CodeAnalysis.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/BillingService/bin/Debug/net9.0/pt-BR/Microsoft.CodeAnalysis.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/BillingService/bin/Debug/net9.0/ru/Microsoft.CodeAnalysis.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/BillingService/bin/Debug/net9.0/tr/Microsoft.CodeAnalysis.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/BillingService/bin/Debug/net9.0/zh-Hans/Microsoft.CodeAnalysis.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/BillingService/bin/Debug/net9.0/zh-Hant/Microsoft.CodeAnalysis.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/BillingService/bin/Debug/net9.0/cs/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/BillingService/bin/Debug/net9.0/de/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/BillingService/bin/Debug/net9.0/es/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/BillingService/bin/Debug/net9.0/fr/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/BillingService/bin/Debug/net9.0/it/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/BillingService/bin/Debug/net9.0/ja/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/BillingService/bin/Debug/net9.0/ko/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/BillingService/bin/Debug/net9.0/pl/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/BillingService/bin/Debug/net9.0/pt-BR/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/BillingService/bin/Debug/net9.0/ru/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/BillingService/bin/Debug/net9.0/tr/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/BillingService/bin/Debug/net9.0/zh-Hans/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/BillingService/bin/Debug/net9.0/zh-Hant/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/BillingService/bin/Debug/net9.0/cs/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/BillingService/bin/Debug/net9.0/de/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/BillingService/bin/Debug/net9.0/es/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/BillingService/bin/Debug/net9.0/fr/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/BillingService/bin/Debug/net9.0/it/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/BillingService/bin/Debug/net9.0/ja/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/BillingService/bin/Debug/net9.0/ko/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/BillingService/bin/Debug/net9.0/pl/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/BillingService/bin/Debug/net9.0/pt-BR/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/BillingService/bin/Debug/net9.0/ru/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/BillingService/bin/Debug/net9.0/tr/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/BillingService/bin/Debug/net9.0/zh-Hans/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/BillingService/bin/Debug/net9.0/zh-Hant/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/BillingService/bin/Debug/net9.0/cs/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/BillingService/bin/Debug/net9.0/de/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/BillingService/bin/Debug/net9.0/es/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/BillingService/bin/Debug/net9.0/fr/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/BillingService/bin/Debug/net9.0/it/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/BillingService/bin/Debug/net9.0/ja/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/BillingService/bin/Debug/net9.0/ko/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/BillingService/bin/Debug/net9.0/pl/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/BillingService/bin/Debug/net9.0/pt-BR/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/BillingService/bin/Debug/net9.0/ru/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/BillingService/bin/Debug/net9.0/tr/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/BillingService/bin/Debug/net9.0/zh-Hans/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/BillingService/bin/Debug/net9.0/zh-Hant/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/BillingService/bin/Debug/net9.0/runtimes/unix/lib/net6.0/Microsoft.Data.SqlClient.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/BillingService/bin/Debug/net9.0/runtimes/win/lib/net6.0/Microsoft.Data.SqlClient.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/BillingService/bin/Debug/net9.0/runtimes/win-arm/native/Microsoft.Data.SqlClient.SNI.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/BillingService/bin/Debug/net9.0/runtimes/win-arm64/native/Microsoft.Data.SqlClient.SNI.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/BillingService/bin/Debug/net9.0/runtimes/win-x64/native/Microsoft.Data.SqlClient.SNI.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/BillingService/bin/Debug/net9.0/runtimes/win-x86/native/Microsoft.Data.SqlClient.SNI.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/BillingService/bin/Debug/net9.0/runtimes/win/lib/net6.0/Microsoft.Win32.SystemEvents.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/BillingService/bin/Debug/net9.0/runtimes/linux-arm64/native/libQuestPdfSkia.so
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/BillingService/bin/Debug/net9.0/runtimes/linux-arm64/native/libqpdf.so
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/BillingService/bin/Debug/net9.0/runtimes/linux-musl-x64/native/libQuestPdfSkia.so
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/BillingService/bin/Debug/net9.0/runtimes/linux-musl-x64/native/libqpdf.so
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/BillingService/bin/Debug/net9.0/runtimes/linux-x64/native/libQuestPdfSkia.so
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/BillingService/bin/Debug/net9.0/runtimes/linux-x64/native/libqpdf.so
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/BillingService/bin/Debug/net9.0/runtimes/osx-arm64/native/libQuestPdfSkia.dylib
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/BillingService/bin/Debug/net9.0/runtimes/osx-arm64/native/libqpdf.dylib
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/BillingService/bin/Debug/net9.0/runtimes/osx-x64/native/libQuestPdfSkia.dylib
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/BillingService/bin/Debug/net9.0/runtimes/osx-x64/native/libqpdf.dylib
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/BillingService/bin/Debug/net9.0/runtimes/win-x64/native/QuestPdfSkia.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/BillingService/bin/Debug/net9.0/runtimes/win-x64/native/libgcc_s_seh-1.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/BillingService/bin/Debug/net9.0/runtimes/win-x64/native/libstdc++-6.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/BillingService/bin/Debug/net9.0/runtimes/win-x64/native/libwinpthread-1.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/BillingService/bin/Debug/net9.0/runtimes/win-x64/native/qpdf.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/BillingService/bin/Debug/net9.0/runtimes/win-x64/native/zlib1.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/BillingService/bin/Debug/net9.0/runtimes/win-x86/native/QuestPdfSkia.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/BillingService/bin/Debug/net9.0/runtimes/win-x86/native/libgcc_s_dw2-1.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/BillingService/bin/Debug/net9.0/runtimes/win-x86/native/libstdc++-6.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/BillingService/bin/Debug/net9.0/runtimes/win-x86/native/libwinpthread-1.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/BillingService/bin/Debug/net9.0/runtimes/win-x86/native/qpdf.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/BillingService/bin/Debug/net9.0/runtimes/win-x86/native/zlib1.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/BillingService/bin/Debug/net9.0/runtimes/unix/lib/net6.0/System.Drawing.Common.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/BillingService/bin/Debug/net9.0/runtimes/win/lib/net6.0/System.Drawing.Common.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/BillingService/bin/Debug/net9.0/runtimes/win/lib/net6.0/System.Runtime.Caching.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/BillingService/bin/Debug/net9.0/runtimes/win/lib/net6.0/System.Security.Cryptography.ProtectedData.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/BillingService/bin/Debug/net9.0/runtimes/win/lib/net6.0/System.Windows.Extensions.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/BillingService/obj/Debug/net9.0/BillingService.csproj.AssemblyReference.cache
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/BillingService/obj/Debug/net9.0/rpswa.dswa.cache.json
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/BillingService/obj/Debug/net9.0/BillingService.GeneratedMSBuildEditorConfig.editorconfig
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/BillingService/obj/Debug/net9.0/BillingService.AssemblyInfoInputs.cache
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/BillingService/obj/Debug/net9.0/BillingService.AssemblyInfo.cs
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/BillingService/obj/Debug/net9.0/BillingService.csproj.CoreCompileInputs.cache
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/BillingService/obj/Debug/net9.0/BillingService.MvcApplicationPartsAssemblyInfo.cs
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/BillingService/obj/Debug/net9.0/BillingService.MvcApplicationPartsAssemblyInfo.cache
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/BillingService/obj/Debug/net9.0/rjimswa.dswa.cache.json
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/BillingService/obj/Debug/net9.0/rjsmrazor.dswa.cache.json
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/BillingService/obj/Debug/net9.0/rjsmcshtml.dswa.cache.json
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/BillingService/obj/Debug/net9.0/scopedcss/bundle/BillingService.styles.css
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/BillingService/obj/Debug/net9.0/staticwebassets.build.json
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/BillingService/obj/Debug/net9.0/staticwebassets.build.json.cache
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/BillingService/obj/Debug/net9.0/staticwebassets.development.json
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/BillingService/obj/Debug/net9.0/staticwebassets.build.endpoints.json
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/BillingService/obj/Debug/net9.0/BillingS.F6DECD15.Up2Date
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/BillingService/obj/Debug/net9.0/BillingService.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/BillingService/obj/Debug/net9.0/refint/BillingService.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/BillingService/obj/Debug/net9.0/BillingService.pdb
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/BillingService/obj/Debug/net9.0/BillingService.genruntimeconfig.cache
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/BillingService/obj/Debug/net9.0/ref/BillingService.dll

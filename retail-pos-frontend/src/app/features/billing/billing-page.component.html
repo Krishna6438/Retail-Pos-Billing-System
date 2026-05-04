@@ -1,0 +1,215 @@
+<div class="page-shell">
+
+  <!-- Header -->
+  <section class="section-card hero-panel">
+    <div>
+      <p class="label-chip">Orders & Billing</p>
+      <h1 class="section-title">Your complete order history, invoices, and billing tools in one place.</h1>
+    </div>
+    <button class="btn btn-secondary" type="button" (click)="loadData()" [disabled]="busy()">
+      {{ busy() ? 'Refreshing…' : '↺ Refresh' }}
+    </button>
+  </section>
+
+  <!-- Stats row -->
+  <section class="grid-cards" style="grid-template-columns:repeat(auto-fit,minmax(160px,1fr))">
+    <article class="stat-card">
+      <p>Total Orders</p>
+      <strong>{{ getTotalOrders() }}</strong>
+    </article>
+    <article class="stat-card">
+      <p>Total Spent</p>
+      <strong>{{ getTotalSpent() | currency:'INR' }}</strong>
+    </article>
+    <article class="stat-card">
+      <p>Latest Invoice</p>
+      <strong>
+        @if (history().length) { #{{ history()[0].billId }} } @else { — }
+      </strong>
+    </article>
+  </section>
+
+  <!-- Tab bar -->
+  <section class="section-card" style="padding:0.5rem">
+    <div style="display:flex;gap:0.25rem">
+      <button class="btn" [class.btn-primary]="activeTab()==='history'" [class.btn-ghost]="activeTab()!=='history'"
+        (click)="activeTab.set('history')" type="button" style="border-radius:var(--radius-md)">
+        📋 Order History
+      </button>
+      <button class="btn" [class.btn-primary]="activeTab()==='compose'" [class.btn-ghost]="activeTab()!=='compose'"
+        (click)="activeTab.set('compose')" type="button" style="border-radius:var(--radius-md)">
+        ✏️ Direct Bill
+      </button>
+    </div>
+  </section>
+
+  <!-- ─── History Tab ─── -->
+  @if (activeTab() === 'history') {
+    <div class="billing-grid">
+
+      <!-- Order list -->
+      <section class="section-card">
+        <h2 class="section-title" style="margin-bottom:1rem">Order History</h2>
+
+        <!-- Quick lookup -->
+        <form class="button-row" [formGroup]="billLookupForm" (ngSubmit)="lookupBill()" style="margin-bottom:1.25rem">
+          <input type="number" formControlName="billId" placeholder="Jump to Bill #"
+            style="flex:1" />
+          <button class="btn btn-secondary" type="submit">→ Lookup</button>
+        </form>
+
+        @if (history().length) {
+          <div class="list-stack">
+            @for (invoice of history(); track invoice.billId) {
+              <div class="history-card"
+                [class.selected-card]="selectedInvoice()?.billId === invoice.billId"
+                (click)="selectInvoice(invoice.billId)">
+                <div>
+                  <strong style="font-size:0.96rem">Bill #{{ invoice.billId }}</strong>
+                  <p class="helper-text" style="margin:0.1rem 0 0">{{ invoice.createdAt | date:'dd MMM yyyy, h:mm a' }}</p>
+                </div>
+                <div class="history-card__meta">
+                  <strong>{{ invoice.totalAmount | currency:'INR' }}</strong>
+                  <span class="status-pill {{ getStatusClass(invoice.paymentStatus) }}">
+                    {{ invoice.paymentStatus || 'Pending' }}
+                  </span>
+                  @if (invoice.paymentMethod) {
+                    <span class="label-chip" style="font-size:0.74rem;padding:0.22rem 0.6rem">
+                      {{ invoice.paymentMethod }}
+                    </span>
+                  }
+                </div>
+              </div>
+            }
+          </div>
+        } @else {
+          <div class="empty-state">No orders yet. Your bills will appear here after checkout.</div>
+        }
+      </section>
+
+      <!-- Invoice detail -->
+      <section class="section-card">
+        <div class="section-card__header">
+          <h2 class="section-title">Invoice Detail</h2>
+          @if (selectedInvoice() && authStore.isAdmin()) {
+            <div class="button-row">
+              <button class="btn btn-success btn-icon" type="button"
+                (click)="updatePaymentStatus('Completed')" style="font-size:0.84rem;padding:0.6rem 1rem">
+                ✓ Mark Paid
+              </button>
+              <button class="btn btn-danger btn-icon" type="button"
+                (click)="refund()" style="font-size:0.84rem;padding:0.6rem 1rem">
+                ↩ Refund
+              </button>
+            </div>
+          }
+        </div>
+
+        @if (selectedInvoice(); as inv) {
+          <app-invoice-view [invoice]="inv" [products]="products()" />
+        } @else {
+          <div class="empty-state" style="min-height:300px;display:flex;align-items:center;justify-content:center;flex-direction:column;gap:0.75rem">
+            <span style="font-size:3rem">📄</span>
+            <p style="margin:0">Click any order on the left to view its invoice.</p>
+          </div>
+        }
+      </section>
+
+    </div>
+  }
+
+  <!-- ─── Compose Tab ─── -->
+  @if (activeTab() === 'compose') {
+    <div class="billing-grid">
+
+      <!-- Direct bill composer -->
+      <section class="section-card">
+        <h2 class="section-title">Direct Bill Composer</h2>
+        <p class="section-subtitle" style="margin-bottom:1.25rem">
+          Build a bill manually without going through the cart flow. Useful for quick admin billing.
+        </p>
+
+        <form class="form-grid">
+          @if (authStore.isAdmin()) {
+            <div class="field">
+              <label>User ID</label>
+              <input type="number" [formControl]="billComposerForm.controls.userId" />
+            </div>
+          }
+          <div class="field">
+            <label>Payment Method</label>
+            <select [formControl]="billComposerForm.controls.paymentMethod">
+              <option value="Cash">Cash</option>
+              <option value="UPI">UPI</option>
+              <option value="Card">Card</option>
+            </select>
+          </div>
+          <div class="field">
+            <label>Product</label>
+            <select [formControl]="billComposerForm.controls.productId">
+              <option [value]="0">Select product</option>
+              @for (product of products(); track product.id) {
+                <option [value]="product.id">{{ product.name }} · {{ product.price | currency:'INR' }}</option>
+              }
+            </select>
+          </div>
+          <div class="field">
+            <label>Quantity</label>
+            <input type="number" [formControl]="billComposerForm.controls.quantity" />
+          </div>
+        </form>
+
+        <div class="button-row" style="margin-top:1rem">
+          <button class="btn btn-secondary" type="button" (click)="addLine()">+ Add Line</button>
+          <button class="btn btn-primary" type="button" (click)="createBill()" [disabled]="!draftLines().length">
+            Create Bill ({{ draftLines().length }} line{{ draftLines().length === 1 ? '' : 's' }})
+          </button>
+        </div>
+
+        @if (draftLines().length) {
+          <div class="list-stack" style="margin-top:1.25rem">
+            @for (line of draftLines(); track $index) {
+              <div class="line-item">
+                <div>
+                  <strong>{{ getProductName(line.productId) }}</strong>
+                  <span class="helper-text"> × {{ line.quantity }}</span>
+                </div>
+                <button class="btn btn-danger" type="button"
+                  (click)="removeLine($index)" style="padding:0.4rem 0.8rem;font-size:0.82rem">Remove</button>
+              </div>
+            }
+          </div>
+        }
+      </section>
+
+      <!-- Coupon creator (admin only) -->
+      @if (authStore.isAdmin()) {
+        <section class="section-card">
+          <h2 class="section-title">Create Coupon</h2>
+          <p class="section-subtitle" style="margin-bottom:1.25rem">
+            Issue a percentage discount coupon for customers to apply at checkout.
+          </p>
+          <form class="form-grid" [formGroup]="couponCreateForm" (ngSubmit)="createCoupon()">
+            <div class="field">
+              <label>Coupon Code</label>
+              <input type="text" formControlName="code" placeholder="SUMMER25" />
+            </div>
+            <div class="field">
+              <label>Discount %</label>
+              <input type="number" formControlName="discountPercentage" />
+            </div>
+            <div class="field">
+              <label>Expires On</label>
+              <input type="datetime-local" formControlName="expiryDate" />
+            </div>
+            <div style="align-self:end">
+              <button class="btn btn-primary" type="submit" style="width:100%">Create Coupon</button>
+            </div>
+          </form>
+        </section>
+      }
+
+    </div>
+  }
+
+</div>

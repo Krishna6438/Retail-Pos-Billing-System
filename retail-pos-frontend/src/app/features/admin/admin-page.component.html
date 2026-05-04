@@ -1,0 +1,178 @@
+<div class="page-shell">
+
+  <!-- Header -->
+  <section class="section-card hero-panel">
+    <div>
+      <p class="label-chip">Admin Dashboard</p>
+      <h1 class="section-title">Revenue, order flow, and inventory health at a glance.</h1>
+      <p class="section-subtitle">
+        Aggregated metrics from across all services — refreshed on demand.
+      </p>
+    </div>
+    <button class="btn btn-secondary" type="button" (click)="loadDashboard()" [disabled]="busy()">
+      {{ busy() ? 'Loading…' : '↺ Refresh' }}
+    </button>
+  </section>
+
+  @if (dashboard(); as data) {
+    <!-- ─── KPI Cards ─── -->
+    <section class="grid-cards">
+      <article class="stat-card">
+        <p>💰 Total Revenue</p>
+        <strong>{{ data.totalRevenue | currency:'INR':'symbol':'1.0-0' }}</strong>
+        @if (todaySales()) {
+          <span class="helper-text" style="display:block;margin-top:0.3rem">
+            Today: {{ todaySales()!.totalRevenue | currency:'INR':'symbol':'1.0-0' }}
+          </span>
+        }
+      </article>
+      <article class="stat-card">
+        <p>📦 Total Orders</p>
+        <strong>{{ data.totalOrders }}</strong>
+        @if (todaySales()) {
+          <span class="helper-text" style="display:block;margin-top:0.3rem">
+            Today: {{ todaySales()!.totalOrders }}
+          </span>
+        }
+      </article>
+      <article class="stat-card">
+        <p>⚠️ Low Stock Items</p>
+        <strong [style.color]="data.lowStockProducts.length > 0 ? 'var(--warning)' : 'var(--success)'">
+          {{ data.lowStockProducts.length }}
+        </strong>
+        <span class="helper-text" style="display:block;margin-top:0.3rem">
+          {{ data.lowStockProducts.length === 0 ? 'All stocked up' : 'Need attention' }}
+        </span>
+      </article>
+      <article class="stat-card">
+        <p>🏆 Top Products</p>
+        <strong>{{ data.topProducts.length }}</strong>
+        <span class="helper-text" style="display:block;margin-top:0.3rem">Being tracked</span>
+      </article>
+    </section>
+
+    <!-- ─── Charts Row ─── -->
+    <section class="dashboard-grid">
+      <article class="section-card">
+        <h2 class="section-title" style="margin-bottom:0.3rem">Revenue Breakdown</h2>
+        <p class="section-subtitle" style="margin-bottom:1.25rem">Today vs. all-time revenue split</p>
+        @if (data.totalRevenue > 0) {
+          <div class="chart-container" style="max-width:260px;margin:0 auto">
+            <canvas #revenueCanvas></canvas>
+          </div>
+        } @else {
+          <div class="empty-state">No revenue data yet.</div>
+        }
+      </article>
+
+      <article class="section-card">
+        <h2 class="section-title" style="margin-bottom:0.3rem">Top Selling Products</h2>
+        <p class="section-subtitle" style="margin-bottom:1.25rem">Units sold, sorted by volume</p>
+        @if (data.topProducts.length) {
+          <div class="chart-container">
+            <canvas #productsCanvas></canvas>
+          </div>
+        } @else {
+          <div class="empty-state">No product sales data yet.</div>
+        }
+      </article>
+    </section>
+
+    <!-- ─── Low Stock Watchlist ─── -->
+    <section class="section-card">
+      <h2 class="section-title" style="margin-bottom:0.3rem">Low Stock Watchlist</h2>
+      <p class="section-subtitle" style="margin-bottom:1.25rem">
+        Products below the threshold — arrange replenishment before they run out.
+      </p>
+      @if (data.lowStockProducts.length) {
+        <div class="list-stack">
+          @for (product of data.lowStockProducts; track product.id) {
+            <div class="watch-item">
+              <div style="flex:1;min-width:0">
+                <strong>{{ product.name }}</strong>
+                <p class="helper-text" style="margin:0.1rem 0 0">
+                  {{ product.categoryName }} · Barcode: {{ product.barcode }}
+                </p>
+                <div class="stock-bar-track" style="margin-top:0.5rem">
+                  <div class="stock-bar-fill"
+                    [style.width.%]="getStockPercent(product.quantity)"
+                    [style.background]="product.quantity <= 3 ? 'var(--danger)' : product.quantity <= 7 ? 'var(--warning)' : 'var(--success)'">
+                  </div>
+                </div>
+              </div>
+              <div style="text-align:right;flex-shrink:0">
+                <span class="status-pill" [class.warning]="product.quantity > 3" [class.danger]="product.quantity <= 3">
+                  {{ product.quantity }} left
+                </span>
+                <p class="helper-text" style="margin:0.25rem 0 0">{{ product.price | currency:'INR' }}</p>
+              </div>
+            </div>
+          }
+        </div>
+      } @else {
+        <div class="empty-state">✅ All products are well-stocked right now.</div>
+      }
+    </section>
+
+    <!-- ─── Shift History ─── -->
+    <section class="section-card">
+      <h2 class="section-title" style="margin-bottom:0.3rem">Cashier Shift Records</h2>
+      <p class="section-subtitle" style="margin-bottom:1.25rem">
+        Audit logs of all cashier shifts, including opening float, expected vs actual cash, and variance.
+      </p>
+      @if (shifts().length) {
+        <div class="data-table-container">
+          <table class="data-table">
+            <thead>
+              <tr>
+                <th>Shift ID</th>
+                <th>Status</th>
+                <th>Opened At</th>
+                <th>Closed At</th>
+                <th style="text-align:right">Starting</th>
+                <th style="text-align:right">Expected</th>
+                <th style="text-align:right">Actual</th>
+                <th style="text-align:right">Variance</th>
+              </tr>
+            </thead>
+            <tbody>
+              @for (shift of shifts(); track shift.id) {
+                <tr>
+                  <td><strong>#{{ shift.id }}</strong></td>
+                  <td>
+                    <span class="status-pill" [class.success]="shift.status === 'Closed'" [class.info]="shift.status === 'Open'">
+                      {{ shift.status }}
+                    </span>
+                  </td>
+                  <td>{{ shift.openedAt | date:'dd MMM, h:mm a':'+0530' }}</td>
+                  <td>{{ shift.closedAt ? (shift.closedAt | date:'dd MMM, h:mm a':'+0530') : '—' }}</td>
+                  <td style="text-align:right">{{ shift.startingFloat | currency:'INR' }}</td>
+                  <td style="text-align:right">{{ shift.expectedCash | currency:'INR' }}</td>
+                  <td style="text-align:right">{{ shift.actualCash ? (shift.actualCash | currency:'INR') : '—' }}</td>
+                  <td style="text-align:right">
+                    <strong [style.color]="(shift.variance || 0) < 0 ? 'var(--danger)' : (shift.variance || 0) > 0 ? 'var(--success)' : 'inherit'">
+                      {{ shift.variance ? (shift.variance | currency:'INR') : '—' }}
+                    </strong>
+                  </td>
+                </tr>
+              }
+            </tbody>
+          </table>
+        </div>
+      } @else {
+        <div class="empty-state">No shift records found.</div>
+      }
+    </section>
+
+  } @else if (!busy()) {
+    <section class="section-card empty-state" style="padding:3rem;font-size:1.05rem">
+      Click "Refresh" to load the dashboard metrics.
+    </section>
+  } @else {
+    <section class="section-card" style="padding:3rem;text-align:center">
+      <div class="spinner" style="margin:0 auto 1rem"></div>
+      <p class="muted">Loading dashboard…</p>
+    </section>
+  }
+
+</div>

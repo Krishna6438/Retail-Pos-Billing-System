@@ -1,0 +1,86 @@
+<div class="shell">
+
+  <!-- ─── Mobile overlay ─── -->
+  @if (menuOpen()) {
+    <div class="shell__overlay" (click)="closeMenu()"></div>
+  }
+
+  <!-- ─── Sidebar ─── -->
+  <aside class="shell__sidebar glass-panel" [class.shell__sidebar--open]="menuOpen()">
+
+    <div class="brand">
+      <div class="brand__logo">
+        <span class="brand__icon">🛒</span>
+        <div>
+          <p class="brand__eyebrow">RetailPOS</p>
+          <h1 class="brand__title">Control Room</h1>
+        </div>
+      </div>
+      <p class="brand__copy">
+        One workspace for counter staff and admins — built for your live services.
+      </p>
+    </div>
+
+    <nav class="nav" aria-label="Main navigation">
+      @for (item of navItems(); track item.path) {
+        <a
+          [routerLink]="item.path"
+          routerLinkActive="nav__link--active"
+          [routerLinkActiveOptions]="{ exact: item.exact ?? false }"
+          class="nav__link">
+          <span class="nav__icon">{{ item.icon }}</span>
+          <span class="nav__label">{{ item.label }}</span>
+          @if (item.path === '/cart' && cartBadge() > 0) {
+            <span class="nav__badge">{{ cartBadge() }}</span>
+          }
+        </a>
+      }
+    </nav>
+
+    <div class="account glass-panel">
+      <div class="account__info">
+        <div class="account__avatar">{{ authStore.email().charAt(0).toUpperCase() }}</div>
+        <div>
+          <p class="account__label">Signed in as</p>
+          <strong class="account__email">{{ authStore.email() }}</strong>
+        </div>
+      </div>
+      <div class="account__footer" style="flex-wrap: wrap; gap: 0.5rem">
+        <span class="label-chip">{{ authStore.role() }}</span>
+        <button class="btn btn-secondary" type="button" (click)="logout()"
+          style="font-size:0.84rem;padding:0.6rem 1rem">Sign out</button>
+      </div>
+    </div>
+
+  </aside>
+
+  <!-- ─── Main content ─── -->
+  <main class="shell__content">
+
+    <!-- Topbar -->
+    <header class="topbar glass-panel">
+      <button class="hamburger no-print" type="button" (click)="toggleMenu()" aria-label="Toggle menu">
+        @if (menuOpen()) { ✕ } @else { ☰ }
+      </button>
+
+      <div class="topbar__branding">
+        <p class="topbar__eyebrow">Live Operations</p>
+        <h2 class="topbar__title">Keep the shop floor moving with fewer clicks.</h2>
+      </div>
+
+      <div class="topbar__meta">
+        <span class="label-chip">User #{{ authStore.userId() }}</span>
+        <span class="label-chip" [style.background]="authStore.isAdmin() ? 'rgba(163,69,45,0.12)' : 'rgba(40,114,113,0.1)'"
+          [style.color]="authStore.isAdmin() ? 'var(--brand-1)' : 'var(--accent)'">
+          {{ authStore.isAdmin() ? '⚙️ Admin' : '🎯 Cashier' }}
+        </span>
+      </div>
+    </header>
+
+    <section class="shell__page">
+      <router-outlet />
+    </section>
+
+  </main>
+
+</div>

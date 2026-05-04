@@ -1,0 +1,80 @@
+<div class="page-shell">
+
+  <!-- Header -->
+  <section class="section-card hero-panel">
+    <div>
+      <p class="label-chip">🔔 Notifications</p>
+      <h1 class="section-title">Your inbox for bills, payments, and system events.</h1>
+      <p class="section-subtitle">
+        Notifications are scoped to your account and can be marked read directly here.
+      </p>
+    </div>
+    <div class="button-row">
+      @if (getUnreadCount() > 0) {
+        <button class="btn btn-secondary btn-icon" type="button" (click)="markAllRead()">
+          ✓ Mark All Read ({{ getUnreadCount() }})
+        </button>
+      }
+      <button class="btn btn-secondary" type="button" (click)="loadNotifications()" [disabled]="busy()">
+        {{ busy() ? '...' : '↺ Refresh' }}
+      </button>
+    </div>
+  </section>
+
+  <!-- Stats -->
+  <section class="grid-cards" style="grid-template-columns:repeat(auto-fit,minmax(140px,1fr))">
+    <article class="stat-card">
+      <p>Total</p>
+      <strong>{{ notifications().length }}</strong>
+    </article>
+    <article class="stat-card">
+      <p>📬 Unread</p>
+      <strong [style.color]="getUnreadCount() > 0 ? 'var(--brand-1)' : 'var(--success)'">
+        {{ getUnreadCount() }}
+      </strong>
+    </article>
+    <article class="stat-card">
+      <p>✅ Read</p>
+      <strong>{{ notifications().length - getUnreadCount() }}</strong>
+    </article>
+  </section>
+
+  <!-- Notification list -->
+  <section class="section-card">
+    <h2 class="section-title" style="margin-bottom:1.25rem">Timeline</h2>
+
+    @if (notifications().length) {
+      <div class="list-stack">
+        @for (item of notifications(); track item.id) {
+          <div class="notification-card" [class.notification-card--read]="item.isRead">
+            <div class="notification-card__icon">{{ getTypeIcon(item.type) }}</div>
+            <div class="notification-card__body">
+              <div class="notification-card__meta">
+                <span class="label-chip" style="font-size:0.74rem;padding:0.2rem 0.6rem">
+                  {{ item.type || 'System' }}
+                </span>
+                <span class="status-pill" [class.info]="!item.isRead" [class.success]="item.isRead"
+                  style="font-size:0.7rem">
+                  {{ item.isRead ? 'Read' : 'New' }}
+                </span>
+                <span class="helper-text" style="margin-left:auto">{{ item.createdAt | date:'dd MMM, h:mm a':'+0530' }}</span>
+              </div>
+              <p class="notification-card__message">{{ item.message }}</p>
+            </div>
+            @if (!item.isRead) {
+              <button class="btn btn-secondary" type="button" (click)="markRead(item)"
+                style="font-size:0.82rem;padding:0.55rem 0.9rem;flex-shrink:0">
+                Mark Read
+              </button>
+            }
+          </div>
+        }
+      </div>
+    } @else {
+      <div class="empty-state" style="padding:3rem">
+        🔕 No notifications yet. Bill and payment events will appear here.
+      </div>
+    }
+  </section>
+
+</div>

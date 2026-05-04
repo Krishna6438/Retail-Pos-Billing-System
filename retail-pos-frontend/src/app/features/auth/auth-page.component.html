@@ -1,0 +1,94 @@
+<div class="auth-shell">
+
+  <!-- Hero left panel -->
+  <section class="auth-hero">
+    <p class="label-chip">⚡ RetailPOS Platform</p>
+    <h1>Retail flow that moves as fast as your team.</h1>
+    <p>
+      Sign in to manage product movement, process carts, monitor live orders,
+      and track notifications — all from one unified workspace.
+    </p>
+    <div class="auth-hero__stats">
+      <article class="stat-card">
+        <p>🏷️ Products & Inventory</p>
+        <span style="color:var(--ink-2);font-size:0.86rem">Catalog, low stock, category, and tax in one view.</span>
+      </article>
+      <article class="stat-card">
+        <p>🛒 Cart → Invoice Flow</p>
+        <span style="color:var(--ink-2);font-size:0.86rem">4-step checkout with real-time invoice generation.</span>
+      </article>
+      <article class="stat-card">
+        <p>📊 Admin Dashboard</p>
+        <span style="color:var(--ink-2);font-size:0.86rem">Revenue charts, top products, and live alerts.</span>
+      </article>
+    </div>
+  </section>
+
+  <!-- Auth card right panel -->
+  <div class="auth-panel">
+    <section class="auth-card animate-fade-up">
+      <div class="auth-card__header">
+        <p class="label-chip">{{ mode() === 'login' ? '👤 Welcome Back' : '✨ Create Account' }}</p>
+        <h2>{{ mode() === 'login' ? 'Sign in to continue' : 'Register a new teammate' }}</h2>
+      </div>
+
+      <div class="auth-card__toggle">
+        <button type="button" class="btn"
+          [class.btn-primary]="mode() === 'login'"
+          [class.btn-ghost]="mode() !== 'login'"
+          (click)="switchMode('login')">Login</button>
+        <button type="button" class="btn"
+          [class.btn-primary]="mode() === 'register'"
+          [class.btn-ghost]="mode() !== 'register'"
+          (click)="switchMode('register')">Register</button>
+      </div>
+
+      @if (feedback()) {
+        <div class="auth-feedback">{{ feedback() }}</div>
+      }
+
+      @if (mode() === 'login') {
+        <form class="auth-form" [formGroup]="loginForm" (ngSubmit)="submitLogin()">
+          <div class="field">
+            <label for="login-email">Email</label>
+            <input id="login-email" type="email" formControlName="email" placeholder="cashier@store.com" />
+          </div>
+          <div class="field">
+            <label for="login-password">Password</label>
+            <input id="login-password" type="password" formControlName="password" placeholder="••••••••" />
+          </div>
+          <button class="btn btn-primary auth-form__submit" type="submit" [disabled]="busy()">
+            {{ busy() ? 'Signing in…' : '→ Sign In' }}
+          </button>
+        </form>
+      } @else {
+        <form class="auth-form" [formGroup]="registerForm" (ngSubmit)="submitRegister()">
+          <div class="form-grid">
+            <div class="field">
+              <label for="register-name">Name</label>
+              <input id="register-name" type="text" formControlName="name" placeholder="Krishna Sharma" />
+            </div>
+            <div class="field">
+              <label for="register-email">Email</label>
+              <input id="register-email" type="email" formControlName="email" placeholder="team@store.com" />
+            </div>
+            <div class="field">
+              <label for="register-password">Password</label>
+              <input id="register-password" type="password" formControlName="password" placeholder="Min 6 chars" />
+            </div>
+            <!-- Role selection removed for security. All users register as 'User' by default. -->
+
+            <div class="field">
+              <label for="register-store">Store ID</label>
+              <input id="register-store" type="number" formControlName="storeId" />
+            </div>
+          </div>
+          <button class="btn btn-primary auth-form__submit" type="submit" [disabled]="busy()">
+            {{ busy() ? 'Creating…' : '→ Create Account' }}
+          </button>
+        </form>
+      }
+    </section>
+  </div>
+
+</div>
