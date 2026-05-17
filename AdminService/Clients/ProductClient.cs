@@ -21,11 +21,18 @@ public class ProductClient
 
     public async Task<List<object>> GetLowStock(string token)
     {
-        _http.DefaultRequestHeaders.Authorization =
-            new AuthenticationHeaderValue("Bearer", token);
+        try
+        {
+            _http.DefaultRequestHeaders.Authorization =
+                new AuthenticationHeaderValue("Bearer", token);
 
-        return await _http.GetFromJsonAsync<List<object>>(
-            $"{_productServiceBaseUrl}/products/low-stock"
-        ) ?? new List<object>();
+            return await _http.GetFromJsonAsync<List<object>>(
+                $"{_productServiceBaseUrl}/products/low-stock"
+            ) ?? new List<object>();
+        }
+        catch (HttpRequestException)
+        {
+            return new List<object>();
+        }
     }
 }

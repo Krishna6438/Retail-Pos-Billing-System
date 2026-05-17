@@ -6,6 +6,7 @@ import { ToastService } from '../../shared/services/toast.service';
 import { Router } from '@angular/router';
 import { AuthStore } from '../../core/store/auth.store';
 
+
 @Component({
   selector: 'app-shift-page',
   standalone: true,
@@ -129,6 +130,33 @@ import { AuthStore } from '../../core/store/auth.store';
         </div>
       }
     </div>
+
+    <!-- ─── Shift Opened Success Modal ─── -->
+    @if (showStartModal()) {
+      <div class="modal-overlay" (click)="dismissModal()">
+        <div class="modal-card animate-fade-up" (click)="$event.stopPropagation()">
+          <div class="modal-icon">🚀</div>
+          <h2 class="modal-title">Register is Open!</h2>
+          <p class="modal-subtitle">
+            Your shift has started successfully.<br>
+            You're all set to process transactions.
+          </p>
+          <div class="modal-meta">
+            <div class="modal-meta-row">
+              <span>Starting Float</span>
+              <strong>₹{{ currentShift()?.startingFloat | number:'1.2-2' }}</strong>
+            </div>
+            <div class="modal-meta-row">
+              <span>Shift Started</span>
+              <strong>{{ currentShift()?.openedAt | date:'h:mm a':'+0530' }}</strong>
+            </div>
+          </div>
+          <button class="btn btn-primary modal-cta" (click)="dismissModal()">
+            Start Selling &nbsp;→
+          </button>
+        </div>
+      </div>
+    }
   `,
   styles: [`
     .page-shell { padding: 2rem; max-width: 1200px; margin: 0 auto; }
@@ -149,6 +177,42 @@ import { AuthStore } from '../../core/store/auth.store';
     .z-row hr { border: none; border-top: 1px dashed var(--border-medium); margin: 1rem 0; }
     .variance { font-weight: bold; border-top: 1px solid var(--border-medium); padding-top: 1rem; }
 
+    /* ─── Success Modal ─── */
+    .modal-overlay {
+      position: fixed; inset: 0;
+      background: rgba(0,0,0,0.65);
+      backdrop-filter: blur(6px);
+      display: flex; align-items: center; justify-content: center;
+      z-index: 1000;
+    }
+    .modal-card {
+      background: var(--surface-2);
+      border: 1px solid var(--border-soft);
+      border-radius: var(--radius-lg);
+      padding: 2.5rem 2rem;
+      max-width: 400px;
+      width: 90%;
+      text-align: center;
+      box-shadow: 0 24px 64px rgba(0,0,0,0.5);
+    }
+    .modal-icon { font-size: 3rem; margin-bottom: 1rem; }
+    .modal-title { font-size: 1.5rem; font-weight: 700; color: var(--ink-1); margin: 0 0 0.5rem; }
+    .modal-subtitle { color: var(--ink-2); font-size: 0.95rem; line-height: 1.6; margin: 0 0 1.5rem; }
+    .modal-meta {
+      background: var(--surface-3);
+      border-radius: var(--radius-md);
+      padding: 1rem 1.25rem;
+      margin-bottom: 1.5rem;
+    }
+    .modal-meta-row {
+      display: flex; justify-content: space-between;
+      padding: 0.4rem 0;
+      font-size: 0.9rem;
+      color: var(--ink-2);
+    }
+    .modal-meta-row strong { color: var(--ink-1); }
+    .modal-cta { width: 100%; padding: 0.9rem; font-size: 1rem; font-weight: 600; letter-spacing: 0.5px; }
+
     @media (max-width: 900px) {
       .dashboard-grid { grid-template-columns: 1fr; }
     }
@@ -162,7 +226,8 @@ export class ShiftPageComponent implements OnInit {
 
   loading = signal(true);
   processing = signal(false);
-  
+  showStartModal = signal(false);
+
   currentShift = signal<Shift | null>(null);
   zResult = signal<any>(null);
 
@@ -180,7 +245,7 @@ export class ShiftPageComponent implements OnInit {
         if (shift && shift.id) {
           this.currentShift.set(shift);
           // Set actualCash to 0 by default as per user request "no sample data"
-          this.actualCash = 0; 
+          this.actualCash = 0;
         } else {
           this.currentShift.set(null);
         }
@@ -200,6 +265,7 @@ export class ShiftPageComponent implements OnInit {
         this.toast.success('Shift opened successfully.');
         this.processing.set(false);
         this.loadShift();
+        this.showStartModal.set(true);
       },
       error: (err: any) => {
         const msg = err.error?.message || 'Failed to open register';
@@ -227,6 +293,11 @@ export class ShiftPageComponent implements OnInit {
         this.processing.set(false);
       }
     });
+  }
+
+  dismissModal() {
+    this.showStartModal.set(false);
+    this.router.navigateByUrl('/cart');
   }
 
   acknowledge() {

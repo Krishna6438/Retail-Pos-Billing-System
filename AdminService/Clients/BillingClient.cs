@@ -20,38 +20,59 @@ public class BillingClient
             throw new InvalidOperationException("ServiceEndpoints:BillingServiceBaseUrl is not configured.");
     }
 
-    // ✅ TOTAL REVENUE
+    //  TOTAL REVENUE
     public async Task<decimal> GetRevenue(string token)
     {
-        _http.DefaultRequestHeaders.Authorization =
-            new AuthenticationHeaderValue("Bearer", token);
+        try
+        {
+            _http.DefaultRequestHeaders.Authorization =
+                new AuthenticationHeaderValue("Bearer", token);
 
-        return await _http.GetFromJsonAsync<decimal>(
-            $"{_billingServiceBaseUrl}/billing/analytics/revenue"
-        );
+            return await _http.GetFromJsonAsync<decimal>(
+                $"{_billingServiceBaseUrl}/billing/analytics/revenue"
+            );
+        }
+        catch (HttpRequestException)
+        {
+            return 0;
+        }
     }
 
-    // ✅ TOTAL ORDERS (FIXED 🚀)
+    //  TOTAL ORDERS (FIXED )
     public async Task<int> GetTotalOrders(string token)
     {
-        _http.DefaultRequestHeaders.Authorization =
-            new AuthenticationHeaderValue("Bearer", token);
+        try
+        {
+            _http.DefaultRequestHeaders.Authorization =
+                new AuthenticationHeaderValue("Bearer", token);
 
-        var data = await _http.GetFromJsonAsync<TodaySalesDTO>(
-            $"{_billingServiceBaseUrl}/billing/analytics/today"
-        );
+            var data = await _http.GetFromJsonAsync<TodaySalesDTO>(
+                $"{_billingServiceBaseUrl}/billing/analytics/today"
+            );
 
-        return data?.TotalOrders ?? 0;
+            return data?.TotalOrders ?? 0;
+        }
+        catch (HttpRequestException)
+        {
+            return 0;
+        }
     }
 
     // ✅ TOP PRODUCTS
     public async Task<List<object>> GetTopProducts(string token)
     {
-        _http.DefaultRequestHeaders.Authorization =
-            new AuthenticationHeaderValue("Bearer", token);
+        try
+        {
+            _http.DefaultRequestHeaders.Authorization =
+                new AuthenticationHeaderValue("Bearer", token);
 
-        return await _http.GetFromJsonAsync<List<object>>(
-            $"{_billingServiceBaseUrl}/billing/analytics/top-products"
-        ) ?? new List<object>();
+            return await _http.GetFromJsonAsync<List<object>>(
+                $"{_billingServiceBaseUrl}/billing/analytics/top-products"
+            ) ?? new List<object>();
+        }
+        catch (HttpRequestException)
+        {
+            return new List<object>();
+        }
     }
 }

@@ -420,3 +420,4 @@
 /Users/krishnasharma/Desktop/RetailPOSF copy 2/ProductService/obj/Debug/net9.0/ProductService.pdb
 /Users/krishnasharma/Desktop/RetailPOSF copy 2/ProductService/obj/Debug/net9.0/ProductService.genruntimeconfig.cache
 /Users/krishnasharma/Desktop/RetailPOSF copy 2/ProductService/obj/Debug/net9.0/ref/ProductService.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/ProductService/obj/Debug/net9.0/ProductService.sourcelink.json

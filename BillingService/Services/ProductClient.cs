@@ -18,20 +18,29 @@ public class ProductClient
             throw new InvalidOperationException("ServiceEndpoints:ProductServiceBaseUrl is not configured.");
     }
 
-    //  Get product details
     public async Task<ProductResponse?> GetProduct(int productId, string token)
     {
-        _http.DefaultRequestHeaders.Clear();
+        try
+        {
+            _http.DefaultRequestHeaders.Clear();
 
-        _http.DefaultRequestHeaders.Authorization =
-            new System.Net.Http.Headers.AuthenticationHeaderValue(
-                "Bearer",
-                token.Replace("Bearer ", "")
-            );
+            _http.DefaultRequestHeaders.Authorization =
+                new System.Net.Http.Headers.AuthenticationHeaderValue(
+                    "Bearer",
+                    token.Replace("Bearer ", "")
+                );
 
-        return await _http.GetFromJsonAsync<ProductResponse>(
-            $"{_productServiceBaseUrl}/products/id/{productId}"
-        );
+            var response = await _http.GetAsync($"{_productServiceBaseUrl}/products/id/{productId}");
+            if (response.IsSuccessStatusCode)
+            {
+                return await response.Content.ReadFromJsonAsync<ProductResponse>();
+            }
+            return null;
+        }
+        catch
+        {
+            return null;
+        }
     }
 
     //  Update inventory

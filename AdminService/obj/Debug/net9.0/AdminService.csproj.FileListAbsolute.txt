@@ -84,3 +84,4 @@
 /Users/krishnasharma/Desktop/RetailPOSF copy 2/AdminService/obj/Debug/net9.0/AdminService.pdb
 /Users/krishnasharma/Desktop/RetailPOSF copy 2/AdminService/obj/Debug/net9.0/AdminService.genruntimeconfig.cache
 /Users/krishnasharma/Desktop/RetailPOSF copy 2/AdminService/obj/Debug/net9.0/ref/AdminService.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/AdminService/obj/Debug/net9.0/AdminService.sourcelink.json

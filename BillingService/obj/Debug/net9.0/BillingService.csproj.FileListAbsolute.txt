@@ -504,3 +504,4 @@
 /Users/krishnasharma/Desktop/RetailPOSF copy 2/BillingService/obj/Debug/net9.0/BillingService.pdb
 /Users/krishnasharma/Desktop/RetailPOSF copy 2/BillingService/obj/Debug/net9.0/BillingService.genruntimeconfig.cache
 /Users/krishnasharma/Desktop/RetailPOSF copy 2/BillingService/obj/Debug/net9.0/ref/BillingService.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/BillingService/obj/Debug/net9.0/BillingService.sourcelink.json

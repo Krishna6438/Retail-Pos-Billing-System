@@ -244,3 +244,4 @@
 /Users/krishnasharma/Desktop/RetailPOSF copy 2/APIGateway/obj/Debug/net9.0/APIGateway.pdb
 /Users/krishnasharma/Desktop/RetailPOSF copy 2/APIGateway/obj/Debug/net9.0/APIGateway.genruntimeconfig.cache
 /Users/krishnasharma/Desktop/RetailPOSF copy 2/APIGateway/obj/Debug/net9.0/ref/APIGateway.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/APIGateway/obj/Debug/net9.0/APIGateway.sourcelink.json

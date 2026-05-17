@@ -279,3 +279,4 @@
 /Users/krishnasharma/Desktop/RetailPOSF copy 2/NotificationService/obj/Debug/net9.0/NotificationService.genruntimeconfig.cache
 /Users/krishnasharma/Desktop/RetailPOSF copy 2/NotificationService/obj/Debug/net9.0/ref/NotificationService.dll
 /Users/krishnasharma/Desktop/RetailPOSF copy 2/NotificationService/bin/Debug/net9.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/NotificationService/obj/Debug/net9.0/NotificationService.sourcelink.json

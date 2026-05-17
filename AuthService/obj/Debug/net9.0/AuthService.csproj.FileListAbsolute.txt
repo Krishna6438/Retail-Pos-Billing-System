@@ -418,3 +418,4 @@
 /Users/krishnasharma/Desktop/RetailPOSF copy 2/AuthService/obj/Debug/net9.0/AuthService.pdb
 /Users/krishnasharma/Desktop/RetailPOSF copy 2/AuthService/obj/Debug/net9.0/AuthService.genruntimeconfig.cache
 /Users/krishnasharma/Desktop/RetailPOSF copy 2/AuthService/obj/Debug/net9.0/ref/AuthService.dll
+/Users/krishnasharma/Desktop/RetailPOSF copy 2/AuthService/obj/Debug/net9.0/AuthService.sourcelink.json
